@@ -1,0 +1,1502 @@
+[
+  {
+    "Number": 1,
+    "Word": "爱",
+    "Pinyin": "ài"
+  },
+  {
+    "Number": 2,
+    "Word": "八",
+    "Pinyin": "bā"
+  },
+  {
+    "Number": 3,
+    "Word": "爸",
+    "Pinyin": "bà"
+  },
+  {
+    "Number": 4,
+    "Word": "吧",
+    "Pinyin": "ba"
+  },
+  {
+    "Number": 5,
+    "Word": "白",
+    "Pinyin": "bái"
+  },
+  {
+    "Number": 6,
+    "Word": "百",
+    "Pinyin": "bǎi"
+  },
+  {
+    "Number": 7,
+    "Word": "班",
+    "Pinyin": "bān"
+  },
+  {
+    "Number": 8,
+    "Word": "半",
+    "Pinyin": "bàn"
+  },
+  {
+    "Number": 9,
+    "Word": "帮",
+    "Pinyin": "bāng"
+  },
+  {
+    "Number": 10,
+    "Word": "包",
+    "Pinyin": "bāo"
+  },
+  {
+    "Number": 11,
+    "Word": "杯",
+    "Pinyin": "bēi"
+  },
+  {
+    "Number": 12,
+    "Word": "北",
+    "Pinyin": "běi"
+  },
+  {
+    "Number": 13,
+    "Word": "备",
+    "Pinyin": "bèi"
+  },
+  {
+    "Number": 14,
+    "Word": "本",
+    "Pinyin": "běn"
+  },
+  {
+    "Number": 15,
+    "Word": "比",
+    "Pinyin": "bǐ"
+  },
+  {
+    "Number": 16,
+    "Word": "边",
+    "Pinyin": "biān"
+  },
+  {
+    "Number": 17,
+    "Word": "别",
+    "Pinyin": "bié"
+  },
+  {
+    "Number": 18,
+    "Word": "病",
+    "Pinyin": "bìng"
+  },
+  {
+    "Number": 19,
+    "Word": "不",
+    "Pinyin": "bù"
+  },
+  {
+    "Number": 20,
+    "Word": "菜",
+    "Pinyin": "cài"
+  },
+  {
+    "Number": 21,
+    "Word": "茶",
+    "Pinyin": "chá"
+  },
+  {
+    "Number": 22,
+    "Word": "差",
+    "Pinyin": "chà"
+  },
+  {
+    "Number": 23,
+    "Word": "常",
+    "Pinyin": "cháng"
+  },
+  {
+    "Number": 24,
+    "Word": "场",
+    "Pinyin": "chǎng"
+  },
+  {
+    "Number": 25,
+    "Word": "唱",
+    "Pinyin": "chàng"
+  },
+  {
+    "Number": 26,
+    "Word": "车",
+    "Pinyin": "chē"
+  },
+  {
+    "Number": 27,
+    "Word": "吃",
+    "Pinyin": "chī"
+  },
+  {
+    "Number": 28,
+    "Word": "出",
+    "Pinyin": "chū"
+  },
+  {
+    "Number": 29,
+    "Word": "穿",
+    "Pinyin": "chuān"
+  },
+  {
+    "Number": 30,
+    "Word": "床",
+    "Pinyin": "chuáng"
+  },
+  {
+    "Number": 31,
+    "Word": "次",
+    "Pinyin": "cì"
+  },
+  {
+    "Number": 32,
+    "Word": "从",
+    "Pinyin": "cóng"
+  },
+  {
+    "Number": 33,
+    "Word": "错",
+    "Pinyin": "cuò"
+  },
+  {
+    "Number": 34,
+    "Word": "答",
+    "Pinyin": "dá"
+  },
+  {
+    "Number": 35,
+    "Word": "打",
+    "Pinyin": "dǎ"
+  },
+  {
+    "Number": 36,
+    "Word": "大",
+    "Pinyin": "dà"
+  },
+  {
+    "Number": 37,
+    "Word": "蛋",
+    "Pinyin": "dàn"
+  },
+  {
+    "Number": 38,
+    "Word": "到",
+    "Pinyin": "dào"
+  },
+  {
+    "Number": 39,
+    "Word": "道",
+    "Pinyin": "dào"
+  },
+  {
+    "Number": 40,
+    "Word": "得",
+    "Pinyin": "dé"
+  },
+  {
+    "Number": 41,
+    "Word": "地",
+    "Pinyin": "de"
+  },
+  {
+    "Number": 42,
+    "Word": "的",
+    "Pinyin": "de"
+  },
+  {
+    "Number": 43,
+    "Word": "等",
+    "Pinyin": "děng"
+  },
+  {
+    "Number": 44,
+    "Word": "弟",
+    "Pinyin": "dì"
+  },
+  {
+    "Number": 45,
+    "Word": "第",
+    "Pinyin": "dì"
+  },
+  {
+    "Number": 46,
+    "Word": "点",
+    "Pinyin": "diǎn"
+  },
+  {
+    "Number": 47,
+    "Word": "电",
+    "Pinyin": "diàn"
+  },
+  {
+    "Number": 48,
+    "Word": "店",
+    "Pinyin": "diàn"
+  },
+  {
+    "Number": 49,
+    "Word": "东",
+    "Pinyin": "dōng"
+  },
+  {
+    "Number": 50,
+    "Word": "动",
+    "Pinyin": "dòng"
+  },
+  {
+    "Number": 51,
+    "Word": "都",
+    "Pinyin": "dōu"
+  },
+  {
+    "Number": 52,
+    "Word": "读",
+    "Pinyin": "dú"
+  },
+  {
+    "Number": 53,
+    "Word": "对",
+    "Pinyin": "duì"
+  },
+  {
+    "Number": 54,
+    "Word": "多",
+    "Pinyin": "duō"
+  },
+  {
+    "Number": 55,
+    "Word": "饿",
+    "Pinyin": "è"
+  },
+  {
+    "Number": 56,
+    "Word": "儿",
+    "Pinyin": "ér"
+  },
+  {
+    "Number": 57,
+    "Word": "二",
+    "Pinyin": "èr"
+  },
+  {
+    "Number": 58,
+    "Word": "饭",
+    "Pinyin": "fàn"
+  },
+  {
+    "Number": 59,
+    "Word": "方",
+    "Pinyin": "fāng"
+  },
+  {
+    "Number": 60,
+    "Word": "房",
+    "Pinyin": "fáng"
+  },
+  {
+    "Number": 61,
+    "Word": "放",
+    "Pinyin": "fàng"
+  },
+  {
+    "Number": 62,
+    "Word": "飞",
+    "Pinyin": "fēi"
+  },
+  {
+    "Number": 63,
+    "Word": "非",
+    "Pinyin": "fēi"
+  },
+  {
+    "Number": 64,
+    "Word": "分",
+    "Pinyin": "fēn"
+  },
+  {
+    "Number": 65,
+    "Word": "风",
+    "Pinyin": "fēng"
+  },
+  {
+    "Number": 66,
+    "Word": "服",
+    "Pinyin": "fú"
+  },
+  {
+    "Number": 67,
+    "Word": "干",
+    "Pinyin": "gān"
+  },
+  {
+    "Number": 68,
+    "Word": "高",
+    "Pinyin": "gāo"
+  },
+  {
+    "Number": 69,
+    "Word": "告",
+    "Pinyin": "gào"
+  },
+  {
+    "Number": 70,
+    "Word": "哥",
+    "Pinyin": "gē"
+  },
+  {
+    "Number": 71,
+    "Word": "歌",
+    "Pinyin": "gē"
+  },
+  {
+    "Number": 72,
+    "Word": "个",
+    "Pinyin": "gè"
+  },
+  {
+    "Number": 73,
+    "Word": "给",
+    "Pinyin": "gěi"
+  },
+  {
+    "Number": 74,
+    "Word": "跟",
+    "Pinyin": "gēn"
+  },
+  {
+    "Number": 75,
+    "Word": "工",
+    "Pinyin": "gōng"
+  },
+  {
+    "Number": 76,
+    "Word": "关",
+    "Pinyin": "guān"
+  },
+  {
+    "Number": 77,
+    "Word": "馆",
+    "Pinyin": "guǎn"
+  },
+  {
+    "Number": 78,
+    "Word": "贵",
+    "Pinyin": "guì"
+  },
+  {
+    "Number": 79,
+    "Word": "国",
+    "Pinyin": "guó"
+  },
+  {
+    "Number": 80,
+    "Word": "果",
+    "Pinyin": "guǒ"
+  },
+  {
+    "Number": 81,
+    "Word": "过",
+    "Pinyin": "guò"
+  },
+  {
+    "Number": 82,
+    "Word": "还",
+    "Pinyin": "hái"
+  },
+  {
+    "Number": 83,
+    "Word": "孩",
+    "Pinyin": "hái"
+  },
+  {
+    "Number": 84,
+    "Word": "汉",
+    "Pinyin": "hàn"
+  },
+  {
+    "Number": 85,
+    "Word": "好",
+    "Pinyin": "hǎo"
+  },
+  {
+    "Number": 86,
+    "Word": "号",
+    "Pinyin": "hào"
+  },
+  {
+    "Number": 87,
+    "Word": "喝",
+    "Pinyin": "hē"
+  },
+  {
+    "Number": 88,
+    "Word": "和",
+    "Pinyin": "hé"
+  },
+  {
+    "Number": 89,
+    "Word": "很",
+    "Pinyin": "hěn"
+  },
+  {
+    "Number": 90,
+    "Word": "后",
+    "Pinyin": "hòu"
+  },
+  {
+    "Number": 91,
+    "Word": "候",
+    "Pinyin": "hòu"
+  },
+  {
+    "Number": 92,
+    "Word": "花",
+    "Pinyin": "huā"
+  },
+  {
+    "Number": 93,
+    "Word": "话",
+    "Pinyin": "huà"
+  },
+  {
+    "Number": 94,
+    "Word": "坏",
+    "Pinyin": "huài"
+  },
+  {
+    "Number": 95,
+    "Word": "欢",
+    "Pinyin": "huān"
+  },
+  {
+    "Number": 96,
+    "Word": "回",
+    "Pinyin": "huí"
+  },
+  {
+    "Number": 97,
+    "Word": "会",
+    "Pinyin": "huì"
+  },
+  {
+    "Number": 98,
+    "Word": "火",
+    "Pinyin": "huǒ"
+  },
+  {
+    "Number": 99,
+    "Word": "机",
+    "Pinyin": "jī"
+  },
+  {
+    "Number": 100,
+    "Word": "鸡",
+    "Pinyin": "jī"
+  },
+  {
+    "Number": 101,
+    "Word": "几",
+    "Pinyin": "jǐ"
+  },
+  {
+    "Number": 102,
+    "Word": "记",
+    "Pinyin": "jì"
+  },
+  {
+    "Number": 103,
+    "Word": "家",
+    "Pinyin": "jiā"
+  },
+  {
+    "Number": 104,
+    "Word": "假",
+    "Pinyin": "jiǎ"
+  },
+  {
+    "Number": 105,
+    "Word": "间",
+    "Pinyin": "jiān"
+  },
+  {
+    "Number": 106,
+    "Word": "见",
+    "Pinyin": "jiàn"
+  },
+  {
+    "Number": 107,
+    "Word": "教",
+    "Pinyin": "jiāo"
+  },
+  {
+    "Number": 108,
+    "Word": "叫",
+    "Pinyin": "jiào"
+  },
+  {
+    "Number": 109,
+    "Word": "觉",
+    "Pinyin": "jiào"
+  },
+  {
+    "Number": 110,
+    "Word": "姐",
+    "Pinyin": "jiě"
+  },
+  {
+    "Number": 111,
+    "Word": "介",
+    "Pinyin": "jiè"
+  },
+  {
+    "Number": 112,
+    "Word": "今",
+    "Pinyin": "jīn"
+  },
+  {
+    "Number": 113,
+    "Word": "进",
+    "Pinyin": "jìn"
+  },
+  {
+    "Number": 114,
+    "Word": "京",
+    "Pinyin": "jīng"
+  },
+  {
+    "Number": 115,
+    "Word": "净",
+    "Pinyin": "jìng"
+  },
+  {
+    "Number": 116,
+    "Word": "九",
+    "Pinyin": "jiǔ"
+  },
+  {
+    "Number": 117,
+    "Word": "就",
+    "Pinyin": "jiù"
+  },
+  {
+    "Number": 118,
+    "Word": "开",
+    "Pinyin": "kāi"
+  },
+  {
+    "Number": 119,
+    "Word": "看",
+    "Pinyin": "kàn"
+  },
+  {
+    "Number": 120,
+    "Word": "考",
+    "Pinyin": "kǎo"
+  },
+  {
+    "Number": 121,
+    "Word": "渴",
+    "Pinyin": "kě"
+  },
+  {
+    "Number": 122,
+    "Word": "客",
+    "Pinyin": "kè"
+  },
+  {
+    "Number": 123,
+    "Word": "课",
+    "Pinyin": "kè"
+  },
+  {
+    "Number": 124,
+    "Word": "口",
+    "Pinyin": "kǒu"
+  },
+  {
+    "Number": 125,
+    "Word": "块",
+    "Pinyin": "kuài"
+  },
+  {
+    "Number": 126,
+    "Word": "快",
+    "Pinyin": "kuài"
+  },
+  {
+    "Number": 127,
+    "Word": "来",
+    "Pinyin": "lái"
+  },
+  {
+    "Number": 128,
+    "Word": "老",
+    "Pinyin": "lǎo"
+  },
+  {
+    "Number": 129,
+    "Word": "了",
+    "Pinyin": "le"
+  },
+  {
+    "Number": 130,
+    "Word": "累",
+    "Pinyin": "lèi"
+  },
+  {
+    "Number": 131,
+    "Word": "冷",
+    "Pinyin": "lěng"
+  },
+  {
+    "Number": 132,
+    "Word": "里",
+    "Pinyin": "lǐ"
+  },
+  {
+    "Number": 133,
+    "Word": "两",
+    "Pinyin": "liǎng"
+  },
+  {
+    "Number": 134,
+    "Word": "零",
+    "Pinyin": "líng"
+  },
+  {
+    "Number": 135,
+    "Word": "六",
+    "Pinyin": "liù"
+  },
+  {
+    "Number": 136,
+    "Word": "楼",
+    "Pinyin": "lóu"
+  },
+  {
+    "Number": 137,
+    "Word": "路",
+    "Pinyin": "lù"
+  },
+  {
+    "Number": 138,
+    "Word": "妈",
+    "Pinyin": "mā"
+  },
+  {
+    "Number": 139,
+    "Word": "马",
+    "Pinyin": "mǎ"
+  },
+  {
+    "Number": 140,
+    "Word": "吗",
+    "Pinyin": "ma"
+  },
+  {
+    "Number": 141,
+    "Word": "买",
+    "Pinyin": "mǎi"
+  },
+  {
+    "Number": 142,
+    "Word": "慢",
+    "Pinyin": "màn"
+  },
+  {
+    "Number": 143,
+    "Word": "忙",
+    "Pinyin": "máng"
+  },
+  {
+    "Number": 144,
+    "Word": "毛",
+    "Pinyin": "máo"
+  },
+  {
+    "Number": 145,
+    "Word": "么",
+    "Pinyin": "má"
+  },
+  {
+    "Number": 146,
+    "Word": "没",
+    "Pinyin": "méi"
+  },
+  {
+    "Number": 147,
+    "Word": "妹",
+    "Pinyin": "mèi"
+  },
+  {
+    "Number": 148,
+    "Word": "门",
+    "Pinyin": "mén"
+  },
+  {
+    "Number": 149,
+    "Word": "们",
+    "Pinyin": "men"
+  },
+  {
+    "Number": 150,
+    "Word": "米",
+    "Pinyin": "mǐ"
+  },
+  {
+    "Number": 151,
+    "Word": "面",
+    "Pinyin": "miàn"
+  },
+  {
+    "Number": 152,
+    "Word": "名",
+    "Pinyin": "míng"
+  },
+  {
+    "Number": 153,
+    "Word": "明",
+    "Pinyin": "míng"
+  },
+  {
+    "Number": 154,
+    "Word": "拿",
+    "Pinyin": "ná"
+  },
+  {
+    "Number": 155,
+    "Word": "哪",
+    "Pinyin": "nǎ"
+  },
+  {
+    "Number": 156,
+    "Word": "那",
+    "Pinyin": "nà"
+  },
+  {
+    "Number": 157,
+    "Word": "奶",
+    "Pinyin": "nǎi"
+  },
+  {
+    "Number": 158,
+    "Word": "男",
+    "Pinyin": "nán"
+  },
+  {
+    "Number": 159,
+    "Word": "南",
+    "Pinyin": "nán"
+  },
+  {
+    "Number": 160,
+    "Word": "难",
+    "Pinyin": "nán"
+  },
+  {
+    "Number": 161,
+    "Word": "脑",
+    "Pinyin": "nǎo"
+  },
+  {
+    "Number": 162,
+    "Word": "呢",
+    "Pinyin": "ne"
+  },
+  {
+    "Number": 163,
+    "Word": "能",
+    "Pinyin": "néng"
+  },
+  {
+    "Number": 164,
+    "Word": "你",
+    "Pinyin": "nǐ"
+  },
+  {
+    "Number": 165,
+    "Word": "年",
+    "Pinyin": "nián"
+  },
+  {
+    "Number": 166,
+    "Word": "您",
+    "Pinyin": "nín"
+  },
+  {
+    "Number": 167,
+    "Word": "牛",
+    "Pinyin": "niú"
+  },
+  {
+    "Number": 168,
+    "Word": "女",
+    "Pinyin": "nǚ"
+  },
+  {
+    "Number": 169,
+    "Word": "旁",
+    "Pinyin": "páng"
+  },
+  {
+    "Number": 170,
+    "Word": "跑",
+    "Pinyin": "pǎo"
+  },
+  {
+    "Number": 171,
+    "Word": "朋",
+    "Pinyin": "péng"
+  },
+  {
+    "Number": 172,
+    "Word": "票",
+    "Pinyin": "piào"
+  },
+  {
+    "Number": 173,
+    "Word": "七",
+    "Pinyin": "qī"
+  },
+  {
+    "Number": 174,
+    "Word": "期",
+    "Pinyin": "qī"
+  },
+  {
+    "Number": 175,
+    "Word": "起",
+    "Pinyin": "qǐ"
+  },
+  {
+    "Number": 176,
+    "Word": "气",
+    "Pinyin": "qì"
+  },
+  {
+    "Number": 177,
+    "Word": "汽",
+    "Pinyin": "qì"
+  },
+  {
+    "Number": 178,
+    "Word": "前",
+    "Pinyin": "qián"
+  },
+  {
+    "Number": 179,
+    "Word": "钱",
+    "Pinyin": "qián"
+  },
+  {
+    "Number": 180,
+    "Word": "请",
+    "Pinyin": "qǐng"
+  },
+  {
+    "Number": 181,
+    "Word": "球",
+    "Pinyin": "qiú"
+  },
+  {
+    "Number": 182,
+    "Word": "去",
+    "Pinyin": "qù"
+  },
+  {
+    "Number": 183,
+    "Word": "热",
+    "Pinyin": "rè"
+  },
+  {
+    "Number": 184,
+    "Word": "人",
+    "Pinyin": "rén"
+  },
+  {
+    "Number": 185,
+    "Word": "认",
+    "Pinyin": "rèn"
+  },
+  {
+    "Number": 186,
+    "Word": "日",
+    "Pinyin": "rì"
+  },
+  {
+    "Number": 187,
+    "Word": "肉",
+    "Pinyin": "ròu"
+  },
+  {
+    "Number": 188,
+    "Word": "三",
+    "Pinyin": "sān"
+  },
+  {
+    "Number": 189,
+    "Word": "山",
+    "Pinyin": "shān"
+  },
+  {
+    "Number": 190,
+    "Word": "商",
+    "Pinyin": "shāng"
+  },
+  {
+    "Number": 191,
+    "Word": "上",
+    "Pinyin": "shàng"
+  },
+  {
+    "Number": 192,
+    "Word": "少",
+    "Pinyin": "shǎo"
+  },
+  {
+    "Number": 193,
+    "Word": "绍",
+    "Pinyin": "shào"
+  },
+  {
+    "Number": 194,
+    "Word": "身",
+    "Pinyin": "shēn"
+  },
+  {
+    "Number": 195,
+    "Word": "什",
+    "Pinyin": "shén"
+  },
+  {
+    "Number": 196,
+    "Word": "生",
+    "Pinyin": "shēng"
+  },
+  {
+    "Number": 197,
+    "Word": "师",
+    "Pinyin": "shī"
+  },
+  {
+    "Number": 198,
+    "Word": "十",
+    "Pinyin": "shí"
+  },
+  {
+    "Number": 199,
+    "Word": "时",
+    "Pinyin": "shí"
+  },
+  {
+    "Number": 200,
+    "Word": "识",
+    "Pinyin": "shí"
+  },
+  {
+    "Number": 201,
+    "Word": "事",
+    "Pinyin": "shì"
+  },
+  {
+    "Number": 202,
+    "Word": "试",
+    "Pinyin": "shì"
+  },
+  {
+    "Number": 203,
+    "Word": "视",
+    "Pinyin": "shì"
+  },
+  {
+    "Number": 204,
+    "Word": "是",
+    "Pinyin": "shì"
+  },
+  {
+    "Number": 205,
+    "Word": "手",
+    "Pinyin": "shǒu"
+  },
+  {
+    "Number": 206,
+    "Word": "书",
+    "Pinyin": "shū"
+  },
+  {
+    "Number": 207,
+    "Word": "树",
+    "Pinyin": "shù"
+  },
+  {
+    "Number": 208,
+    "Word": "谁",
+    "Pinyin": "shéi"
+  },
+  {
+    "Number": 209,
+    "Word": "水",
+    "Pinyin": "shuǐ"
+  },
+  {
+    "Number": 210,
+    "Word": "睡",
+    "Pinyin": "shuì"
+  },
+  {
+    "Number": 211,
+    "Word": "说",
+    "Pinyin": "shuō"
+  },
+  {
+    "Number": 212,
+    "Word": "四",
+    "Pinyin": "sì"
+  },
+  {
+    "Number": 213,
+    "Word": "送",
+    "Pinyin": "sòng"
+  },
+  {
+    "Number": 214,
+    "Word": "诉",
+    "Pinyin": "sù"
+  },
+  {
+    "Number": 215,
+    "Word": "岁",
+    "Pinyin": "suì"
+  },
+  {
+    "Number": 216,
+    "Word": "他",
+    "Pinyin": "tā"
+  },
+  {
+    "Number": 217,
+    "Word": "她",
+    "Pinyin": "tā"
+  },
+  {
+    "Number": 218,
+    "Word": "太",
+    "Pinyin": "tài"
+  },
+  {
+    "Number": 219,
+    "Word": "体",
+    "Pinyin": "tǐ"
+  },
+  {
+    "Number": 220,
+    "Word": "天",
+    "Pinyin": "tiān"
+  },
+  {
+    "Number": 221,
+    "Word": "条",
+    "Pinyin": "tiáo"
+  },
+  {
+    "Number": 222,
+    "Word": "听",
+    "Pinyin": "tīng"
+  },
+  {
+    "Number": 223,
+    "Word": "同",
+    "Pinyin": "tóng"
+  },
+  {
+    "Number": 224,
+    "Word": "图",
+    "Pinyin": "tú"
+  },
+  {
+    "Number": 225,
+    "Word": "外",
+    "Pinyin": "wài"
+  },
+  {
+    "Number": 226,
+    "Word": "玩",
+    "Pinyin": "wán"
+  },
+  {
+    "Number": 227,
+    "Word": "晚",
+    "Pinyin": "wǎn"
+  },
+  {
+    "Number": 228,
+    "Word": "网",
+    "Pinyin": "wǎng"
+  },
+  {
+    "Number": 229,
+    "Word": "忘",
+    "Pinyin": "wàng"
+  },
+  {
+    "Number": 230,
+    "Word": "文",
+    "Pinyin": "wén"
+  },
+  {
+    "Number": 231,
+    "Word": "问",
+    "Pinyin": "wèn"
+  },
+  {
+    "Number": 232,
+    "Word": "我",
+    "Pinyin": "wǒ"
+  },
+  {
+    "Number": 233,
+    "Word": "五",
+    "Pinyin": "wǔ"
+  },
+  {
+    "Number": 234,
+    "Word": "午",
+    "Pinyin": "wǔ"
+  },
+  {
+    "Number": 235,
+    "Word": "西",
+    "Pinyin": "xī"
+  },
+  {
+    "Number": 236,
+    "Word": "息",
+    "Pinyin": "xī"
+  },
+  {
+    "Number": 237,
+    "Word": "习",
+    "Pinyin": "xí"
+  },
+  {
+    "Number": 238,
+    "Word": "洗",
+    "Pinyin": "xǐ"
+  },
+  {
+    "Number": 239,
+    "Word": "喜",
+    "Pinyin": "xǐ"
+  },
+  {
+    "Number": 240,
+    "Word": "系",
+    "Pinyin": "jì"
+  },
+  {
+    "Number": 241,
+    "Word": "下",
+    "Pinyin": "xià"
+  },
+  {
+    "Number": 242,
+    "Word": "先",
+    "Pinyin": "xiān"
+  },
+  {
+    "Number": 243,
+    "Word": "现",
+    "Pinyin": "xiàn"
+  },
+  {
+    "Number": 244,
+    "Word": "想",
+    "Pinyin": "xiǎng"
+  },
+  {
+    "Number": 245,
+    "Word": "小",
+    "Pinyin": "xiǎo"
+  },
+  {
+    "Number": 246,
+    "Word": "校",
+    "Pinyin": "xiào"
+  },
+  {
+    "Number": 247,
+    "Word": "笑",
+    "Pinyin": "xiào"
+  },
+  {
+    "Number": 248,
+    "Word": "些",
+    "Pinyin": "xiē"
+  },
+  {
+    "Number": 249,
+    "Word": "写",
+    "Pinyin": "xiě"
+  },
+  {
+    "Number": 250,
+    "Word": "谢",
+    "Pinyin": "xiè"
+  },
+  {
+    "Number": 251,
+    "Word": "新",
+    "Pinyin": "xīn"
+  },
+  {
+    "Number": 252,
+    "Word": "星",
+    "Pinyin": "xīng"
+  },
+  {
+    "Number": 253,
+    "Word": "行",
+    "Pinyin": "xíng"
+  },
+  {
+    "Number": 254,
+    "Word": "兴",
+    "Pinyin": "xīng"
+  },
+  {
+    "Number": 255,
+    "Word": "休",
+    "Pinyin": "xiū"
+  },
+  {
+    "Number": 256,
+    "Word": "学",
+    "Pinyin": "xué"
+  },
+  {
+    "Number": 257,
+    "Word": "样",
+    "Pinyin": "yàng"
+  },
+  {
+    "Number": 258,
+    "Word": "要",
+    "Pinyin": "yào"
+  },
+  {
+    "Number": 259,
+    "Word": "爷",
+    "Pinyin": "yé"
+  },
+  {
+    "Number": 260,
+    "Word": "也",
+    "Pinyin": "yě"
+  },
+  {
+    "Number": 261,
+    "Word": "页",
+    "Pinyin": "yè"
+  },
+  {
+    "Number": 262,
+    "Word": "一",
+    "Pinyin": "yī"
+  },
+  {
+    "Number": 263,
+    "Word": "衣",
+    "Pinyin": "yī"
+  },
+  {
+    "Number": 264,
+    "Word": "医",
+    "Pinyin": "yī"
+  },
+  {
+    "Number": 265,
+    "Word": "影",
+    "Pinyin": "yǐng"
+  },
+  {
+    "Number": 266,
+    "Word": "用",
+    "Pinyin": "yòng"
+  },
+  {
+    "Number": 267,
+    "Word": "友",
+    "Pinyin": "yǒu"
+  },
+  {
+    "Number": 268,
+    "Word": "有",
+    "Pinyin": "yǒu"
+  },
+  {
+    "Number": 269,
+    "Word": "右",
+    "Pinyin": "yòu"
+  },
+  {
+    "Number": 270,
+    "Word": "雨",
+    "Pinyin": "yǔ"
+  },
+  {
+    "Number": 271,
+    "Word": "语",
+    "Pinyin": "yǔ"
+  },
+  {
+    "Number": 272,
+    "Word": "元",
+    "Pinyin": "yuán"
+  },
+  {
+    "Number": 273,
+    "Word": "远",
+    "Pinyin": "yuǎn"
+  },
+  {
+    "Number": 274,
+    "Word": "院",
+    "Pinyin": "yuàn"
+  },
+  {
+    "Number": 275,
+    "Word": "月",
+    "Pinyin": "yuè"
+  },
+  {
+    "Number": 276,
+    "Word": "再",
+    "Pinyin": "zài"
+  },
+  {
+    "Number": 277,
+    "Word": "在",
+    "Pinyin": "zài"
+  },
+  {
+    "Number": 278,
+    "Word": "早",
+    "Pinyin": "zǎo"
+  },
+  {
+    "Number": 279,
+    "Word": "怎",
+    "Pinyin": "zěn"
+  },
+  {
+    "Number": 280,
+    "Word": "站",
+    "Pinyin": "zhàn"
+  },
+  {
+    "Number": 281,
+    "Word": "找",
+    "Pinyin": "zhǎo"
+  },
+  {
+    "Number": 282,
+    "Word": "这",
+    "Pinyin": "zhè"
+  },
+  {
+    "Number": 283,
+    "Word": "着",
+    "Pinyin": "zhe"
+  },
+  {
+    "Number": 284,
+    "Word": "真",
+    "Pinyin": "zhēn"
+  },
+  {
+    "Number": 285,
+    "Word": "正",
+    "Pinyin": "zhèng"
+  },
+  {
+    "Number": 286,
+    "Word": "知",
+    "Pinyin": "zhī"
+  },
+  {
+    "Number": 287,
+    "Word": "中",
+    "Pinyin": "zhōng"
+  },
+  {
+    "Number": 288,
+    "Word": "重",
+    "Pinyin": "zhòng"
+  },
+  {
+    "Number": 289,
+    "Word": "住",
+    "Pinyin": "zhù"
+  },
+  {
+    "Number": 290,
+    "Word": "准",
+    "Pinyin": "zhǔn"
+  },
+  {
+    "Number": 291,
+    "Word": "桌",
+    "Pinyin": "zhuō"
+  },
+  {
+    "Number": 292,
+    "Word": "子",
+    "Pinyin": "zǐ"
+  },
+  {
+    "Number": 293,
+    "Word": "字",
+    "Pinyin": "zì"
+  },
+  {
+    "Number": 294,
+    "Word": "走",
+    "Pinyin": "zǒu"
+  },
+  {
+    "Number": 295,
+    "Word": "最",
+    "Pinyin": "zuì"
+  },
+  {
+    "Number": 296,
+    "Word": "昨",
+    "Pinyin": "zuó"
+  },
+  {
+    "Number": 297,
+    "Word": "左",
+    "Pinyin": "zuǒ"
+  },
+  {
+    "Number": 298,
+    "Word": "作",
+    "Pinyin": "zuò"
+  },
+  {
+    "Number": 299,
+    "Word": "坐",
+    "Pinyin": "zuò"
+  },
+  {
+    "Number": 300,
+    "Word": "做",
+    "Pinyin": "zuò"
+  }
+]

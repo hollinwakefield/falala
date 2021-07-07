@@ -4,6 +4,7 @@ const correctWordSchema = new mongoose.Schema({
   id: {
     type: Number,
     index: true,
+    unique: true,
   },
   level: {
     type: String,
@@ -17,32 +18,33 @@ const correctWordSchema = new mongoose.Schema({
   pinyin: {
     type: String,
   },
-  firstTone: {
+  firstSyllableTone: {
     type: Number,
   },
-  secondTone: {
-    type: Number,
-    default: null,
-  },
-  thirdTone: {
+  secondSyllableTone: {
     type: Number,
     default: null,
   },
-  fourthTone: {
+  thirdSyllableTone: {
+    type: Number,
+    default: null,
+  },
+  fourthSyllableTone: {
     type: Number,
     default: null,
   },
   translation: {
     type: String,
   },
-  audio: [{}],
-  incorrectWords: [{}],
+  audio: [],
+  incorrectWords: [],
 });
 
 const incorrectWordSchema = new mongoose.Schema({
   id: {
     type: Number,
     index: true,
+    unique: true,
   },
   correctWord_id: {
     type: Number,
@@ -58,28 +60,29 @@ const incorrectWordSchema = new mongoose.Schema({
   pinyin: {
     type: String,
   },
-  firstTone: {
+  firstSyllableTone: {
     type: Number,
   },
-  secondTone: {
-    type: Number,
-    default: null,
-  },
-  thirdTone: {
+  secondSyllableTone: {
     type: Number,
     default: null,
   },
-  fourthTone: {
+  thirdSyllableTone: {
     type: Number,
     default: null,
   },
-  audio: [{}],
+  fourthSyllableTone: {
+    type: Number,
+    default: null,
+  },
+  audio: [],
 });
 
 const audioSchema = new mongoose.Schema({
   id: {
     type: Number,
     index: true,
+    unique: true,
   },
   correctWord_id: {
     type: Number,

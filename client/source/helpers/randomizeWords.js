@@ -9,3 +9,5 @@ const randomizeWords = (wordList) => {
   }
   return randomizedWordList;
 };
+
+export default randomizeWords;

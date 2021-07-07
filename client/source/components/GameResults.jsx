@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const GameResults = (props) => {
   return (
     <div className="game">
-      <p>Your final score!</p>
+      <h3>Your final score!</h3>
     </div>
   );
 };

@@ -34,7 +34,7 @@ const Game = (props) => {
   } else {
     return (
       <div className="game">
-        <h3>HSK Characters</h3>
+        <h3>Learn Single Tones</h3>
         <button onClick={(e) => setClicked(true)} className="button">
           Start Game
         </button>

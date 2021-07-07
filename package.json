@@ -1,0 +1,32 @@
+{
+  "name": "problem-starter",
+  "version": "1.0.0",
+  "description": "Learn Chinese pronunciation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack -d eval-source-map --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollinwakefield/putonghua.git"
+  },
+  "author": "Hollin Wakefield",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack-cli": "^4.7.0",
+    "webpack": "^5.38.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "homepage": "https://github.com/hollinwakefield/putonghua"
+}

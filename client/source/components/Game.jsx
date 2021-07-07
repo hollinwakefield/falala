@@ -11,20 +11,22 @@ const Game = (props) => {
       if (completed) {
         // Render a completed state
         return (
-          <div>
+          <div className="gameresults">
             <GameResults />
-            <button onClick={(e) => setClicked(false)}>Go Home</button>
+            <button onClick={(e) => setClicked(false)} className="button">
+              Go Home
+            </button>
           </div>
         );
       } else {
         // Render a countdown
         return (
-          <>
-            <span>
-              {minutes}:{seconds}
+          <div className="gameplay">
+            <span className="countdown">
+              {minutes}m {seconds}s
             </span>
             <Gameplay />
-          </>
+          </div>
         );
       }
     };
@@ -32,8 +34,10 @@ const Game = (props) => {
   } else {
     return (
       <div className="game">
-        <h5>HSK Characters</h5>
-        <button onClick={(e) => setClicked(true)}>Start Game</button>
+        <h3>HSK Characters</h3>
+        <button onClick={(e) => setClicked(true)} className="button">
+          Start Game
+        </button>
       </div>
     );
   }

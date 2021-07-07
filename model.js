@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const wordSchema = new mongoose.Schema({
+const correctWordSchema = new mongoose.Schema({
   id: {
     type: Number,
     index: true,
@@ -44,6 +44,11 @@ const incorrectWordSchema = new mongoose.Schema({
     type: Number,
     index: true,
   },
+  correctWord_id: {
+    type: Number,
+    default: null,
+    index: true,
+  },
   simplifiedWord: {
     type: String,
   },
@@ -76,11 +81,21 @@ const audioSchema = new mongoose.Schema({
     type: Number,
     index: true,
   },
-  word_id: {
+  correctWord_id: {
     type: Number,
+    default: null,
+    index: true,
+  },
+  incorrectWord_id: {
+    type: Number,
+    default: null,
+    index: true,
+  },
+  url: {
+    type: String,
   },
 });
 
-module.exports.word = wordSchema;
+module.exports.correctWord = correctWordSchema;
 module.exports.incorrectWord = incorrectWordSchema;
 module.exports.audio = audioSchema;

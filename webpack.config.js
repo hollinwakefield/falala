@@ -1,24 +1,24 @@
-const path = require('path');
-const SRC_DIR = path.join(__dirname, '/client/src');
-const PUBLIC_DIR = path.join(__dirname, '/client/public');
+const path = require("path");
+const SRC_DIR = path.join(__dirname, "/client/source");
+const PUBLIC_DIR = path.join(__dirname, "/client/public");
 
 module.exports = {
   entry: `${SRC_DIR}/index.jsx`,
   output: {
-    filename: 'bundle.js',
+    filename: "bundle.js",
     path: PUBLIC_DIR,
   },
-  devtool: 'eval-source-map',
-  mode: 'development',
+  devtool: "eval-source-map",
+  mode: "development",
   module: {
     rules: [
       {
         test: /\.m?js|jsx$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
+            presets: ["@babel/preset-env", "@babel/preset-react"],
           },
         },
       },

@@ -1,10 +1,10 @@
 [
   {
-    "ID": 1,
-    "Simplified": "爱",
-    "Traditional": "愛",
+    "ID": 10001,
+    "SimplifiedWord": "爱",
+    "TraditionalWord": "愛",
     "Pinyin": "ài",
-    "Translation": "english",
+    "Translation": "love",
     "FemaleAudio": {
       "1": "audio1",
       "2": "audio1",
@@ -19,30 +19,35 @@
     },
     "IncorrectWords": [
       {
+        "id": 100001,
         "simplified": "simplifiedword",
         "traditional": "traditionalword",
         "pinyin": "pinyin1",
         "audioFile": "audioFile"
       },
       {
+        "id": 100002,
         "simplified": "simplifiedword",
         "traditional": "traditionalword",
         "pinyin": "pinyin2",
         "audioFile": "audioFile"
       },
       {
+        "id": 100003,
         "simplified": "simplifiedword",
         "traditional": "traditionalword",
         "pinyin": "pinyin3",
         "audioFile": "audioFile"
       },
       {
+        "id": 100004,
         "simplified": "simplifiedword",
         "traditional": "traditionalword",
         "pinyin": "pinyin4",
         "audioFile": "audioFile"
       },
       {
+        "id": 100005,
         "simplified": "simplifiedword",
         "traditional": "traditionalword",
         "pinyin": "pinyin5",
@@ -51,1498 +56,3163 @@
     ]
   },
   {
-    "ID": 2,
-    "Word": "八",
-    "Pinyin": "bā"
-  },
-  {
-    "ID": 3,
-    "Word": "爸",
-    "Pinyin": "bà"
-  },
-  {
-    "ID": 4,
-    "Word": "吧",
-    "Pinyin": "ba"
-  },
-  {
-    "ID": 5,
-    "Word": "白",
-    "Pinyin": "bái"
-  },
-  {
-    "ID": 6,
-    "Word": "百",
-    "Pinyin": "bǎi"
-  },
-  {
-    "ID": 7,
-    "Word": "班",
-    "Pinyin": "bān"
-  },
-  {
-    "ID": 8,
-    "Word": "半",
-    "Pinyin": "bàn"
-  },
-  {
-    "ID": 9,
-    "Word": "帮",
-    "Pinyin": "bāng"
-  },
-  {
-    "ID": 10,
-    "Word": "包",
-    "Pinyin": "bāo"
-  },
-  {
-    "ID": 11,
-    "Word": "杯",
-    "Pinyin": "bēi"
-  },
-  {
-    "ID": 12,
-    "Word": "北",
-    "Pinyin": "běi"
-  },
-  {
-    "ID": 13,
-    "Word": "备",
-    "Pinyin": "bèi"
-  },
-  {
-    "ID": 14,
-    "Word": "本",
-    "Pinyin": "běn"
-  },
-  {
-    "ID": 15,
-    "Word": "比",
-    "Pinyin": "bǐ"
-  },
-  {
-    "ID": 16,
-    "Word": "边",
-    "Pinyin": "biān"
-  },
-  {
-    "ID": 17,
-    "Word": "别",
-    "Pinyin": "bié"
-  },
-  {
-    "ID": 18,
-    "Word": "病",
-    "Pinyin": "bìng"
-  },
-  {
-    "ID": 19,
-    "Word": "不",
-    "Pinyin": "bù"
-  },
-  {
-    "ID": 20,
-    "Word": "菜",
-    "Pinyin": "cài"
-  },
-  {
-    "ID": 21,
-    "Word": "茶",
-    "Pinyin": "chá"
-  },
-  {
-    "ID": 22,
-    "Word": "差",
-    "Pinyin": "chà"
-  },
-  {
-    "ID": 23,
-    "Word": "常",
-    "Pinyin": "cháng"
-  },
-  {
-    "ID": 24,
-    "Word": "场",
-    "Pinyin": "chǎng"
-  },
-  {
-    "ID": 25,
-    "Word": "唱",
-    "Pinyin": "chàng"
-  },
-  {
-    "ID": 26,
-    "Word": "车",
-    "Pinyin": "chē"
-  },
-  {
-    "ID": 27,
-    "Word": "吃",
-    "Pinyin": "chī"
-  },
-  {
-    "ID": 28,
-    "Word": "出",
-    "Pinyin": "chū"
-  },
-  {
-    "ID": 29,
-    "Word": "穿",
-    "Pinyin": "chuān"
-  },
-  {
-    "ID": 30,
-    "Word": "床",
-    "Pinyin": "chuáng"
-  },
-  {
-    "ID": 31,
-    "Word": "次",
-    "Pinyin": "cì"
-  },
-  {
-    "ID": 32,
-    "Word": "从",
-    "Pinyin": "cóng"
-  },
-  {
-    "ID": 33,
-    "Word": "错",
-    "Pinyin": "cuò"
-  },
-  {
-    "ID": 34,
-    "Word": "答",
-    "Pinyin": "dá"
-  },
-  {
-    "ID": 35,
-    "Word": "打",
-    "Pinyin": "dǎ"
-  },
-  {
-    "ID": 36,
-    "Word": "大",
-    "Pinyin": "dà"
-  },
-  {
-    "ID": 37,
-    "Word": "蛋",
-    "Pinyin": "dàn"
-  },
-  {
-    "ID": 38,
-    "Word": "到",
-    "Pinyin": "dào"
-  },
-  {
-    "ID": 39,
-    "Word": "道",
-    "Pinyin": "dào"
-  },
-  {
-    "ID": 40,
-    "Word": "得",
-    "Pinyin": "dé"
-  },
-  {
-    "ID": 41,
-    "Word": "地",
-    "Pinyin": "de"
-  },
-  {
-    "ID": 42,
-    "Word": "的",
-    "Pinyin": "de"
-  },
-  {
-    "ID": 43,
-    "Word": "等",
-    "Pinyin": "děng"
-  },
-  {
-    "ID": 44,
-    "Word": "弟",
-    "Pinyin": "dì"
-  },
-  {
-    "ID": 45,
-    "Word": "第",
-    "Pinyin": "dì"
-  },
-  {
-    "ID": 46,
-    "Word": "点",
-    "Pinyin": "diǎn"
-  },
-  {
-    "ID": 47,
-    "Word": "电",
-    "Pinyin": "diàn"
-  },
-  {
-    "ID": 48,
-    "Word": "店",
-    "Pinyin": "diàn"
-  },
-  {
-    "ID": 49,
-    "Word": "东",
-    "Pinyin": "dōng"
-  },
-  {
-    "ID": 50,
-    "Word": "动",
-    "Pinyin": "dòng"
-  },
-  {
-    "ID": 51,
-    "Word": "都",
-    "Pinyin": "dōu"
-  },
-  {
-    "ID": 52,
-    "Word": "读",
-    "Pinyin": "dú"
-  },
-  {
-    "ID": 53,
-    "Word": "对",
-    "Pinyin": "duì"
-  },
-  {
-    "ID": 54,
-    "Word": "多",
-    "Pinyin": "duō"
-  },
-  {
-    "ID": 55,
-    "Word": "饿",
-    "Pinyin": "è"
-  },
-  {
-    "ID": 56,
-    "Word": "儿",
-    "Pinyin": "ér"
-  },
-  {
-    "ID": 57,
-    "Word": "二",
-    "Pinyin": "èr"
-  },
-  {
-    "ID": 58,
-    "Word": "饭",
-    "Pinyin": "fàn"
-  },
-  {
-    "ID": 59,
-    "Word": "方",
-    "Pinyin": "fāng"
-  },
-  {
-    "ID": 60,
-    "Word": "房",
-    "Pinyin": "fáng"
-  },
-  {
-    "ID": 61,
-    "Word": "放",
-    "Pinyin": "fàng"
-  },
-  {
-    "ID": 62,
-    "Word": "飞",
-    "Pinyin": "fēi"
-  },
-  {
-    "ID": 63,
-    "Word": "非",
-    "Pinyin": "fēi"
-  },
-  {
-    "ID": 64,
-    "Word": "分",
-    "Pinyin": "fēn"
-  },
-  {
-    "ID": 65,
-    "Word": "风",
-    "Pinyin": "fēng"
-  },
-  {
-    "ID": 66,
-    "Word": "服",
-    "Pinyin": "fú"
-  },
-  {
-    "ID": 67,
-    "Word": "干",
-    "Pinyin": "gān"
-  },
-  {
-    "ID": 68,
-    "Word": "高",
-    "Pinyin": "gāo"
-  },
-  {
-    "ID": 69,
-    "Word": "告",
-    "Pinyin": "gào"
-  },
-  {
-    "ID": 70,
-    "Word": "哥",
-    "Pinyin": "gē"
-  },
-  {
-    "ID": 71,
-    "Word": "歌",
-    "Pinyin": "gē"
-  },
-  {
-    "ID": 72,
-    "Word": "个",
-    "Pinyin": "gè"
-  },
-  {
-    "ID": 73,
-    "Word": "给",
-    "Pinyin": "gěi"
-  },
-  {
-    "ID": 74,
-    "Word": "跟",
-    "Pinyin": "gēn"
-  },
-  {
-    "ID": 75,
-    "Word": "工",
-    "Pinyin": "gōng"
-  },
-  {
-    "ID": 76,
-    "Word": "关",
-    "Pinyin": "guān"
-  },
-  {
-    "ID": 77,
-    "Word": "馆",
-    "Pinyin": "guǎn"
-  },
-  {
-    "ID": 78,
-    "Word": "贵",
-    "Pinyin": "guì"
-  },
-  {
-    "ID": 79,
-    "Word": "国",
-    "Pinyin": "guó"
-  },
-  {
-    "ID": 80,
-    "Word": "果",
-    "Pinyin": "guǒ"
-  },
-  {
-    "ID": 81,
-    "Word": "过",
-    "Pinyin": "guò"
-  },
-  {
-    "ID": 82,
-    "Word": "还",
-    "Pinyin": "hái"
-  },
-  {
-    "ID": 83,
-    "Word": "孩",
-    "Pinyin": "hái"
-  },
-  {
-    "ID": 84,
-    "Word": "汉",
-    "Pinyin": "hàn"
-  },
-  {
-    "ID": 85,
-    "Word": "好",
-    "Pinyin": "hǎo"
-  },
-  {
-    "ID": 86,
-    "Word": "号",
-    "Pinyin": "hào"
-  },
-  {
-    "ID": 87,
-    "Word": "喝",
-    "Pinyin": "hē"
-  },
-  {
-    "ID": 88,
-    "Word": "和",
-    "Pinyin": "hé"
-  },
-  {
-    "ID": 89,
-    "Word": "很",
-    "Pinyin": "hěn"
-  },
-  {
-    "ID": 90,
-    "Word": "后",
-    "Pinyin": "hòu"
-  },
-  {
-    "ID": 91,
-    "Word": "候",
-    "Pinyin": "hòu"
-  },
-  {
-    "ID": 92,
-    "Word": "花",
-    "Pinyin": "huā"
-  },
-  {
-    "ID": 93,
-    "Word": "话",
-    "Pinyin": "huà"
-  },
-  {
-    "ID": 94,
-    "Word": "坏",
-    "Pinyin": "huài"
-  },
-  {
-    "ID": 95,
-    "Word": "欢",
-    "Pinyin": "huān"
-  },
-  {
-    "ID": 96,
-    "Word": "回",
-    "Pinyin": "huí"
-  },
-  {
-    "ID": 97,
-    "Word": "会",
-    "Pinyin": "huì"
-  },
-  {
-    "ID": 98,
-    "Word": "火",
-    "Pinyin": "huǒ"
-  },
-  {
-    "ID": 99,
-    "Word": "机",
-    "Pinyin": "jī"
-  },
-  {
-    "ID": 100,
-    "Word": "鸡",
-    "Pinyin": "jī"
-  },
-  {
-    "ID": 101,
-    "Word": "几",
-    "Pinyin": "jǐ"
-  },
-  {
-    "ID": 102,
-    "Word": "记",
-    "Pinyin": "jì"
-  },
-  {
-    "ID": 103,
-    "Word": "家",
-    "Pinyin": "jiā"
-  },
-  {
-    "ID": 104,
-    "Word": "假",
-    "Pinyin": "jiǎ"
-  },
-  {
-    "ID": 105,
-    "Word": "间",
-    "Pinyin": "jiān"
-  },
-  {
-    "ID": 106,
-    "Word": "见",
-    "Pinyin": "jiàn"
-  },
-  {
-    "ID": 107,
-    "Word": "教",
-    "Pinyin": "jiāo"
-  },
-  {
-    "ID": 108,
-    "Word": "叫",
-    "Pinyin": "jiào"
-  },
-  {
-    "ID": 109,
-    "Word": "觉",
-    "Pinyin": "jiào"
-  },
-  {
-    "ID": 110,
-    "Word": "姐",
-    "Pinyin": "jiě"
-  },
-  {
-    "ID": 111,
-    "Word": "介",
-    "Pinyin": "jiè"
-  },
-  {
-    "ID": 112,
-    "Word": "今",
-    "Pinyin": "jīn"
-  },
-  {
-    "ID": 113,
-    "Word": "进",
-    "Pinyin": "jìn"
-  },
-  {
-    "ID": 114,
-    "Word": "京",
-    "Pinyin": "jīng"
-  },
-  {
-    "ID": 115,
-    "Word": "净",
-    "Pinyin": "jìng"
-  },
-  {
-    "ID": 116,
-    "Word": "九",
-    "Pinyin": "jiǔ"
-  },
-  {
-    "ID": 117,
-    "Word": "就",
-    "Pinyin": "jiù"
-  },
-  {
-    "ID": 118,
-    "Word": "开",
-    "Pinyin": "kāi"
-  },
-  {
-    "ID": 119,
-    "Word": "看",
-    "Pinyin": "kàn"
-  },
-  {
-    "ID": 120,
-    "Word": "考",
-    "Pinyin": "kǎo"
-  },
-  {
-    "ID": 121,
-    "Word": "渴",
-    "Pinyin": "kě"
-  },
-  {
-    "ID": 122,
-    "Word": "客",
-    "Pinyin": "kè"
-  },
-  {
-    "ID": 123,
-    "Word": "课",
-    "Pinyin": "kè"
-  },
-  {
-    "ID": 124,
-    "Word": "口",
-    "Pinyin": "kǒu"
-  },
-  {
-    "ID": 125,
-    "Word": "块",
-    "Pinyin": "kuài"
-  },
-  {
-    "ID": 126,
-    "Word": "快",
-    "Pinyin": "kuài"
-  },
-  {
-    "ID": 127,
-    "Word": "来",
-    "Pinyin": "lái"
-  },
-  {
-    "ID": 128,
-    "Word": "老",
-    "Pinyin": "lǎo"
-  },
-  {
-    "ID": 129,
-    "Word": "了",
-    "Pinyin": "le"
-  },
-  {
-    "ID": 130,
-    "Word": "累",
-    "Pinyin": "lèi"
-  },
-  {
-    "ID": 131,
-    "Word": "冷",
-    "Pinyin": "lěng"
-  },
-  {
-    "ID": 132,
-    "Word": "里",
-    "Pinyin": "lǐ"
-  },
-  {
-    "ID": 133,
-    "Word": "两",
-    "Pinyin": "liǎng"
-  },
-  {
-    "ID": 134,
-    "Word": "零",
-    "Pinyin": "líng"
-  },
-  {
-    "ID": 135,
-    "Word": "六",
-    "Pinyin": "liù"
-  },
-  {
-    "ID": 136,
-    "Word": "楼",
-    "Pinyin": "lóu"
-  },
-  {
-    "ID": 137,
-    "Word": "路",
-    "Pinyin": "lù"
-  },
-  {
-    "ID": 138,
-    "Word": "妈",
-    "Pinyin": "mā"
-  },
-  {
-    "ID": 139,
-    "Word": "马",
-    "Pinyin": "mǎ"
-  },
-  {
-    "ID": 140,
-    "Word": "吗",
-    "Pinyin": "ma"
-  },
-  {
-    "ID": 141,
-    "Word": "买",
-    "Pinyin": "mǎi"
-  },
-  {
-    "ID": 142,
-    "Word": "慢",
-    "Pinyin": "màn"
-  },
-  {
-    "ID": 143,
-    "Word": "忙",
-    "Pinyin": "máng"
-  },
-  {
-    "ID": 144,
-    "Word": "毛",
-    "Pinyin": "máo"
-  },
-  {
-    "ID": 145,
-    "Word": "么",
-    "Pinyin": "má"
-  },
-  {
-    "ID": 146,
-    "Word": "没",
-    "Pinyin": "méi"
-  },
-  {
-    "ID": 147,
-    "Word": "妹",
-    "Pinyin": "mèi"
-  },
-  {
-    "ID": 148,
-    "Word": "门",
-    "Pinyin": "mén"
-  },
-  {
-    "ID": 149,
-    "Word": "们",
-    "Pinyin": "men"
-  },
-  {
-    "ID": 150,
-    "Word": "米",
-    "Pinyin": "mǐ"
-  },
-  {
-    "ID": 151,
-    "Word": "面",
-    "Pinyin": "miàn"
-  },
-  {
-    "ID": 152,
-    "Word": "名",
-    "Pinyin": "míng"
-  },
-  {
-    "ID": 153,
-    "Word": "明",
-    "Pinyin": "míng"
-  },
-  {
-    "ID": 154,
-    "Word": "拿",
-    "Pinyin": "ná"
-  },
-  {
-    "ID": 155,
-    "Word": "哪",
-    "Pinyin": "nǎ"
-  },
-  {
-    "ID": 156,
-    "Word": "那",
-    "Pinyin": "nà"
-  },
-  {
-    "ID": 157,
-    "Word": "奶",
-    "Pinyin": "nǎi"
-  },
-  {
-    "ID": 158,
-    "Word": "男",
-    "Pinyin": "nán"
-  },
-  {
-    "ID": 159,
-    "Word": "南",
-    "Pinyin": "nán"
-  },
-  {
-    "ID": 160,
-    "Word": "难",
-    "Pinyin": "nán"
-  },
-  {
-    "ID": 161,
-    "Word": "脑",
-    "Pinyin": "nǎo"
-  },
-  {
-    "ID": 162,
-    "Word": "呢",
-    "Pinyin": "ne"
-  },
-  {
-    "ID": 163,
-    "Word": "能",
-    "Pinyin": "néng"
-  },
-  {
-    "ID": 164,
-    "Word": "你",
-    "Pinyin": "nǐ"
-  },
-  {
-    "ID": 165,
-    "Word": "年",
-    "Pinyin": "nián"
-  },
-  {
-    "ID": 166,
-    "Word": "您",
-    "Pinyin": "nín"
-  },
-  {
-    "ID": 167,
-    "Word": "牛",
-    "Pinyin": "niú"
-  },
-  {
-    "ID": 168,
-    "Word": "女",
-    "Pinyin": "nǚ"
-  },
-  {
-    "ID": 169,
-    "Word": "旁",
-    "Pinyin": "páng"
-  },
-  {
-    "ID": 170,
-    "Word": "跑",
-    "Pinyin": "pǎo"
-  },
-  {
-    "ID": 171,
-    "Word": "朋",
-    "Pinyin": "péng"
-  },
-  {
-    "ID": 172,
-    "Word": "票",
-    "Pinyin": "piào"
-  },
-  {
-    "ID": 173,
-    "Word": "七",
-    "Pinyin": "qī"
-  },
-  {
-    "ID": 174,
-    "Word": "期",
-    "Pinyin": "qī"
-  },
-  {
-    "ID": 175,
-    "Word": "起",
-    "Pinyin": "qǐ"
-  },
-  {
-    "ID": 176,
-    "Word": "气",
-    "Pinyin": "qì"
-  },
-  {
-    "ID": 177,
-    "Word": "汽",
-    "Pinyin": "qì"
-  },
-  {
-    "ID": 178,
-    "Word": "前",
-    "Pinyin": "qián"
-  },
-  {
-    "ID": 179,
-    "Word": "钱",
-    "Pinyin": "qián"
-  },
-  {
-    "ID": 180,
-    "Word": "请",
-    "Pinyin": "qǐng"
-  },
-  {
-    "ID": 181,
-    "Word": "球",
-    "Pinyin": "qiú"
-  },
-  {
-    "ID": 182,
-    "Word": "去",
-    "Pinyin": "qù"
-  },
-  {
-    "ID": 183,
-    "Word": "热",
-    "Pinyin": "rè"
-  },
-  {
-    "ID": 184,
-    "Word": "人",
-    "Pinyin": "rén"
-  },
-  {
-    "ID": 185,
-    "Word": "认",
-    "Pinyin": "rèn"
-  },
-  {
-    "ID": 186,
-    "Word": "日",
-    "Pinyin": "rì"
-  },
-  {
-    "ID": 187,
-    "Word": "肉",
-    "Pinyin": "ròu"
-  },
-  {
-    "ID": 188,
-    "Word": "三",
-    "Pinyin": "sān"
-  },
-  {
-    "ID": 189,
-    "Word": "山",
-    "Pinyin": "shān"
-  },
-  {
-    "ID": 190,
-    "Word": "商",
-    "Pinyin": "shāng"
-  },
-  {
-    "ID": 191,
-    "Word": "上",
-    "Pinyin": "shàng"
-  },
-  {
-    "ID": 192,
-    "Word": "少",
-    "Pinyin": "shǎo"
-  },
-  {
-    "ID": 193,
-    "Word": "绍",
-    "Pinyin": "shào"
-  },
-  {
-    "ID": 194,
-    "Word": "身",
-    "Pinyin": "shēn"
-  },
-  {
-    "ID": 195,
-    "Word": "什",
-    "Pinyin": "shén"
-  },
-  {
-    "ID": 196,
-    "Word": "生",
-    "Pinyin": "shēng"
-  },
-  {
-    "ID": 197,
-    "Word": "师",
-    "Pinyin": "shī"
-  },
-  {
-    "ID": 198,
-    "Word": "十",
-    "Pinyin": "shí"
-  },
-  {
-    "ID": 199,
-    "Word": "时",
-    "Pinyin": "shí"
-  },
-  {
-    "ID": 200,
-    "Word": "识",
-    "Pinyin": "shí"
-  },
-  {
-    "ID": 201,
-    "Word": "事",
-    "Pinyin": "shì"
-  },
-  {
-    "ID": 202,
-    "Word": "试",
-    "Pinyin": "shì"
-  },
-  {
-    "ID": 203,
-    "Word": "视",
-    "Pinyin": "shì"
-  },
-  {
-    "ID": 204,
-    "Word": "是",
-    "Pinyin": "shì"
-  },
-  {
-    "ID": 205,
-    "Word": "手",
-    "Pinyin": "shǒu"
-  },
-  {
-    "ID": 206,
-    "Word": "书",
-    "Pinyin": "shū"
-  },
-  {
-    "ID": 207,
-    "Word": "树",
-    "Pinyin": "shù"
-  },
-  {
-    "ID": 208,
-    "Word": "谁",
-    "Pinyin": "shéi"
-  },
-  {
-    "ID": 209,
-    "Word": "水",
-    "Pinyin": "shuǐ"
-  },
-  {
-    "ID": 210,
-    "Word": "睡",
-    "Pinyin": "shuì"
-  },
-  {
-    "ID": 211,
-    "Word": "说",
-    "Pinyin": "shuō"
-  },
-  {
-    "ID": 212,
-    "Word": "四",
-    "Pinyin": "sì"
-  },
-  {
-    "ID": 213,
-    "Word": "送",
-    "Pinyin": "sòng"
-  },
-  {
-    "ID": 214,
-    "Word": "诉",
-    "Pinyin": "sù"
-  },
-  {
-    "ID": 215,
-    "Word": "岁",
-    "Pinyin": "suì"
-  },
-  {
-    "ID": 216,
-    "Word": "他",
-    "Pinyin": "tā"
-  },
-  {
-    "ID": 217,
-    "Word": "她",
-    "Pinyin": "tā"
-  },
-  {
-    "ID": 218,
-    "Word": "太",
-    "Pinyin": "tài"
-  },
-  {
-    "ID": 219,
-    "Word": "体",
-    "Pinyin": "tǐ"
-  },
-  {
-    "ID": 220,
-    "Word": "天",
-    "Pinyin": "tiān"
-  },
-  {
-    "ID": 221,
-    "Word": "条",
-    "Pinyin": "tiáo"
-  },
-  {
-    "ID": 222,
-    "Word": "听",
-    "Pinyin": "tīng"
-  },
-  {
-    "ID": 223,
-    "Word": "同",
-    "Pinyin": "tóng"
-  },
-  {
-    "ID": 224,
-    "Word": "图",
-    "Pinyin": "tú"
-  },
-  {
-    "ID": 225,
-    "Word": "外",
-    "Pinyin": "wài"
-  },
-  {
-    "ID": 226,
-    "Word": "玩",
-    "Pinyin": "wán"
-  },
-  {
-    "ID": 227,
-    "Word": "晚",
-    "Pinyin": "wǎn"
-  },
-  {
-    "ID": 228,
-    "Word": "网",
-    "Pinyin": "wǎng"
-  },
-  {
-    "ID": 229,
-    "Word": "忘",
-    "Pinyin": "wàng"
-  },
-  {
-    "ID": 230,
-    "Word": "文",
-    "Pinyin": "wén"
-  },
-  {
-    "ID": 231,
-    "Word": "问",
-    "Pinyin": "wèn"
-  },
-  {
-    "ID": 232,
-    "Word": "我",
-    "Pinyin": "wǒ"
-  },
-  {
-    "ID": 233,
-    "Word": "五",
-    "Pinyin": "wǔ"
-  },
-  {
-    "ID": 234,
-    "Word": "午",
-    "Pinyin": "wǔ"
-  },
-  {
-    "ID": 235,
-    "Word": "西",
-    "Pinyin": "xī"
-  },
-  {
-    "ID": 236,
-    "Word": "息",
-    "Pinyin": "xī"
-  },
-  {
-    "ID": 237,
-    "Word": "习",
-    "Pinyin": "xí"
-  },
-  {
-    "ID": 238,
-    "Word": "洗",
-    "Pinyin": "xǐ"
-  },
-  {
-    "ID": 239,
-    "Word": "喜",
-    "Pinyin": "xǐ"
-  },
-  {
-    "ID": 240,
-    "Word": "系",
-    "Pinyin": "jì"
-  },
-  {
-    "ID": 241,
-    "Word": "下",
-    "Pinyin": "xià"
-  },
-  {
-    "ID": 242,
-    "Word": "先",
-    "Pinyin": "xiān"
-  },
-  {
-    "ID": 243,
-    "Word": "现",
-    "Pinyin": "xiàn"
-  },
-  {
-    "ID": 244,
-    "Word": "想",
-    "Pinyin": "xiǎng"
-  },
-  {
-    "ID": 245,
-    "Word": "小",
-    "Pinyin": "xiǎo"
-  },
-  {
-    "ID": 246,
-    "Word": "校",
-    "Pinyin": "xiào"
-  },
-  {
-    "ID": 247,
-    "Word": "笑",
-    "Pinyin": "xiào"
-  },
-  {
-    "ID": 248,
-    "Word": "些",
-    "Pinyin": "xiē"
-  },
-  {
-    "ID": 249,
-    "Word": "写",
-    "Pinyin": "xiě"
-  },
-  {
-    "ID": 250,
-    "Word": "谢",
-    "Pinyin": "xiè"
-  },
-  {
-    "ID": 251,
-    "Word": "新",
-    "Pinyin": "xīn"
-  },
-  {
-    "ID": 252,
-    "Word": "星",
-    "Pinyin": "xīng"
-  },
-  {
-    "ID": 253,
-    "Word": "行",
-    "Pinyin": "xíng"
-  },
-  {
-    "ID": 254,
-    "Word": "兴",
-    "Pinyin": "xīng"
-  },
-  {
-    "ID": 255,
-    "Word": "休",
-    "Pinyin": "xiū"
-  },
-  {
-    "ID": 256,
-    "Word": "学",
-    "Pinyin": "xué"
-  },
-  {
-    "ID": 257,
-    "Word": "样",
-    "Pinyin": "yàng"
-  },
-  {
-    "ID": 258,
-    "Word": "要",
-    "Pinyin": "yào"
-  },
-  {
-    "ID": 259,
-    "Word": "爷",
-    "Pinyin": "yé"
-  },
-  {
-    "ID": 260,
-    "Word": "也",
-    "Pinyin": "yě"
-  },
-  {
-    "ID": 261,
-    "Word": "页",
-    "Pinyin": "yè"
-  },
-  {
-    "ID": 262,
-    "Word": "一",
-    "Pinyin": "yī"
-  },
-  {
-    "ID": 263,
-    "Word": "衣",
-    "Pinyin": "yī"
-  },
-  {
-    "ID": 264,
-    "Word": "医",
-    "Pinyin": "yī"
-  },
-  {
-    "ID": 265,
-    "Word": "影",
-    "Pinyin": "yǐng"
-  },
-  {
-    "ID": 266,
-    "Word": "用",
-    "Pinyin": "yòng"
-  },
-  {
-    "ID": 267,
-    "Word": "友",
-    "Pinyin": "yǒu"
-  },
-  {
-    "ID": 268,
-    "Word": "有",
-    "Pinyin": "yǒu"
-  },
-  {
-    "ID": 269,
-    "Word": "右",
-    "Pinyin": "yòu"
-  },
-  {
-    "ID": 270,
-    "Word": "雨",
-    "Pinyin": "yǔ"
-  },
-  {
-    "ID": 271,
-    "Word": "语",
-    "Pinyin": "yǔ"
-  },
-  {
-    "ID": 272,
-    "Word": "元",
-    "Pinyin": "yuán"
-  },
-  {
-    "ID": 273,
-    "Word": "远",
-    "Pinyin": "yuǎn"
-  },
-  {
-    "ID": 274,
-    "Word": "院",
-    "Pinyin": "yuàn"
-  },
-  {
-    "ID": 275,
-    "Word": "月",
-    "Pinyin": "yuè"
-  },
-  {
-    "ID": 276,
-    "Word": "再",
-    "Pinyin": "zài"
-  },
-  {
-    "ID": 277,
-    "Word": "在",
-    "Pinyin": "zài"
-  },
-  {
-    "ID": 278,
-    "Word": "早",
-    "Pinyin": "zǎo"
-  },
-  {
-    "ID": 279,
-    "Word": "怎",
-    "Pinyin": "zěn"
-  },
-  {
-    "ID": 280,
-    "Word": "站",
-    "Pinyin": "zhàn"
-  },
-  {
-    "ID": 281,
-    "Word": "找",
-    "Pinyin": "zhǎo"
-  },
-  {
-    "ID": 282,
-    "Word": "这",
-    "Pinyin": "zhè"
-  },
-  {
-    "ID": 283,
-    "Word": "着",
-    "Pinyin": "zhe"
-  },
-  {
-    "ID": 284,
-    "Word": "真",
-    "Pinyin": "zhēn"
-  },
-  {
-    "ID": 285,
-    "Word": "正",
-    "Pinyin": "zhèng"
-  },
-  {
-    "ID": 286,
-    "Word": "知",
-    "Pinyin": "zhī"
-  },
-  {
-    "ID": 287,
-    "Word": "中",
-    "Pinyin": "zhōng"
-  },
-  {
-    "ID": 288,
-    "Word": "重",
-    "Pinyin": "zhòng"
-  },
-  {
-    "ID": 289,
-    "Word": "住",
-    "Pinyin": "zhù"
-  },
-  {
-    "ID": 290,
-    "Word": "准",
-    "Pinyin": "zhǔn"
-  },
-  {
-    "ID": 291,
-    "Word": "桌",
-    "Pinyin": "zhuō"
-  },
-  {
-    "ID": 292,
-    "Word": "子",
-    "Pinyin": "zǐ"
-  },
-  {
-    "ID": 293,
-    "Word": "字",
-    "Pinyin": "zì"
-  },
-  {
-    "ID": 294,
-    "Word": "走",
-    "Pinyin": "zǒu"
-  },
-  {
-    "ID": 295,
-    "Word": "最",
-    "Pinyin": "zuì"
-  },
-  {
-    "ID": 296,
-    "Word": "昨",
-    "Pinyin": "zuó"
-  },
-  {
-    "ID": 297,
-    "Word": "左",
-    "Pinyin": "zuǒ"
-  },
-  {
-    "ID": 298,
-    "Word": "作",
-    "Pinyin": "zuò"
-  },
-  {
-    "ID": 299,
-    "Word": "坐",
-    "Pinyin": "zuò"
-  },
-  {
-    "ID": 300,
-    "Word": "做",
-    "Pinyin": "zuò"
+    "ID": 10002,
+    "SimplifiedWord": "八",
+    "TraditionalWord": "八",
+    "Pinyin": "bā",
+    "Translation": "eight",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10003,
+    "SimplifiedWord": "爸",
+    "TraditionalWord": "爸",
+    "Pinyin": "bà",
+    "Translation": "father",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10004,
+    "SimplifiedWord": "吧",
+    "TraditionalWord": "吧",
+    "Pinyin": "ba",
+    "Translation": "[indicates suggestion or response]",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10005,
+    "SimplifiedWord": "白",
+    "TraditionalWord": "白",
+    "Pinyin": "bái",
+    "Translation": "white",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10006,
+    "SimplifiedWord": "百",
+    "TraditionalWord": "百",
+    "Pinyin": "bǎi",
+    "Translation": "hundred",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10007,
+    "SimplifiedWord": "班",
+    "TraditionalWord": "班",
+    "Pinyin": "bān",
+    "Translation": "class",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10008,
+    "SimplifiedWord": "半",
+    "TraditionalWord": "半",
+    "Pinyin": "bàn",
+    "Translation": "half",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10009,
+    "SimplifiedWord": "帮",
+    "TraditionalWord": "幫",
+    "Pinyin": "bāng",
+    "Translation": "help",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10010,
+    "SimplifiedWord": "包",
+    "TraditionalWord": "包",
+    "Pinyin": "bāo",
+    "Translation": "package",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10011,
+    "SimplifiedWord": "杯",
+    "TraditionalWord": "杯",
+    "Pinyin": "bēi",
+    "Translation": "cup",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10012,
+    "SimplifiedWord": "北",
+    "TraditionalWord": "北",
+    "Pinyin": "běi",
+    "Translation": "north",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10013,
+    "SimplifiedWord": "备",
+    "TraditionalWord": "備",
+    "Pinyin": "bèi",
+    "Translation": "prepare",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10014,
+    "SimplifiedWord": "本",
+    "TraditionalWord": "本",
+    "Pinyin": "běn",
+    "Translation": "root / stem",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10015,
+    "SimplifiedWord": "比",
+    "TraditionalWord": "比",
+    "Pinyin": "bǐ",
+    "Translation": "compare / ratio",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10016,
+    "SimplifiedWord": "边",
+    "TraditionalWord": "邊",
+    "Pinyin": "biān",
+    "Translation": "side",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10017,
+    "SimplifiedWord": "别",
+    "TraditionalWord": "別",
+    "Pinyin": "bié",
+    "Translation": "other / goodbye",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10018,
+    "SimplifiedWord": "病",
+    "TraditionalWord": "病",
+    "Pinyin": "bìng",
+    "Translation": "disease / sickness",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10019,
+    "SimplifiedWord": "不",
+    "TraditionalWord": "不",
+    "Pinyin": "bù",
+    "Translation": "no",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10020,
+    "SimplifiedWord": "菜",
+    "TraditionalWord": "菜",
+    "Pinyin": "cài",
+    "Translation": "vegetable / dish",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10021,
+    "SimplifiedWord": "草",
+    "TraditionalWord": "草",
+    "Pinyin": "cǎo",
+    "Translation": "grass",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10022,
+    "SimplifiedWord": "茶",
+    "TraditionalWord": "茶",
+    "Pinyin": "chá",
+    "Translation": "tea",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10023,
+    "SimplifiedWord": "差",
+    "TraditionalWord": "差",
+    "Pinyin": "chà",
+    "Translation": "differ / lacking",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10024,
+    "SimplifiedWord": "常",
+    "TraditionalWord": "常",
+    "Pinyin": "cháng",
+    "Translation": "often",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10025,
+    "SimplifiedWord": "场",
+    "TraditionalWord": "場",
+    "Pinyin": "chǎng",
+    "Translation": "field",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10026,
+    "SimplifiedWord": "唱",
+    "TraditionalWord": "唱",
+    "Pinyin": "chàng",
+    "Translation": "sing",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10027,
+    "SimplifiedWord": "车",
+    "TraditionalWord": "車",
+    "Pinyin": "chē",
+    "Translation": "car",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10028,
+    "SimplifiedWord": "吃",
+    "TraditionalWord": "吃",
+    "Pinyin": "chī",
+    "Translation": "eat",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10029,
+    "SimplifiedWord": "出",
+    "TraditionalWord": "出",
+    "Pinyin": "chū",
+    "Translation": "go out",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10030,
+    "SimplifiedWord": "穿",
+    "TraditionalWord": "穿",
+    "Pinyin": "chuān",
+    "Translation": "wear / put on / try on",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10031,
+    "SimplifiedWord": "床",
+    "TraditionalWord": "床",
+    "Pinyin": "chuáng",
+    "Translation": "bed",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10032,
+    "SimplifiedWord": "次",
+    "TraditionalWord": "次",
+    "Pinyin": "cì",
+    "Translation": "occurance / second",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10033,
+    "SimplifiedWord": "从",
+    "TraditionalWord": "從",
+    "Pinyin": "cóng",
+    "Translation": "from",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10034,
+    "SimplifiedWord": "错",
+    "TraditionalWord": "錯",
+    "Pinyin": "cuò",
+    "Translation": "wrong",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10035,
+    "SimplifiedWord": "答",
+    "TraditionalWord": "答",
+    "Pinyin": "dá",
+    "Translation": "answer",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10036,
+    "SimplifiedWord": "打",
+    "TraditionalWord": "打",
+    "Pinyin": "dǎ",
+    "Translation": "hit",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10037,
+    "SimplifiedWord": "大",
+    "TraditionalWord": "大",
+    "Pinyin": "dà",
+    "Translation": "big",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10038,
+    "SimplifiedWord": "蛋",
+    "TraditionalWord": "蛋",
+    "Pinyin": "dàn",
+    "Translation": "egg",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10039,
+    "SimplifiedWord": "到",
+    "TraditionalWord": "到",
+    "Pinyin": "dào",
+    "Translation": "arrive / to",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10040,
+    "SimplifiedWord": "道",
+    "TraditionalWord": "道",
+    "Pinyin": "dào",
+    "Translation": "path / road / channel",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10041,
+    "SimplifiedWord": "得",
+    "TraditionalWord": "得",
+    "Pinyin": "dé",
+    "Translation": "get",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10042,
+    "SimplifiedWord": "的",
+    "TraditionalWord": "的",
+    "Pinyin": "de",
+    "Translation": "of / belonging to",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10043,
+    "SimplifiedWord": "等",
+    "TraditionalWord": "等",
+    "Pinyin": "děng",
+    "Translation": "wait / etc. (et cetera)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10044,
+    "SimplifiedWord": "地",
+    "TraditionalWord": "地",
+    "Pinyin": "dì",
+    "Translation": "earth / land / floor",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10045,
+    "SimplifiedWord": "弟",
+    "TraditionalWord": "弟",
+    "Pinyin": "dì",
+    "Translation": "younger (brother)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10046,
+    "SimplifiedWord": "第",
+    "TraditionalWord": "第",
+    "Pinyin": "dì",
+    "Translation": "[prefix for a number]",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10047,
+    "SimplifiedWord": "点",
+    "TraditionalWord": "點",
+    "Pinyin": "diǎn",
+    "Translation": "o'clock / point / dot / spot",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10048,
+    "SimplifiedWord": "电",
+    "TraditionalWord": "電",
+    "Pinyin": "diàn",
+    "Translation": "electricity",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10049,
+    "SimplifiedWord": "店",
+    "TraditionalWord": "店",
+    "Pinyin": "diàn",
+    "Translation": "store / shop",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10050,
+    "SimplifiedWord": "东",
+    "TraditionalWord": "東",
+    "Pinyin": "dōng",
+    "Translation": "east",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10051,
+    "SimplifiedWord": "动",
+    "TraditionalWord": "動",
+    "Pinyin": "dòng",
+    "Translation": "move",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10052,
+    "SimplifiedWord": "都",
+    "TraditionalWord": "都",
+    "Pinyin": "dōu",
+    "Translation": "all",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10053,
+    "SimplifiedWord": "读",
+    "TraditionalWord": "讀",
+    "Pinyin": "dú",
+    "Translation": "read",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10054,
+    "SimplifiedWord": "对",
+    "TraditionalWord": "對",
+    "Pinyin": "duì",
+    "Translation": "correct / pair",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10055,
+    "SimplifiedWord": "多",
+    "TraditionalWord": "多",
+    "Pinyin": "duō",
+    "Translation": "many / more",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10056,
+    "SimplifiedWord": "饿",
+    "TraditionalWord": "餓",
+    "Pinyin": "è",
+    "Translation": "hungry",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10057,
+    "SimplifiedWord": "儿",
+    "TraditionalWord": "兒",
+    "Pinyin": "ér",
+    "Translation": "son",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10058,
+    "SimplifiedWord": "二",
+    "TraditionalWord": "二",
+    "Pinyin": "èr",
+    "Translation": "two (time, occurance, number)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10059,
+    "SimplifiedWord": "饭",
+    "TraditionalWord": "飯",
+    "Pinyin": "fàn",
+    "Translation": "food / meal",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10060,
+    "SimplifiedWord": "方",
+    "TraditionalWord": "方",
+    "Pinyin": "fāng",
+    "Translation": "square",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10061,
+    "SimplifiedWord": "房",
+    "TraditionalWord": "房",
+    "Pinyin": "fáng",
+    "Translation": "house / room",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10062,
+    "SimplifiedWord": "放",
+    "TraditionalWord": "放",
+    "Pinyin": "fàng",
+    "Translation": "release",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10063,
+    "SimplifiedWord": "飞",
+    "TraditionalWord": "飛",
+    "Pinyin": "fēi",
+    "Translation": "fly",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10064,
+    "SimplifiedWord": "非",
+    "TraditionalWord": "非",
+    "Pinyin": "fēi",
+    "Translation": "not- / non-",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10065,
+    "SimplifiedWord": "分",
+    "TraditionalWord": "分",
+    "Pinyin": "fēn",
+    "Translation": "minute / part / divide / score",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10066,
+    "SimplifiedWord": "风",
+    "TraditionalWord": "風",
+    "Pinyin": "fēng",
+    "Translation": "wind",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10067,
+    "SimplifiedWord": "服",
+    "TraditionalWord": "服",
+    "Pinyin": "fú",
+    "Translation": "clothes",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10068,
+    "SimplifiedWord": "干",
+    "TraditionalWord": "幹",
+    "Pinyin": "gān",
+    "Translation": "dry",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10069,
+    "SimplifiedWord": "高",
+    "TraditionalWord": "高",
+    "Pinyin": "gāo",
+    "Translation": "high / tall",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10070,
+    "SimplifiedWord": "告",
+    "TraditionalWord": "告",
+    "Pinyin": "gào",
+    "Translation": "tell / inform",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10071,
+    "SimplifiedWord": "哥",
+    "TraditionalWord": "哥",
+    "Pinyin": "gē",
+    "Translation": "older (brother)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10072,
+    "SimplifiedWord": "歌",
+    "TraditionalWord": "歌",
+    "Pinyin": "gē",
+    "Translation": "song",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10073,
+    "SimplifiedWord": "个",
+    "TraditionalWord": "個",
+    "Pinyin": "gè",
+    "Translation": "a / an",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10074,
+    "SimplifiedWord": "给",
+    "TraditionalWord": "給",
+    "Pinyin": "gěi",
+    "Translation": "give",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10075,
+    "SimplifiedWord": "跟",
+    "TraditionalWord": "跟",
+    "Pinyin": "gēn",
+    "Translation": "with",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10076,
+    "SimplifiedWord": "工",
+    "TraditionalWord": "工",
+    "Pinyin": "gōng",
+    "Translation": "work",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10077,
+    "SimplifiedWord": "狗",
+    "TraditionalWord": "狗",
+    "Pinyin": "gǒu",
+    "Translation": "dog",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10078,
+    "SimplifiedWord": "关",
+    "TraditionalWord": "關",
+    "Pinyin": "guān",
+    "Translation": "close / turn off",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10079,
+    "SimplifiedWord": "馆",
+    "TraditionalWord": "館",
+    "Pinyin": "guǎn",
+    "Translation": "building / restaurant",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10080,
+    "SimplifiedWord": "贵",
+    "TraditionalWord": "貴",
+    "Pinyin": "guì",
+    "Translation": "expensive / precious",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10081,
+    "SimplifiedWord": "国",
+    "TraditionalWord": "國",
+    "Pinyin": "guó",
+    "Translation": "country",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10082,
+    "SimplifiedWord": "果",
+    "TraditionalWord": "果",
+    "Pinyin": "guǒ",
+    "Translation": "fruit",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10083,
+    "SimplifiedWord": "过",
+    "TraditionalWord": "過",
+    "Pinyin": "guò",
+    "Translation": "over / pass",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10084,
+    "SimplifiedWord": "还",
+    "TraditionalWord": "還",
+    "Pinyin": "hái",
+    "Translation": "still / also",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10085,
+    "SimplifiedWord": "孩",
+    "TraditionalWord": "孩",
+    "Pinyin": "hái",
+    "Translation": "child",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10086,
+    "SimplifiedWord": "汉",
+    "TraditionalWord": "漢",
+    "Pinyin": "hàn",
+    "Translation": "sweat / Han / Chinese",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10087,
+    "SimplifiedWord": "好",
+    "TraditionalWord": "好",
+    "Pinyin": "hǎo",
+    "Translation": "good",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10088,
+    "SimplifiedWord": "号",
+    "TraditionalWord": "號",
+    "Pinyin": "hào",
+    "Translation": "horn / row",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10089,
+    "SimplifiedWord": "喝",
+    "TraditionalWord": "喝",
+    "Pinyin": "hē",
+    "Translation": "drink",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10090,
+    "SimplifiedWord": "和",
+    "TraditionalWord": "和",
+    "Pinyin": "hé",
+    "Translation": "with / and",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10091,
+    "SimplifiedWord": "黑",
+    "TraditionalWord": "黑",
+    "Pinyin": "hēi",
+    "Translation": "black",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10092,
+    "SimplifiedWord": "很",
+    "TraditionalWord": "很",
+    "Pinyin": "hěn",
+    "Translation": "very",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10093,
+    "SimplifiedWord": "红",
+    "TraditionalWord": "紅",
+    "Pinyin": "hóng",
+    "Translation": "red",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10094,
+    "SimplifiedWord": "后",
+    "TraditionalWord": "後",
+    "Pinyin": "hòu",
+    "Translation": "after / rear",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10095,
+    "SimplifiedWord": "候",
+    "TraditionalWord": "候",
+    "Pinyin": "hòu",
+    "Translation": "wait / await / inquire after",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10096,
+    "SimplifiedWord": "花",
+    "TraditionalWord": "花",
+    "Pinyin": "huā",
+    "Translation": "flower",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10097,
+    "SimplifiedWord": "话",
+    "TraditionalWord": "話",
+    "Pinyin": "huà",
+    "Translation": "talk / word",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10098,
+    "SimplifiedWord": "坏",
+    "TraditionalWord": "壞",
+    "Pinyin": "huài",
+    "Translation": "bad / harmful / spoiled",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10099,
+    "SimplifiedWord": "欢",
+    "TraditionalWord": "歡",
+    "Pinyin": "huān",
+    "Translation": "happy / joy",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10100,
+    "SimplifiedWord": "黄",
+    "TraditionalWord": "黃",
+    "Pinyin": "huáng",
+    "Translation": "yellow",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10101,
+    "SimplifiedWord": "回",
+    "TraditionalWord": "回",
+    "Pinyin": "huí",
+    "Translation": "return / back / turn",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10102,
+    "SimplifiedWord": "会",
+    "TraditionalWord": "會",
+    "Pinyin": "huì",
+    "Translation": "meeting",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10103,
+    "SimplifiedWord": "火",
+    "TraditionalWord": "火",
+    "Pinyin": "huǒ",
+    "Translation": "fire",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10104,
+    "SimplifiedWord": "机",
+    "TraditionalWord": "機",
+    "Pinyin": "jī",
+    "Translation": "machine",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10105,
+    "SimplifiedWord": "鸡",
+    "TraditionalWord": "雞",
+    "Pinyin": "jī",
+    "Translation": "chicken",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10106,
+    "SimplifiedWord": "几",
+    "TraditionalWord": "幾",
+    "Pinyin": "jǐ",
+    "Translation": "several / a few",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10107,
+    "SimplifiedWord": "记",
+    "TraditionalWord": "記",
+    "Pinyin": "jì",
+    "Translation": "remember / write down",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10108,
+    "SimplifiedWord": "家",
+    "TraditionalWord": "家",
+    "Pinyin": "jiā",
+    "Translation": "home / family",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10109,
+    "SimplifiedWord": "假",
+    "TraditionalWord": "假",
+    "Pinyin": "jiǎ",
+    "Translation": "fake / leave of absence",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10110,
+    "SimplifiedWord": "间",
+    "TraditionalWord": "間",
+    "Pinyin": "jiān",
+    "Translation": "between / among / space / time",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10111,
+    "SimplifiedWord": "见",
+    "TraditionalWord": "見",
+    "Pinyin": "jiàn",
+    "Translation": "see / meet",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10112,
+    "SimplifiedWord": "教",
+    "TraditionalWord": "教",
+    "Pinyin": "jiāo",
+    "Translation": "teach",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10113,
+    "SimplifiedWord": "叫",
+    "TraditionalWord": "叫",
+    "Pinyin": "jiào",
+    "Translation": "call / yell",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10114,
+    "SimplifiedWord": "觉",
+    "TraditionalWord": "覺",
+    "Pinyin": "jiào",
+    "Translation": "feel / sense / sleep",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10115,
+    "SimplifiedWord": "姐",
+    "TraditionalWord": "姐",
+    "Pinyin": "jiě",
+    "Translation": "older (sister)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10116,
+    "SimplifiedWord": "介",
+    "TraditionalWord": "介",
+    "Pinyin": "jiè",
+    "Translation": "introduce / between / seashell",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10117,
+    "SimplifiedWord": "今",
+    "TraditionalWord": "今",
+    "Pinyin": "jīn",
+    "Translation": "today / now",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10118,
+    "SimplifiedWord": "进",
+    "TraditionalWord": "進",
+    "Pinyin": "jìn",
+    "Translation": "enter",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10119,
+    "SimplifiedWord": "京",
+    "TraditionalWord": "京",
+    "Pinyin": "jīng",
+    "Translation": "capital",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10120,
+    "SimplifiedWord": "净",
+    "TraditionalWord": "淨",
+    "Pinyin": "jìng",
+    "Translation": "clean / net",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10121,
+    "SimplifiedWord": "九",
+    "TraditionalWord": "九",
+    "Pinyin": "jiǔ",
+    "Translation": "nine",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10122,
+    "SimplifiedWord": "就",
+    "TraditionalWord": "就",
+    "Pinyin": "jiù",
+    "Translation": "only / just",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10123,
+    "SimplifiedWord": "开",
+    "TraditionalWord": "開",
+    "Pinyin": "kāi",
+    "Translation": "open / turn on",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10124,
+    "SimplifiedWord": "看",
+    "TraditionalWord": "看",
+    "Pinyin": "kàn",
+    "Translation": "look / see",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10125,
+    "SimplifiedWord": "考",
+    "TraditionalWord": "考",
+    "Pinyin": "kǎo",
+    "Translation": "test",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10126,
+    "SimplifiedWord": "渴",
+    "TraditionalWord": "渴",
+    "Pinyin": "kě",
+    "Translation": "thirsty",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10127,
+    "SimplifiedWord": "客",
+    "TraditionalWord": "客",
+    "Pinyin": "kè",
+    "Translation": "guest / customer",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10128,
+    "SimplifiedWord": "课",
+    "TraditionalWord": "課",
+    "Pinyin": "kè",
+    "Translation": "class / lesson / course",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10129,
+    "SimplifiedWord": "口",
+    "TraditionalWord": "口",
+    "Pinyin": "kǒu",
+    "Translation": "mouth",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10130,
+    "SimplifiedWord": "块",
+    "TraditionalWord": "塊",
+    "Pinyin": "kuài",
+    "Translation": "piece / block",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10131,
+    "SimplifiedWord": "快",
+    "TraditionalWord": "快",
+    "Pinyin": "kuài",
+    "Translation": "fast / quickly",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10132,
+    "SimplifiedWord": "来",
+    "TraditionalWord": "來",
+    "Pinyin": "lái",
+    "Translation": "come",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10133,
+    "SimplifiedWord": "蓝",
+    "TraditionalWord": "藍",
+    "Pinyin": "lán",
+    "Translation": "blue",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10134,
+    "SimplifiedWord": "老",
+    "TraditionalWord": "老",
+    "Pinyin": "lǎo",
+    "Translation": "old / experienced",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10135,
+    "SimplifiedWord": "了",
+    "TraditionalWord": "了",
+    "Pinyin": "le",
+    "Translation": "already",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10136,
+    "SimplifiedWord": "累",
+    "TraditionalWord": "累",
+    "Pinyin": "lèi",
+    "Translation": "tired",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10137,
+    "SimplifiedWord": "冷",
+    "TraditionalWord": "冷",
+    "Pinyin": "lěng",
+    "Translation": "cold",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10138,
+    "SimplifiedWord": "里",
+    "TraditionalWord": "裏",
+    "Pinyin": "lǐ",
+    "Translation": "place / in",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10139,
+    "SimplifiedWord": "力",
+    "TraditionalWord": "力",
+    "Pinyin": "lì",
+    "Translation": "strength / power / force",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10140,
+    "SimplifiedWord": "两",
+    "TraditionalWord": "兩",
+    "Pinyin": "liǎng",
+    "Translation": "two (of something) / ounce",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10141,
+    "SimplifiedWord": "零",
+    "TraditionalWord": "零",
+    "Pinyin": "líng",
+    "Translation": "zero",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10142,
+    "SimplifiedWord": "六",
+    "TraditionalWord": "六",
+    "Pinyin": "liù",
+    "Translation": "six",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10143,
+    "SimplifiedWord": "龙",
+    "TraditionalWord": "龍",
+    "Pinyin": "lóng",
+    "Translation": "dragon",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10144,
+    "SimplifiedWord": "楼",
+    "TraditionalWord": "樓",
+    "Pinyin": "lóu",
+    "Translation": "building / floor",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10145,
+    "SimplifiedWord": "路",
+    "TraditionalWord": "路",
+    "Pinyin": "lù",
+    "Translation": "road",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10146,
+    "SimplifiedWord": "绿",
+    "TraditionalWord": "綠",
+    "Pinyin": "lǜ",
+    "Translation": "green",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10147,
+    "SimplifiedWord": "妈",
+    "TraditionalWord": "媽",
+    "Pinyin": "mā",
+    "Translation": "mom",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10148,
+    "SimplifiedWord": "马",
+    "TraditionalWord": "馬",
+    "Pinyin": "mǎ",
+    "Translation": "horse",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10149,
+    "SimplifiedWord": "吗",
+    "TraditionalWord": "嗎",
+    "Pinyin": "ma",
+    "Translation": "...is that right? / ...is it?",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10150,
+    "SimplifiedWord": "买",
+    "TraditionalWord": "買",
+    "Pinyin": "mǎi",
+    "Translation": "buy",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10151,
+    "SimplifiedWord": "慢",
+    "TraditionalWord": "慢",
+    "Pinyin": "màn",
+    "Translation": "slow / slowly",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10152,
+    "SimplifiedWord": "忙",
+    "TraditionalWord": "忙",
+    "Pinyin": "máng",
+    "Translation": "busy",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10153,
+    "SimplifiedWord": "猫",
+    "TraditionalWord": "貓",
+    "Pinyin": "māo",
+    "Translation": "cat",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10154,
+    "SimplifiedWord": "毛",
+    "TraditionalWord": "毛",
+    "Pinyin": "máo",
+    "Translation": "hair / feather",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10155,
+    "SimplifiedWord": "么",
+    "TraditionalWord": "麽",
+    "Pinyin": "me",
+    "Translation": "what",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10156,
+    "SimplifiedWord": "没",
+    "TraditionalWord": "沒",
+    "Pinyin": "méi",
+    "Translation": "not / no",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10157,
+    "SimplifiedWord": "妹",
+    "TraditionalWord": "妹",
+    "Pinyin": "mèi",
+    "Translation": "younger (sister)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10158,
+    "SimplifiedWord": "门",
+    "TraditionalWord": "門",
+    "Pinyin": "mén",
+    "Translation": "door / gate",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10159,
+    "SimplifiedWord": "们",
+    "TraditionalWord": "們",
+    "Pinyin": "men",
+    "Translation": "[plural for people]",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10160,
+    "SimplifiedWord": "米",
+    "TraditionalWord": "米",
+    "Pinyin": "mǐ",
+    "Translation": "rice / meter",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10161,
+    "SimplifiedWord": "面",
+    "TraditionalWord": "面",
+    "Pinyin": "miàn",
+    "Translation": "noodle / face / surface",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10162,
+    "SimplifiedWord": "名",
+    "TraditionalWord": "名",
+    "Pinyin": "míng",
+    "Translation": "name",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10163,
+    "SimplifiedWord": "明",
+    "TraditionalWord": "明",
+    "Pinyin": "míng",
+    "Translation": "bright",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10164,
+    "SimplifiedWord": "拿",
+    "TraditionalWord": "拿",
+    "Pinyin": "ná",
+    "Translation": "take",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10165,
+    "SimplifiedWord": "哪",
+    "TraditionalWord": "哪",
+    "Pinyin": "nǎ",
+    "Translation": "where / which",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10166,
+    "SimplifiedWord": "那",
+    "TraditionalWord": "那",
+    "Pinyin": "nà",
+    "Translation": "that",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10167,
+    "SimplifiedWord": "奶",
+    "TraditionalWord": "奶",
+    "Pinyin": "nǎi",
+    "Translation": "milk",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10168,
+    "SimplifiedWord": "男",
+    "TraditionalWord": "男",
+    "Pinyin": "nán",
+    "Translation": "male",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10169,
+    "SimplifiedWord": "南",
+    "TraditionalWord": "南",
+    "Pinyin": "nán",
+    "Translation": "south",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10170,
+    "SimplifiedWord": "难",
+    "TraditionalWord": "難",
+    "Pinyin": "nán",
+    "Translation": "difficult",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10171,
+    "SimplifiedWord": "脑",
+    "TraditionalWord": "腦",
+    "Pinyin": "nǎo",
+    "Translation": "brain",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10172,
+    "SimplifiedWord": "呢",
+    "TraditionalWord": "呢",
+    "Pinyin": "ne",
+    "Translation": "...how about? / ...what about?",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10173,
+    "SimplifiedWord": "能",
+    "TraditionalWord": "能",
+    "Pinyin": "néng",
+    "Translation": "can",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10174,
+    "SimplifiedWord": "你",
+    "TraditionalWord": "你",
+    "Pinyin": "nǐ",
+    "Translation": "you",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10175,
+    "SimplifiedWord": "年",
+    "TraditionalWord": "年",
+    "Pinyin": "nián",
+    "Translation": "year",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10176,
+    "SimplifiedWord": "鸟",
+    "TraditionalWord": "鳥",
+    "Pinyin": "niǎo",
+    "Translation": "bird",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10177,
+    "SimplifiedWord": "您",
+    "TraditionalWord": "您",
+    "Pinyin": "nín",
+    "Translation": "you (formal)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10178,
+    "SimplifiedWord": "牛",
+    "TraditionalWord": "牛",
+    "Pinyin": "niú",
+    "Translation": "cow",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10179,
+    "SimplifiedWord": "女",
+    "TraditionalWord": "女",
+    "Pinyin": "nǚ",
+    "Translation": "female",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10180,
+    "SimplifiedWord": "旁",
+    "TraditionalWord": "旁",
+    "Pinyin": "páng",
+    "Translation": "beside / side",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10181,
+    "SimplifiedWord": "跑",
+    "TraditionalWord": "跑",
+    "Pinyin": "pǎo",
+    "Translation": "run",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10182,
+    "SimplifiedWord": "朋",
+    "TraditionalWord": "朋",
+    "Pinyin": "péng",
+    "Translation": "friend",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10183,
+    "SimplifiedWord": "票",
+    "TraditionalWord": "票",
+    "Pinyin": "piào",
+    "Translation": "ticket",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10184,
+    "SimplifiedWord": "七",
+    "TraditionalWord": "七",
+    "Pinyin": "qī",
+    "Translation": "seven",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10185,
+    "SimplifiedWord": "期",
+    "TraditionalWord": "期",
+    "Pinyin": "qī",
+    "Translation": "period / phase / stage",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10186,
+    "SimplifiedWord": "起",
+    "TraditionalWord": "起",
+    "Pinyin": "qǐ",
+    "Translation": "rise / raise",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10187,
+    "SimplifiedWord": "气",
+    "TraditionalWord": "氣",
+    "Pinyin": "qì",
+    "Translation": "gas / air / angry",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10188,
+    "SimplifiedWord": "汽",
+    "TraditionalWord": "汽",
+    "Pinyin": "qì",
+    "Translation": "steam",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10189,
+    "SimplifiedWord": "前",
+    "TraditionalWord": "前",
+    "Pinyin": "qián",
+    "Translation": "before / former / front",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10190,
+    "SimplifiedWord": "钱",
+    "TraditionalWord": "錢",
+    "Pinyin": "qián",
+    "Translation": "money",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10191,
+    "SimplifiedWord": "请",
+    "TraditionalWord": "請",
+    "Pinyin": "qǐng",
+    "Translation": "please",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10192,
+    "SimplifiedWord": "球",
+    "TraditionalWord": "球",
+    "Pinyin": "qiú",
+    "Translation": "ball",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10193,
+    "SimplifiedWord": "去",
+    "TraditionalWord": "去",
+    "Pinyin": "qù",
+    "Translation": "go",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10194,
+    "SimplifiedWord": "热",
+    "TraditionalWord": "熱",
+    "Pinyin": "rè",
+    "Translation": "hot / heat",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10195,
+    "SimplifiedWord": "人",
+    "TraditionalWord": "人",
+    "Pinyin": "rén",
+    "Translation": "person / people",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10196,
+    "SimplifiedWord": "认",
+    "TraditionalWord": "認",
+    "Pinyin": "rèn",
+    "Translation": "recognize / admit / adopt",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10197,
+    "SimplifiedWord": "日",
+    "TraditionalWord": "日",
+    "Pinyin": "rì",
+    "Translation": "day / sun",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10198,
+    "SimplifiedWord": "肉",
+    "TraditionalWord": "肉",
+    "Pinyin": "ròu",
+    "Translation": "meat",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10199,
+    "SimplifiedWord": "三",
+    "TraditionalWord": "三",
+    "Pinyin": "sān",
+    "Translation": "three",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10200,
+    "SimplifiedWord": "山",
+    "TraditionalWord": "山",
+    "Pinyin": "shān",
+    "Translation": "mountain",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10201,
+    "SimplifiedWord": "商",
+    "TraditionalWord": "商",
+    "Pinyin": "shāng",
+    "Translation": "business / commerce",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10202,
+    "SimplifiedWord": "上",
+    "TraditionalWord": "上",
+    "Pinyin": "shàng",
+    "Translation": "on / above",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10203,
+    "SimplifiedWord": "少",
+    "TraditionalWord": "少",
+    "Pinyin": "shǎo",
+    "Translation": "less / few",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10204,
+    "SimplifiedWord": "绍",
+    "TraditionalWord": "紹",
+    "Pinyin": "shào",
+    "Translation": "introduce",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10205,
+    "SimplifiedWord": "身",
+    "TraditionalWord": "身",
+    "Pinyin": "shēn",
+    "Translation": "body",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10206,
+    "SimplifiedWord": "什",
+    "TraditionalWord": "什",
+    "Pinyin": "shén",
+    "Translation": "what",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10207,
+    "SimplifiedWord": "生",
+    "TraditionalWord": "生",
+    "Pinyin": "shēng",
+    "Translation": "give birth / not fluent / not familiar",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10208,
+    "SimplifiedWord": "师",
+    "TraditionalWord": "師",
+    "Pinyin": "shī",
+    "Translation": "teacher",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10209,
+    "SimplifiedWord": "十",
+    "TraditionalWord": "十",
+    "Pinyin": "shí",
+    "Translation": "ten",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10210,
+    "SimplifiedWord": "时",
+    "TraditionalWord": "時",
+    "Pinyin": "shí",
+    "Translation": "time",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10211,
+    "SimplifiedWord": "识",
+    "TraditionalWord": "識",
+    "Pinyin": "shí",
+    "Translation": "knowledge / know",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10212,
+    "SimplifiedWord": "事",
+    "TraditionalWord": "事",
+    "Pinyin": "shì",
+    "Translation": "thing / affair / matter",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10213,
+    "SimplifiedWord": "试",
+    "TraditionalWord": "試",
+    "Pinyin": "shì",
+    "Translation": "try / test",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10214,
+    "SimplifiedWord": "视",
+    "TraditionalWord": "視",
+    "Pinyin": "shì",
+    "Translation": "look upon",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10215,
+    "SimplifiedWord": "是",
+    "TraditionalWord": "是",
+    "Pinyin": "shì",
+    "Translation": "yes",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10216,
+    "SimplifiedWord": "手",
+    "TraditionalWord": "手",
+    "Pinyin": "shǒu",
+    "Translation": "hand",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10217,
+    "SimplifiedWord": "书",
+    "TraditionalWord": "書",
+    "Pinyin": "shū",
+    "Translation": "book",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10218,
+    "SimplifiedWord": "树",
+    "TraditionalWord": "樹",
+    "Pinyin": "shù",
+    "Translation": "tree",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10219,
+    "SimplifiedWord": "谁",
+    "TraditionalWord": "誰",
+    "Pinyin": "shéi",
+    "Translation": "who",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10220,
+    "SimplifiedWord": "水",
+    "TraditionalWord": "水",
+    "Pinyin": "shuǐ",
+    "Translation": "water",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10221,
+    "SimplifiedWord": "睡",
+    "TraditionalWord": "睡",
+    "Pinyin": "shuì",
+    "Translation": "sleep",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10222,
+    "SimplifiedWord": "说",
+    "TraditionalWord": "說",
+    "Pinyin": "shuō",
+    "Translation": "say / speak",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10223,
+    "SimplifiedWord": "四",
+    "TraditionalWord": "四",
+    "Pinyin": "sì",
+    "Translation": "four",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10224,
+    "SimplifiedWord": "送",
+    "TraditionalWord": "送",
+    "Pinyin": "sòng",
+    "Translation": "send / give away",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10225,
+    "SimplifiedWord": "诉",
+    "TraditionalWord": "訴",
+    "Pinyin": "sù",
+    "Translation": "complain / accuse / sue",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10226,
+    "SimplifiedWord": "岁",
+    "TraditionalWord": "歲",
+    "Pinyin": "suì",
+    "Translation": "age",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10227,
+    "SimplifiedWord": "他",
+    "TraditionalWord": "他",
+    "Pinyin": "tā",
+    "Translation": "he / him",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10228,
+    "SimplifiedWord": "她",
+    "TraditionalWord": "她",
+    "Pinyin": "tā",
+    "Translation": "she / her",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10229,
+    "SimplifiedWord": "它",
+    "TraditionalWord": "它",
+    "Pinyin": "tā",
+    "Translation": "it",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10230,
+    "SimplifiedWord": "太",
+    "TraditionalWord": "太",
+    "Pinyin": "tài",
+    "Translation": "too (much)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10231,
+    "SimplifiedWord": "体",
+    "TraditionalWord": "體",
+    "Pinyin": "tǐ",
+    "Translation": "body / part of the body",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10232,
+    "SimplifiedWord": "天",
+    "TraditionalWord": "天",
+    "Pinyin": "tiān",
+    "Translation": "day / sky",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10233,
+    "SimplifiedWord": "条",
+    "TraditionalWord": "條",
+    "Pinyin": "tiáo",
+    "Translation": "[measure word for long things]",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10234,
+    "SimplifiedWord": "听",
+    "TraditionalWord": "聽",
+    "Pinyin": "tīng",
+    "Translation": "listen / hear",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10235,
+    "SimplifiedWord": "同",
+    "TraditionalWord": "同",
+    "Pinyin": "tóng",
+    "Translation": "same / similar / with",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10236,
+    "SimplifiedWord": "图",
+    "TraditionalWord": "圖",
+    "Pinyin": "tú",
+    "Translation": "diagram / picture / figure",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10237,
+    "SimplifiedWord": "外",
+    "TraditionalWord": "外",
+    "Pinyin": "wài",
+    "Translation": "outside / outer",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10238,
+    "SimplifiedWord": "玩",
+    "TraditionalWord": "玩",
+    "Pinyin": "wán",
+    "Translation": "play",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10239,
+    "SimplifiedWord": "晚",
+    "TraditionalWord": "晚",
+    "Pinyin": "wǎn",
+    "Translation": "evening / late / night",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10240,
+    "SimplifiedWord": "网",
+    "TraditionalWord": "網",
+    "Pinyin": "wǎng",
+    "Translation": "network / net / web",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10241,
+    "SimplifiedWord": "忘",
+    "TraditionalWord": "忘",
+    "Pinyin": "wàng",
+    "Translation": "forget",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10242,
+    "SimplifiedWord": "文",
+    "TraditionalWord": "文",
+    "Pinyin": "wén",
+    "Translation": "text / writing / article",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10243,
+    "SimplifiedWord": "问",
+    "TraditionalWord": "問",
+    "Pinyin": "wèn",
+    "Translation": "ask",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10244,
+    "SimplifiedWord": "我",
+    "TraditionalWord": "我",
+    "Pinyin": "wǒ",
+    "Translation": "I / me",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10245,
+    "SimplifiedWord": "五",
+    "TraditionalWord": "五",
+    "Pinyin": "wǔ",
+    "Translation": "five",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10246,
+    "SimplifiedWord": "午",
+    "TraditionalWord": "午",
+    "Pinyin": "wǔ",
+    "Translation": "noon / afternoon",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10247,
+    "SimplifiedWord": "西",
+    "TraditionalWord": "西",
+    "Pinyin": "xī",
+    "Translation": "west",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10248,
+    "SimplifiedWord": "息",
+    "TraditionalWord": "息",
+    "Pinyin": "xī",
+    "Translation": "rest / catch your breath / cease",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10249,
+    "SimplifiedWord": "习",
+    "TraditionalWord": "習",
+    "Pinyin": "xí",
+    "Translation": "practice / learn / custom",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10250,
+    "SimplifiedWord": "洗",
+    "TraditionalWord": "洗",
+    "Pinyin": "xǐ",
+    "Translation": "wash",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10251,
+    "SimplifiedWord": "喜",
+    "TraditionalWord": "喜",
+    "Pinyin": "xǐ",
+    "Translation": "happy / fond of",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10252,
+    "SimplifiedWord": "心",
+    "TraditionalWord": "心",
+    "Pinyin": "xīn",
+    "Translation": "heart",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10253,
+    "SimplifiedWord": "系",
+    "TraditionalWord": "系",
+    "Pinyin": "xì",
+    "Translation": "system",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10254,
+    "SimplifiedWord": "下",
+    "TraditionalWord": "下",
+    "Pinyin": "xià",
+    "Translation": "under / next / lower",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10255,
+    "SimplifiedWord": "先",
+    "TraditionalWord": "先",
+    "Pinyin": "xiān",
+    "Translation": "first / elder / former",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10256,
+    "SimplifiedWord": "现",
+    "TraditionalWord": "現",
+    "Pinyin": "xiàn",
+    "Translation": "present / appear",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10257,
+    "SimplifiedWord": "想",
+    "TraditionalWord": "想",
+    "Pinyin": "xiǎng",
+    "Translation": "miss / think / think about",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10258,
+    "SimplifiedWord": "小",
+    "TraditionalWord": "小",
+    "Pinyin": "xiǎo",
+    "Translation": "small",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10259,
+    "SimplifiedWord": "校",
+    "TraditionalWord": "校",
+    "Pinyin": "xiào",
+    "Translation": "school",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10260,
+    "SimplifiedWord": "笑",
+    "TraditionalWord": "笑",
+    "Pinyin": "xiào",
+    "Translation": "laugh / smile / laugh at",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10261,
+    "SimplifiedWord": "些",
+    "TraditionalWord": "些",
+    "Pinyin": "xiē",
+    "Translation": "some",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10262,
+    "SimplifiedWord": "写",
+    "TraditionalWord": "寫",
+    "Pinyin": "xiě",
+    "Translation": "write",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10263,
+    "SimplifiedWord": "谢",
+    "TraditionalWord": "謝",
+    "Pinyin": "xiè",
+    "Translation": "thank",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10264,
+    "SimplifiedWord": "新",
+    "TraditionalWord": "新",
+    "Pinyin": "xīn",
+    "Translation": "new",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10265,
+    "SimplifiedWord": "星",
+    "TraditionalWord": "星",
+    "Pinyin": "xīng",
+    "Translation": "star",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10266,
+    "SimplifiedWord": "行",
+    "TraditionalWord": "行",
+    "Pinyin": "xíng",
+    "Translation": "row / conduct",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10267,
+    "SimplifiedWord": "兴",
+    "TraditionalWord": "興",
+    "Pinyin": "xīng",
+    "Translation": "prosper",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10268,
+    "SimplifiedWord": "姓",
+    "TraditionalWord": "姓",
+    "Pinyin": "xìng",
+    "Translation": "surname",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10269,
+    "SimplifiedWord": "休",
+    "TraditionalWord": "休",
+    "Pinyin": "xiū",
+    "Translation": "rest / stop",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10270,
+    "SimplifiedWord": "学",
+    "TraditionalWord": "學",
+    "Pinyin": "xué",
+    "Translation": "learn / study",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10271,
+    "SimplifiedWord": "雪",
+    "TraditionalWord": "雪",
+    "Pinyin": "xuě",
+    "Translation": "snow",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10272,
+    "SimplifiedWord": "样",
+    "TraditionalWord": "樣",
+    "Pinyin": "yàng",
+    "Translation": "shape / pattern / manner",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10273,
+    "SimplifiedWord": "要",
+    "TraditionalWord": "要",
+    "Pinyin": "yào",
+    "Translation": "want",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10274,
+    "SimplifiedWord": "爷",
+    "TraditionalWord": "爺",
+    "Pinyin": "yé",
+    "Translation": "grandfather",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10275,
+    "SimplifiedWord": "也",
+    "TraditionalWord": "也",
+    "Pinyin": "yě",
+    "Translation": "also",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10276,
+    "SimplifiedWord": "页",
+    "TraditionalWord": "頁",
+    "Pinyin": "yè",
+    "Translation": "page",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10277,
+    "SimplifiedWord": "一",
+    "TraditionalWord": "一",
+    "Pinyin": "yī",
+    "Translation": "one",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10278,
+    "SimplifiedWord": "衣",
+    "TraditionalWord": "衣",
+    "Pinyin": "yī",
+    "Translation": "clothing / clothes",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10279,
+    "SimplifiedWord": "医",
+    "TraditionalWord": "醫",
+    "Pinyin": "yī",
+    "Translation": "medicine / medical",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10280,
+    "SimplifiedWord": "影",
+    "TraditionalWord": "影",
+    "Pinyin": "yǐng",
+    "Translation": "shadow / image",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10281,
+    "SimplifiedWord": "用",
+    "TraditionalWord": "用",
+    "Pinyin": "yòng",
+    "Translation": "use",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10282,
+    "SimplifiedWord": "友",
+    "TraditionalWord": "友",
+    "Pinyin": "yǒu",
+    "Translation": "friend",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10283,
+    "SimplifiedWord": "有",
+    "TraditionalWord": "有",
+    "Pinyin": "yǒu",
+    "Translation": "have",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10284,
+    "SimplifiedWord": "右",
+    "TraditionalWord": "右",
+    "Pinyin": "yòu",
+    "Translation": "right",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10285,
+    "SimplifiedWord": "鱼",
+    "TraditionalWord": "魚",
+    "Pinyin": "yú",
+    "Translation": "fish",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10286,
+    "SimplifiedWord": "雨",
+    "TraditionalWord": "雨",
+    "Pinyin": "yǔ",
+    "Translation": "rain",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10287,
+    "SimplifiedWord": "语",
+    "TraditionalWord": "語",
+    "Pinyin": "yǔ",
+    "Translation": "language",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10288,
+    "SimplifiedWord": "元",
+    "TraditionalWord": "元",
+    "Pinyin": "yuán",
+    "Translation": "yuan (Chinese money)",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10289,
+    "SimplifiedWord": "远",
+    "TraditionalWord": "遠",
+    "Pinyin": "yuǎn",
+    "Translation": "far",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10290,
+    "SimplifiedWord": "院",
+    "TraditionalWord": "院",
+    "Pinyin": "yuàn",
+    "Translation": "yard / courtyard / compound",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10291,
+    "SimplifiedWord": "云",
+    "TraditionalWord": "雲",
+    "Pinyin": "yún",
+    "Translation": "cloud",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10292,
+    "SimplifiedWord": "月",
+    "TraditionalWord": "月",
+    "Pinyin": "yuè",
+    "Translation": "month / moon",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10293,
+    "SimplifiedWord": "再",
+    "TraditionalWord": "再",
+    "Pinyin": "zài",
+    "Translation": "again",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10294,
+    "SimplifiedWord": "在",
+    "TraditionalWord": "在",
+    "Pinyin": "zài",
+    "Translation": "in / at / stay",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10295,
+    "SimplifiedWord": "早",
+    "TraditionalWord": "早",
+    "Pinyin": "zǎo",
+    "Translation": "early / good morning",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10296,
+    "SimplifiedWord": "怎",
+    "TraditionalWord": "怎",
+    "Pinyin": "zěn",
+    "Translation": "how",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10297,
+    "SimplifiedWord": "站",
+    "TraditionalWord": "站",
+    "Pinyin": "zhàn",
+    "Translation": "station / stand",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10298,
+    "SimplifiedWord": "找",
+    "TraditionalWord": "找",
+    "Pinyin": "zhǎo",
+    "Translation": "look for / search",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10299,
+    "SimplifiedWord": "这",
+    "TraditionalWord": "這",
+    "Pinyin": "zhè",
+    "Translation": "this",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10300,
+    "SimplifiedWord": "着",
+    "TraditionalWord": "著",
+    "Pinyin": "zhe",
+    "Translation": "[indicates ongoing or in progress]",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10301,
+    "SimplifiedWord": "真",
+    "TraditionalWord": "真",
+    "Pinyin": "zhēn",
+    "Translation": "real / authentic",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10302,
+    "SimplifiedWord": "正",
+    "TraditionalWord": "正",
+    "Pinyin": "zhèng",
+    "Translation": "straighten / correct",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10303,
+    "SimplifiedWord": "知",
+    "TraditionalWord": "知",
+    "Pinyin": "zhī",
+    "Translation": "know",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10304,
+    "SimplifiedWord": "中",
+    "TraditionalWord": "中",
+    "Pinyin": "zhōng",
+    "Translation": "middle / in",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10305,
+    "SimplifiedWord": "重",
+    "TraditionalWord": "重",
+    "Pinyin": "zhòng",
+    "Translation": "heavy / weight",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10306,
+    "SimplifiedWord": "住",
+    "TraditionalWord": "住",
+    "Pinyin": "zhù",
+    "Translation": "live / dwelling",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10307,
+    "SimplifiedWord": "准",
+    "TraditionalWord": "准",
+    "Pinyin": "zhǔn",
+    "Translation": "accurate / allow / approved / quasi-",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10308,
+    "SimplifiedWord": "桌",
+    "TraditionalWord": "桌",
+    "Pinyin": "zhuō",
+    "Translation": "table",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10309,
+    "SimplifiedWord": "子",
+    "TraditionalWord": "子",
+    "Pinyin": "zǐ",
+    "Translation": "egg",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10310,
+    "SimplifiedWord": "字",
+    "TraditionalWord": "字",
+    "Pinyin": "zì",
+    "Translation": "word / character",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10311,
+    "SimplifiedWord": "走",
+    "TraditionalWord": "走",
+    "Pinyin": "zǒu",
+    "Translation": "walk / go",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10312,
+    "SimplifiedWord": "最",
+    "TraditionalWord": "最",
+    "Pinyin": "zuì",
+    "Translation": "most",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10313,
+    "SimplifiedWord": "昨",
+    "TraditionalWord": "昨",
+    "Pinyin": "zuó",
+    "Translation": "yesterday",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10314,
+    "SimplifiedWord": "左",
+    "TraditionalWord": "左",
+    "Pinyin": "zuǒ",
+    "Translation": "left",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10315,
+    "SimplifiedWord": "作",
+    "TraditionalWord": "作",
+    "Pinyin": "zuò",
+    "Translation": "work",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10316,
+    "SimplifiedWord": "坐",
+    "TraditionalWord": "坐",
+    "Pinyin": "zuò",
+    "Translation": "sit",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
+  },
+  {
+    "ID": 10317,
+    "SimplifiedWord": "做",
+    "TraditionalWord": "做",
+    "Pinyin": "zuò",
+    "Translation": "do / make",
+    "MaleAudio": "",
+    "FemaleAudio": "",
+    "IncorrectWords": ""
   }
 ]

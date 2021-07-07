@@ -96,6 +96,33 @@ const audioSchema = new mongoose.Schema({
   },
 });
 
+const scoreSchema = new mongoose.Schema({
+  id: {
+    type: Number,
+    index: true,
+  },
+  user_id: {
+    type: Number,
+    index: true,
+  },
+  name: {
+    type: String,
+  },
+  score: {
+    type: Number,
+  },
+  totalResponses: {
+    type: Number,
+  },
+  correctResponses: {
+    type: Number,
+  },
+  accuracy: {
+    type: Number,
+  },
+});
+
 module.exports.correctWord = correctWordSchema;
 module.exports.incorrectWord = incorrectWordSchema;
 module.exports.audio = audioSchema;
+module.exports.score = scoreSchema;

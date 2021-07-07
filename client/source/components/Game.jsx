@@ -10,7 +10,12 @@ const Game = (props) => {
     const renderer = ({ minutes, seconds, completed }) => {
       if (completed) {
         // Render a completed state
-        return <GameResults />;
+        return (
+          <div>
+            <GameResults />
+            <button onClick={(e) => setClicked(false)}>Go Home</button>
+          </div>
+        );
       } else {
         // Render a countdown
         return (
@@ -23,17 +28,7 @@ const Game = (props) => {
         );
       }
     };
-    return <Countdown date={Date.now() + 100000} renderer={renderer} />;
-    // return (
-    //   <>
-    //     <div className="countdown">
-    //       <Countdown date={Date.now() + 10000}>
-    //         <Completionist />
-    //       </Countdown>
-    //     </div>
-    //     <Gameplay />
-    //   </>
-    // );
+    return <Countdown date={Date.now() + 5000} renderer={renderer} />;
   } else {
     return (
       <div className="game">

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-const Gameplay = (props) => {
+const GameResults = (props) => {
   return (
-    <div className="gameplay">
+    <div className="game">
       <p>Your final score!</p>
     </div>
   );
 };
 
-export default Gameplay;
+export default GameResults;

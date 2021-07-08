@@ -38,6 +38,20 @@ h3 {
   margin-right: auto;
 }
 
+.choices {
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+.choice {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 80px;
+  height: 40px;
+  font-size: 24px;
+}
+
 .countdown {
   font-size: 36px;
 }

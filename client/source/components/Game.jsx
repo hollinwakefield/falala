@@ -1,12 +1,29 @@
 import React, { useState, useEffect } from "react";
 import Countdown from "react-countdown";
+import axios from "axios";
 import Gameplay from "./Gameplay.jsx";
 import GameResults from "./GameResults.jsx";
 
 const Game = (props) => {
   const [clicked, setClicked] = useState(false);
+  const [wordList, setWordList] = useState([]);
+  const [score, setScore] = useState(0);
+
+  useEffect(() => {
+    // Update the document title using the browser API
+    async function getWordList() {
+      try {
+        const response = await axios.get("/beginnerWordList");
+        console.log(response);
+        setWordList(response);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  });
 
   if (clicked === true) {
+    console.log(score);
     const renderer = ({ minutes, seconds, completed }) => {
       if (completed) {
         // Render a completed state

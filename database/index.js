@@ -1,16 +1,19 @@
+require("./schemas.js");
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/beginnerWordList", {
-  useNewUrlParser: true,
-});
+const BeginnerWord = require("./schemas.js");
+
+mongoose
+  .connect("mongodb://localhost:27017/putonghua", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log("yay, mongoose connected successfully");
+  })
+  .catch((error) => {
+    console.log("oh no, mongoose.connect caught an error", error);
+  });
 
 const db = mongoose.connection;
-
-db.on("error", (err) => {
-  console.log("mongoose connection error");
-});
-
-db.once("open", () => {
-  console.log("mongoose connected successfully");
-});
 
 module.exports = db;

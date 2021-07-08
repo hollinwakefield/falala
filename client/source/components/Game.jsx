@@ -10,23 +10,20 @@ const Game = (props) => {
   const [score, setScore] = useState(0);
 
   useEffect(() => {
-    // Update the document title using the browser API
-    async function getWordList() {
-      try {
-        const response = await axios.get("/beginnerWordList");
+    axios
+      .get("/beginnerWordList")
+      .then((response) => {
         console.log(response);
-        setWordList(response);
-      } catch (error) {
-        console.error(error);
-      }
-    }
+      })
+      .catch((error) => {
+        console.log("hi, you received an error", error);
+      });
   });
 
   if (clicked === true) {
     console.log(score);
     const renderer = ({ minutes, seconds, completed }) => {
       if (completed) {
-        // Render a completed state
         return (
           <div className="gameresults">
             <GameResults />
@@ -36,7 +33,6 @@ const Game = (props) => {
           </div>
         );
       } else {
-        // Render a countdown
         return (
           <div className="gameplay">
             <span className="countdown">
@@ -47,7 +43,7 @@ const Game = (props) => {
         );
       }
     };
-    return <Countdown date={Date.now() + 5000} renderer={renderer} />;
+    return <Countdown date={Date.now() + 3000} renderer={renderer} />;
   } else {
     return (
       <div className="game">

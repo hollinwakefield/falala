@@ -6,7 +6,9 @@ import LeaderboardItem from "./LeaderboardItem.jsx";
 const LeaderboardList = (props) => {
   return (
     <table>
-      <LeaderboardItem />
+      <tbody>
+        <LeaderboardItem />
+      </tbody>
     </table>
   );
 };

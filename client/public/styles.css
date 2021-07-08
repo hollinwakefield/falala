@@ -38,6 +38,28 @@ h3 {
   margin-right: auto;
 }
 
+.timer {
+  font-size: 36px;
+}
+
+.timer-div {
+  width: 52px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question {
+  font-size: 36px;
+}
+
+.question-div {
+  width: 52px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .choices {
   display: flex;
   max-width: 600px;
@@ -49,13 +71,9 @@ h3 {
 .choice {
   border: 2px solid black;
   border-radius: 10px;
-  width: 80px;
-  height: 40px;
-  font-size: 24px;
-}
-
-.countdown {
-  font-size: 36px;
+  width: 100px;
+  height: 75px;
+  font-size: 30px;
 }
 
 .leaderboard {

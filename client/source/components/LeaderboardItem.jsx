@@ -4,13 +4,13 @@ const LeaderboardItem = (props) => {
   return (
     <tr className="leaderboardItem">
       <td>
-        <h5>Name</h5>
+        <span>Name</span>
       </td>
       <td>
-        <p>Accuracy</p>
+        <span>Accuracy</span>
       </td>
       <td>
-        <p>Score</p>
+        <span>Score</span>
       </td>
     </tr>
   );

@@ -30,7 +30,7 @@ const Gameplay = (props) => {
           className="choice"
           onClick={() => console.log("You selected the neutral tone.")}
         >
-          5 <br></br>x
+          5 <br></br>
         </div>
       </div>
     </div>

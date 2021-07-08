@@ -42,6 +42,8 @@ h3 {
   display: flex;
   max-width: 600px;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .choice {

@@ -3,8 +3,6 @@ import Game from "./Game.jsx";
 import Leaderboard from "./Leaderboard.jsx";
 
 const App = (props) => {
-  const [username, setUsername] = useState("");
-
   return (
     <div className="body">
       <div className="header">
@@ -12,11 +10,8 @@ const App = (props) => {
         <h2>普通话</h2>
       </div>
       <div className="app">
-        <Game username={username} onChange={(value) => setUsername(value)} />
-        <Leaderboard
-          username={username}
-          onChange={(value) => setUsername(value)}
-        />
+        <Game />
+        <Leaderboard />
       </div>
     </div>
   );

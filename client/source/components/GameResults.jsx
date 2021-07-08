@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 const GameResults = (props) => {
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [username, setUsername] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(username);
-    props.onChange(event.target.value);
     setFormSubmitted(true);
   };
 
@@ -14,7 +14,7 @@ const GameResults = (props) => {
     return (
       <div className="game">
         <h3>Your final score!</h3>
-        Thanks for playing, {props.username}! Want to play again?
+        Thanks for playing, {username}! Want to play again?
       </div>
     );
   } else {
@@ -24,7 +24,12 @@ const GameResults = (props) => {
         <form onSubmit={handleSubmit}>
           <label>
             Enter your name to save your score: <br></br>
-            <input type="text" required="required" value="username"></input>
+            <input
+              type="text"
+              required="required"
+              value={username}
+              onChange={(event) => setUsername(event.target.value)}
+            ></input>
           </label>
           <button>Save Score</button>
         </form>

@@ -32,7 +32,18 @@ const Game = (props) => {
       );
     } else {
       return (
-        <GameResults username={props.username} onChange={props.onChange} />
+        <div className="gameresults">
+          <GameResults />
+          <button
+            onClick={(e) => {
+              setGameStarted(false);
+              setTimer(5);
+            }}
+            className="button"
+          >
+            Go Home
+          </button>
+        </div>
       );
     }
   } else {

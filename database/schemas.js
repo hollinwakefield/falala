@@ -126,8 +126,10 @@ const scoreSchema = new mongoose.Schema({
 });
 
 const BeginnerWord = mongoose.model("Beginnerword", correctWordSchema);
+const Score = mongoose.model("Score", scoreSchema);
 
 module.exports = BeginnerWord;
+module.exports = Score;
 // module.exports.incorrectWord = incorrectWordSchema;
 // module.exports.audio = audioSchema;
 // module.exports.score = scoreSchema;

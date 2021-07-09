@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import randomizeWords from "../helpers/randomizeWords.js";
+// import audioIcon from "../../public/audio-icon.png";
 
 const Gameplay = (props) => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -11,10 +12,21 @@ const Gameplay = (props) => {
     translation: "",
   });
 
+  const getRandomIndex = Math.floor(Math.random() * props.wordList.length);
+
+  let audio = new Audio(
+    "https://putonghua.s3.amazonaws.com/Female-A-1.0/%E4%B8%A4-1.0-CN-Female-A-139.mp3"
+  );
+
+  const playAudio = () => {
+    audio.play();
+  };
+
   useEffect(() => {
     if (!wordList[0]) {
-      setCurrentWordIndex(Math.floor(Math.random() * props.wordList.length));
+      setCurrentWordIndex(getRandomIndex);
       setWordList(props.wordList);
+      audio.play();
     }
   });
 
@@ -30,17 +42,17 @@ const Gameplay = (props) => {
       pinyin: wordList[currentWordIndex].pinyin,
       translation: wordList[currentWordIndex].translation,
     });
-    console.log(
-      wordList[Math.floor(Math.random() * wordList.length)].firstSyllableTone
-    );
+    props.getAccuracyBonus();
+    props.getTotalScore();
     setQuestionStatus("answer");
   };
 
   const continueGame = (event) => {
     props.getAccuracyBonus();
     props.getTotalScore();
-    setCurrentWordIndex(Math.floor(Math.random() * wordList.length));
+    setCurrentWordIndex(getRandomIndex);
     setQuestionStatus("question");
+    audio.play();
   };
 
   if (!wordList[0]) {
@@ -52,6 +64,11 @@ const Gameplay = (props) => {
           <span className="current-score">{props.score} points</span>
         </div>
         <div className="question-div">
+          <img
+            src="./audio-icon.png"
+            className="audio-icon"
+            onClick={playAudio}
+          ></img>
           <span className="question">
             {wordList[currentWordIndex].simplifiedword}
           </span>
@@ -80,12 +97,18 @@ const Gameplay = (props) => {
       <div className="last-question">
         <div className="last-question-info">
           <h1>Correct response:</h1>
+          <img
+            src="./audio-icon.png"
+            className="audio-icon"
+            onClick={playAudio}
+          ></img>
+          <br></br>
           <br></br>
           <h3>{lastQuestion.word}</h3>
           <br></br>
           <h3>{lastQuestion.pinyin}</h3>
           <br></br>
-          <h3>{lastQuestion.translation}</h3>
+          <h3>English: {lastQuestion.translation}</h3>
         </div>
         <button className="button" onClick={() => continueGame(event)}>
           Continue

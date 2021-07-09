@@ -27,6 +27,10 @@ h3 {
   display: flex;
 }
 
+.header {
+  display: flex;
+}
+
 .game {
   display: flex;
   margin-top: 100px;
@@ -55,6 +59,10 @@ h3 {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.audio-icon {
+  width: 50px;
 }
 
 .game-header {
@@ -166,4 +174,19 @@ h3 {
 
 .load-screen {
   margin-top: 10000px;
+}
+
+.tone-examples {
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
+
+.tone-chart {
+  max-width: 800px;
+  width: 70%;
 }

@@ -14,9 +14,9 @@ const LeaderboardItem = (props) => {
   if (loaded === true) {
     return (
       <tr className="leaderboardItem">
-        {/* <td>
-          <span>Rank</span>
-        </td> */}
+        <td>
+          <span>{props.rank}</span>
+        </td>
         <td>
           <span>{props.score.name}</span>
         </td>
@@ -24,7 +24,7 @@ const LeaderboardItem = (props) => {
           <span>{props.score.accuracy}</span>
         </td>
         <td>
-          <span>{props.score.score} points</span>
+          <span>{props.score.totalScore} points</span>
         </td>
       </tr>
     );

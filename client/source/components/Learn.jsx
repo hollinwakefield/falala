@@ -53,7 +53,9 @@ const Learn = (props) => {
             className="audio-icon"
             onClick={playAudio1}
           ></img>
-          <br></br>妈<br></br>
+          <br></br>
+          <p className="hanzi">妈</p>
+          <br></br>
           mā
           <br></br>
           mom
@@ -66,7 +68,9 @@ const Learn = (props) => {
             className="audio-icon"
             onClick={playAudio2}
           ></img>
-          <br></br>麻<br></br>
+          <br></br>
+          <p className="hanzi">麻</p>
+          <br></br>
           má
           <br></br>
           numb / hemp
@@ -79,7 +83,9 @@ const Learn = (props) => {
             className="audio-icon"
             onClick={playAudio3}
           ></img>
-          <br></br>马<br></br>
+          <br></br>
+          <p className="hanzi">马</p>
+          <br></br>
           mǎ
           <br></br>
           horse
@@ -92,7 +98,9 @@ const Learn = (props) => {
             className="audio-icon"
             onClick={playAudio4}
           ></img>
-          <br></br>骂<br></br>
+          <br></br>
+          <p className="hanzi">骂</p>
+          <br></br>
           mà
           <br></br>
           scold / curse / abuse
@@ -105,7 +113,9 @@ const Learn = (props) => {
             className="audio-icon"
             onClick={playAudioN}
           ></img>
-          <br></br>吗<br></br>
+          <br></br>
+          <p className="hanzi">吗</p>
+          <br></br>
           ma
           <br></br>
           ...is that right? / ...is it?

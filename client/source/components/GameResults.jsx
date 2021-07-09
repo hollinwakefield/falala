@@ -17,22 +17,26 @@ const GameResults = (props) => {
     scoreObject.accuracy = props.accuracy;
     scoreObject.totalScore = props.totalScore;
     console.log(scoreObject);
-    setTimeout(() => {
-      axios
-        .post("/scores", scoreObject)
-        .then((response) => {
-          console.log("hi, you made a successful post", response);
-        })
-        .catch((error) => {
-          console.log("hi, you received an error", error);
-        });
-    }, 0);
+    axios
+      .post("/scores", scoreObject)
+      .then((response) => {
+        console.log("hi, you made a successful post", response);
+      })
+      .catch((error) => {
+        console.log("hi, you received an error", error);
+      });
   };
 
   if (formSubmitted) {
     return (
       <div className="gameresults">
-        <h3>Your final score!</h3>
+        <div className="score-summary">
+          <h3>Score Report</h3>
+          <p>{props.score} points</p>
+          <p>{props.accuracy} accuracy</p>
+          <p>{props.accuracyBonus} accuracy bonus points</p>
+          <h4>{props.totalScore} total points</h4>
+        </div>
         Thanks for playing, {username}! Want to play again?
       </div>
     );
@@ -46,17 +50,18 @@ const GameResults = (props) => {
           <p>{props.accuracyBonus} accuracy bonus points</p>
           <h4>{props.totalScore} total points</h4>
         </div>
-        <form onSubmit={handleSubmit}>
-          <label>
-            Enter your name to save your score: <br></br>
-            <input
-              type="text"
-              required="required"
-              value={username}
-              onChange={(event) => setUsername(event.target.value)}
-            ></input>
-          </label>
-          <button>Save Score</button>
+        Enter a username to save your score: <br></br>
+        <form className="save-score" onSubmit={handleSubmit}>
+          {/* <label> */}
+          <input
+            className="save-input"
+            type="text"
+            required="required"
+            value={username}
+            onChange={(event) => setUsername(event.target.value)}
+          ></input>
+          {/* </label> */}
+          <button className="save-button">Save Score</button>
         </form>
       </div>
     );

@@ -5,7 +5,7 @@ const Leaderboard = (props) => {
   return (
     <div className="leaderboard">
       <h3>Leaderboard</h3>
-      <LeaderboardList />
+      <LeaderboardList className="leaderboard-list"/>
     </div>
   );
 };

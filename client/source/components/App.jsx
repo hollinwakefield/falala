@@ -13,8 +13,12 @@ const App = (props) => {
             <h1>Putonghua</h1>
             <h2>普通话</h2>
           </div>
-          <div onClick={(e) => setView("play")}>Play</div>
-          <div onClick={(e) => setView("learn")}>Learn</div>
+          <div className="header-item" onClick={(e) => setView("play")}>
+            Play
+          </div>
+          <div className="header-item" onClick={(e) => setView("learn")}>
+            Learn
+          </div>
           {/* <div onClick={setView("play")}>Play</div>
           <div onClick={setView("learn")}>Learn</div> */}
         </div>
@@ -31,11 +35,15 @@ const App = (props) => {
             <h1>Putonghua</h1>
             <h2>普通话</h2>
           </div>
-          <div onClick={(e) => setView("play")}>Play</div>
-          <div onClick={(e) => setView("learn")}>Learn</div>
+          <div className="header-item" onClick={(e) => setView("play")}>
+            Play
+          </div>
+          <div className="header-item" onClick={(e) => setView("learn")}>
+            Learn
+          </div>
         </div>
         <div className="app">
-          <Learn />
+          <Learn className="learn" />
         </div>
       </div>
     );

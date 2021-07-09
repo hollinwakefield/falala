@@ -5,8 +5,8 @@ import axios from "axios";
 const LeaderboardList = (props) => {
   const [scores, setScores] = useState([]);
 
-  const leaderboardMap = (score) => (
-    <LeaderboardItem score={score} key={score._id} />
+  const leaderboardMap = (score, index) => (
+    <LeaderboardItem score={score} key={score._id} rank={index + 1} />
   );
 
   useEffect(() => {

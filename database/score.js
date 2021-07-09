@@ -15,10 +15,13 @@ const scoreSchema = new mongoose.Schema({
   score: {
     type: Number,
   },
-  totalResponses: {
+  questionsAnswered: {
     type: Number,
   },
-  correctResponses: {
+  questionsCorrect: {
+    type: Number,
+  },
+  totalScore: {
     type: Number,
   },
   accuracy: {

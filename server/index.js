@@ -23,6 +23,7 @@ app.get("/beginnerWordList", (req, res) => {
 
 app.get("/scores", (req, res) => {
   Score.find()
+    .sort({ totalScore: "desc" })
     .then((scores) => {
       res.status(200).send(scores);
     })

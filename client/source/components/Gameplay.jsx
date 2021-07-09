@@ -11,6 +11,10 @@ const Gameplay = (props) => {
     translation: "",
   });
 
+  useEffect(() => {
+    console.log("changed word index");
+  }, currentWordIndex);
+
   const getRandomIndex = Math.floor(Math.random() * props.wordList.length);
 
   let audio = new Audio(
@@ -25,7 +29,7 @@ const Gameplay = (props) => {
     if (!wordList[0]) {
       setCurrentWordIndex(getRandomIndex);
       setWordList(props.wordList);
-      // audio.play();
+      audio.play();
     }
   });
 
@@ -51,7 +55,7 @@ const Gameplay = (props) => {
     props.getTotalScore();
     setCurrentWordIndex(getRandomIndex);
     setQuestionStatus("question");
-    // audio.play();
+    audio.play();
   };
 
   if (!wordList[0]) {

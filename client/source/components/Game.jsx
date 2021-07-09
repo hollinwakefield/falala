@@ -9,12 +9,12 @@ const Game = (props) => {
   const [gameStarted, setGameStarted] = useState(false);
   const [wordList, setWordList] = useState([]);
   const [score, setScore] = useState(0);
-  const [questionsAnswered, SetQuestionsAnswered] = useState(0);
-  const [questionsCorrect, SetQuestionsCorrect] = useState(0);
+  const [questionsAnswered, setQuestionsAnswered] = useState(0);
+  const [questionsCorrect, setQuestionsCorrect] = useState(0);
   const [accuracy, setAccuracy] = useState("0%");
   const [accuracyBonus, setAccuracyBonus] = useState(0);
   const [totalScore, setTotalScore] = useState(0);
-  const [timer, setTimer] = useState(15);
+  const [timer, setTimer] = useState(20);
   const [scoreObject, setScoreObject] = useState({});
 
   useEffect(() => {
@@ -36,11 +36,11 @@ const Game = (props) => {
   };
 
   const updateQuestionsAnswered = () => {
-    SetQuestionsAnswered(questionsAnswered + 1);
+    setQuestionsAnswered(questionsAnswered + 1);
   };
 
   const updateQuestionsCorrect = () => {
-    SetQuestionsCorrect(questionsCorrect + 1);
+    setQuestionsCorrect(questionsCorrect + 1);
   };
 
   const updateAccuracy = () => {
@@ -74,7 +74,7 @@ const Game = (props) => {
   if (gameStarted === true) {
     if (timer > 0) {
       return (
-        <div>
+        <div className="gameplay">
           <Timer timer={timer} onChange={(value) => setTimer(value)} />
           <Gameplay
             timer={timer}

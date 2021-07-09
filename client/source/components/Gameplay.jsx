@@ -2,12 +2,8 @@ import React, { useState, useEffect } from "react";
 import randomizeWords from "../helpers/randomizeWords.js";
 
 const Gameplay = (props) => {
-  const [word, setWord] = useState({});
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [wordList, setWordList] = useState([]);
-  const [randomizedWordList, setRandomizedWordList] = useState([]);
-  const [logged, setLogged] = useState(false);
-  // question / answer status for conditional rendering
   const [questionStatus, setQuestionStatus] = useState("question");
   const [lastQuestion, setLastQuestion] = useState({
     word: "",
@@ -16,43 +12,38 @@ const Gameplay = (props) => {
   });
 
   useEffect(() => {
-    if (logged) {
-    } else if (randomizedWordList[0]) {
-      console.log(randomizedWordList);
-      setLogged(true);
-    } else {
-      setRandomizedWordList(randomizeWords(props.wordList));
+    if (!wordList[0]) {
+      setCurrentWordIndex(Math.floor(Math.random() * props.wordList.length));
+      setWordList(props.wordList);
     }
   });
 
   const handleAnswer = (event, optionNumber) => {
-    // Can either use state to keep track of which cards have been shown
-    // or choose a random card every time
     props.updateQuestionsAnswered();
-    if (
-      optionNumber === randomizedWordList[currentWordIndex].firstSyllableTone
-    ) {
+    if (optionNumber === wordList[currentWordIndex].firstSyllableTone) {
       props.updateScore();
       props.updateQuestionsCorrect();
     }
     props.updateAccuracy();
     setLastQuestion({
-      word: randomizedWordList[currentWordIndex].simplifiedword,
-      pinyin: randomizedWordList[currentWordIndex].pinyin,
-      translation: randomizedWordList[currentWordIndex].translation,
+      word: wordList[currentWordIndex].simplifiedword,
+      pinyin: wordList[currentWordIndex].pinyin,
+      translation: wordList[currentWordIndex].translation,
     });
-    console.log(randomizedWordList[currentWordIndex + 1].firstSyllableTone);
+    console.log(
+      wordList[Math.floor(Math.random() * wordList.length)].firstSyllableTone
+    );
     setQuestionStatus("answer");
   };
 
   const continueGame = (event) => {
     props.getAccuracyBonus();
     props.getTotalScore();
-    setCurrentWordIndex(currentWordIndex + 1);
+    setCurrentWordIndex(Math.floor(Math.random() * wordList.length));
     setQuestionStatus("question");
   };
 
-  if (!randomizedWordList[0]) {
+  if (!wordList[0]) {
     return <span className="load-screen">Game is loading</span>;
   } else if (questionStatus === "question") {
     return (
@@ -62,7 +53,7 @@ const Gameplay = (props) => {
         </div>
         <div className="question-div">
           <span className="question">
-            {randomizedWordList[currentWordIndex].simplifiedword}
+            {wordList[currentWordIndex].simplifiedword}
           </span>
         </div>
         <div className="choices">

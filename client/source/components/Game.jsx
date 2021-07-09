@@ -103,6 +103,12 @@ const Game = (props) => {
             onClick={(e) => {
               setGameStarted(false);
               setTimer(15);
+              setScore(0);
+              SetQuestionsAnswered(0);
+              SetQuestionsCorrect(0);
+              setAccuracy("0%");
+              setAccuracyBonus(0);
+              setTotalScore(0);
             }}
             className="button"
           >

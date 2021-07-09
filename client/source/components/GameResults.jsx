@@ -21,11 +21,11 @@ const GameResults = (props) => {
     return (
       <div className="gameresults">
         <div className="score-summary">
-          <h3>Your final score!</h3>
-          <h3>{props.score} points</h3>
-          <h3>{props.accuracy} accuracy</h3>
-          <h3>{props.accuracyBonus} accuracy bonus</h3>
-          <h3>{props.totalScore} total score</h3>
+          <h3>Score Report</h3>
+          <p>{props.score} points</p>
+          <p>{props.accuracy} accuracy</p>
+          <p>{props.accuracyBonus} accuracy bonus points</p>
+          <h4>{props.totalScore} total points</h4>
         </div>
         <form onSubmit={handleSubmit}>
           <label>

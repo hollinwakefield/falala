@@ -42,23 +42,31 @@ const Game = (props) => {
     SetQuestionsCorrect(questionsCorrect + 1);
   };
 
-  const updateAccuracyAndTotalScore = () => {
+  const updateAccuracy = () => {
     if (questionsAnswered > 0) {
       setAccuracy(
         Math.round((questionsCorrect / questionsAnswered) * 100) + "%"
       );
-      if (questionsCorrect > 0) {
-        if (questionsCorrect / questionsAnswered > 0.7) {
-          setAccuracyBonus(
-            Math.round(
-              (questionsCorrect / questionsAnswered) * questionsCorrect * 100
-            )
-          );
-        }
-      }
-      if (score > 0) {
-        setTotalScore(Math.round(score + accuracyBonus));
-      }
+    }
+  };
+
+  let accuracyBonusFormula = Math.round(
+    (questionsCorrect / questionsAnswered) * questionsCorrect * 100
+  );
+
+  const getAccuracyBonus = () => {
+    if (questionsCorrect / questionsAnswered > 0.7) {
+      setAccuracyBonus(accuracyBonusFormula);
+    } else {
+      setAccuracyBonus(0);
+    }
+  };
+
+  const getTotalScore = () => {
+    if (questionsCorrect / questionsAnswered > 0.7) {
+      setTotalScore(score + accuracyBonusFormula);
+    } else {
+      setTotalScore(score);
     }
   };
 
@@ -73,7 +81,9 @@ const Game = (props) => {
           updateScore={updateScore}
           updateQuestionsAnswered={updateQuestionsAnswered}
           updateQuestionsCorrect={updateQuestionsCorrect}
-          updateAccuracyAndTotalScore={updateAccuracyAndTotalScore}
+          updateAccuracy={updateAccuracy}
+          getAccuracyBonus={getAccuracyBonus}
+          getTotalScore={getTotalScore}
         />
       );
     } else {

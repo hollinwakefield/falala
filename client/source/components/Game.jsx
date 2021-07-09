@@ -8,17 +8,20 @@ const Game = (props) => {
   const [gameStarted, setGameStarted] = useState(false);
   const [wordList, setWordList] = useState([]);
   const [score, setScore] = useState(0);
-  const [timer, setTimer] = useState(5);
+  const [timer, setTimer] = useState(95);
 
   useEffect(() => {
-    axios
-      .get("/beginnerWordList")
-      .then((response) => {
-        setWordList(response.data);
-      })
-      .catch((error) => {
-        console.log("hi, you received an error", error);
-      });
+    if (wordList[0]) {
+    } else {
+      axios
+        .get("/beginnerWordList")
+        .then((response) => {
+          setWordList(response.data);
+        })
+        .catch((error) => {
+          console.log("hi, you received an error", error);
+        });
+    }
   });
 
   if (gameStarted === true) {
@@ -37,7 +40,7 @@ const Game = (props) => {
           <button
             onClick={(e) => {
               setGameStarted(false);
-              setTimer(5);
+              setTimer(95);
             }}
             className="button"
           >
@@ -59,26 +62,3 @@ const Game = (props) => {
 };
 
 export default Game;
-
-// const renderer = ({ minutes, seconds, completed }) => {
-//   if (completed) {
-//     return (
-//       <div className="gameresults">
-//         <GameResults />
-//         <button onClick={(e) => setClicked(false)} className="button">
-//           Go Home
-//         </button>
-//       </div>
-//     );
-//   } else {
-//     return (
-//       <div className="gameplay">
-//         <span className="countdown">
-//           {minutes}m {seconds}s
-//         </span>
-//         <Gameplay wordlist={wordList} />
-//       </div>
-//     );
-//   }
-// };
-// return <Countdown date={Date.now() + 15000} renderer={renderer} />;

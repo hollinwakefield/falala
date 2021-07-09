@@ -4,14 +4,29 @@ import randomizeWords from "../helpers/randomizeWords.js";
 
 const Gameplay = (props) => {
   const [word, setWord] = useState({});
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const [wordList, setWordList] = useState([]);
 
-  const randomizedWords = randomizeWords(props.wordList);
+  // useEffect(() => {
+  // const randomizedWordList = randomizeWords(props.wordList);
+  // // setWordList(randomizedWordList);
+  // // setWord(wordList[currentWordIndex]);
+  // // console.log(randomizedWordList);
+  // console.log(randomizedWordList);
+  // });
+
+  // const handleClick = (event) => {
+  // Can either use state to keep track of which cards have been shown
+  // or choose a random card every time
+  // };
 
   return (
     <div className="gameplay">
       <Timer timer={props.timer} onChange={props.onChange} />
       <div className="question-div">
-        <span className="question">{randomizedWords[0].simplifiedword}</span>
+        <span className="question">
+          {/* {wordList[currentWordIndex].simplifiedword} */}
+        </span>
       </div>
       <div className="choices">
         <div className="choice">

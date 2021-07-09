@@ -3,6 +3,7 @@ import axios from "axios";
 import Gameplay from "./Gameplay.jsx";
 import GameResults from "./GameResults.jsx";
 import Timer from "./Timer.jsx";
+import Leaderboard from "./Leaderboard.jsx";
 
 const Game = (props) => {
   const [gameStarted, setGameStarted] = useState(false);
@@ -52,10 +53,15 @@ const Game = (props) => {
   } else {
     return (
       <div className="game">
-        <h3>Learn Single Tones</h3>
-        <button onClick={(e) => setGameStarted(true)} className="button">
-          Start Game
-        </button>
+        <div className="start-game">
+          <h3>Learn Single Tones</h3>
+          <button onClick={(e) => setGameStarted(true)} className="button">
+            Start Game
+          </button>
+        </div>
+        <div className="leaderboard">
+          <Leaderboard />
+        </div>
       </div>
     );
   }

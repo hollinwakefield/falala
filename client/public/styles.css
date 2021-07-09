@@ -27,7 +27,27 @@ h3 {
   display: flex;
 }
 
-.game,
+.game {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.start-game {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.leaderboard {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .gameplay,
 .gameresults {
   width: 85%;
@@ -76,13 +96,8 @@ h3 {
   font-size: 30px;
 }
 
-.leaderboard {
-  width: 15%;
-  margin-right: 5%;
-}
-
 .button {
-  margin: auto;
+  /* margin: auto; */
   background: grey;
   box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.1), 0 3px 8px rgba(0, 0, 0, 0.14);
   color: white;
@@ -91,7 +106,7 @@ h3 {
   border-radius: 15px;
   height: 75px;
   width: 250px;
-  margin: 5%;
+  margin: 60px;
   margin-left: auto;
   margin-right: auto;
   outline: none;

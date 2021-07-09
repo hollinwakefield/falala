@@ -14,7 +14,7 @@ const LeaderboardList = (props) => {
     );
   } else {
     return (
-      <table>
+      <table className="leaderboard-table">
         <tbody>
           <LeaderboardItem />
           <tr>

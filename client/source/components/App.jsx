@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Game from "./Game.jsx";
-import Leaderboard from "./Leaderboard.jsx";
 
 const App = (props) => {
   return (
@@ -11,7 +10,6 @@ const App = (props) => {
       </div>
       <div className="app">
         <Game />
-        <Leaderboard />
       </div>
     </div>
   );

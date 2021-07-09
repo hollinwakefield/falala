@@ -15,6 +15,7 @@ const Game = (props) => {
   const [accuracyBonus, setAccuracyBonus] = useState(0);
   const [totalScore, setTotalScore] = useState(0);
   const [timer, setTimer] = useState(15);
+  const [scoreObject, setScoreObject] = useState({});
 
   useEffect(() => {
     if (wordList[0]) {
@@ -89,6 +90,12 @@ const Game = (props) => {
         </div>
       );
     } else {
+      // setScoreObject({
+      //   score: totalScore,
+      //   questionsAnswered: questionsAnswered,
+      //   questionsCorrect: questionsCorrect,
+      //   accuracy: accuracy,
+      // });
       return (
         <div className="gameresults">
           <GameResults
@@ -98,6 +105,7 @@ const Game = (props) => {
             accuracy={accuracy}
             accuracyBonus={accuracyBonus}
             totalScore={totalScore}
+            scoreObject={scoreObject}
           />
           <button
             onClick={(e) => {

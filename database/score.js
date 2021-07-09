@@ -22,7 +22,7 @@ const scoreSchema = new mongoose.Schema({
     type: Number,
   },
   accuracy: {
-    type: Number,
+    type: String,
   },
 });
 

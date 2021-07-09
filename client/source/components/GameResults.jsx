@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 const GameResults = (props) => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -8,6 +9,24 @@ const GameResults = (props) => {
     event.preventDefault();
     console.log(username);
     setFormSubmitted(true);
+    const scoreObject = {};
+    scoreObject.name = username;
+    scoreObject.score = props.score;
+    scoreObject.questionsAnswered = props.questionsAnswered;
+    scoreObject.questionsCorrect = props.questionsCorrect;
+    scoreObject.accuracy = props.accuracy;
+    scoreObject.totalScore = props.totalScore;
+    console.log(scoreObject);
+    setTimeout(() => {
+      axios
+        .post("/scores", scoreObject)
+        .then((response) => {
+          console.log("hi, you made a successful post", response);
+        })
+        .catch((error) => {
+          console.log("hi, you received an error", error);
+        });
+    }, 0);
   };
 
   if (formSubmitted) {

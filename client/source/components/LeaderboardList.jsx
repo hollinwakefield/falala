@@ -1,15 +1,32 @@
 import React, { useState, useEffect } from "react";
 import LeaderboardItem from "./LeaderboardItem.jsx";
-
-// create map function to render the top 10 ranks
+import axios from "axios";
 
 const LeaderboardList = (props) => {
-  if (!props.username) {
+  const [scores, setScores] = useState([]);
+
+  const leaderboardMap = (score) => (
+    <LeaderboardItem score={score} key={score._id} />
+  );
+
+  useEffect(() => {
+    if (scores[0]) {
+    } else {
+      axios
+        .get("/scores")
+        .then((response) => {
+          setScores(response.data);
+        })
+        .catch((error) => {
+          console.log("hi, you received an error", error);
+        });
+    }
+  });
+
+  if (scores[0]) {
     return (
       <table>
-        <tbody>
-          <LeaderboardItem />
-        </tbody>
+        <tbody>{scores.map(leaderboardMap)}</tbody>
       </table>
     );
   } else {
@@ -18,7 +35,7 @@ const LeaderboardList = (props) => {
         <tbody>
           <LeaderboardItem />
           <tr>
-            <td>{props.username}</td>
+            <td>Anon</td>
             <td>0%</td>
             <td>0 points</td>
           </tr>

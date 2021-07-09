@@ -6,50 +6,86 @@ const Gameplay = (props) => {
   const [word, setWord] = useState({});
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [wordList, setWordList] = useState([]);
+  const [randomizedWordList, setRandomizedWordList] = useState([]);
+  const [logged, setLogged] = useState(false);
+  const [lastQuestion, setLastQuestion] = useState({
+    word: "",
+    pinyin: "",
+    translation: "",
+  });
 
-  // useEffect(() => {
-  // const randomizedWordList = randomizeWords(props.wordList);
-  // // setWordList(randomizedWordList);
-  // // setWord(wordList[currentWordIndex]);
-  // // console.log(randomizedWordList);
-  // console.log(randomizedWordList);
-  // });
+  useEffect(() => {
+    if (logged) {
+    } else if (randomizedWordList[0]) {
+      console.log(randomizedWordList);
+      setLogged(true);
+    } else {
+      setRandomizedWordList(randomizeWords(props.wordList));
+    }
+  });
 
-  // const handleClick = (event) => {
-  // Can either use state to keep track of which cards have been shown
-  // or choose a random card every time
-  // };
+  const handleClick = (event, optionNumber) => {
+    // Can either use state to keep track of which cards have been shown
+    // or choose a random card every time
+    props.updateQuestionsAnswered();
+    if (
+      optionNumber === randomizedWordList[currentWordIndex].firstSyllableTone
+    ) {
+      props.updateScore();
+      props.updateQuestionsCorrect();
+    }
+    props.updateAccuracyAndTotalScore();
+    setLastQuestion({
+      word: randomizedWordList[currentWordIndex].simplifiedword,
+      pinyin: randomizedWordList[currentWordIndex].pinyin,
+      translation: randomizedWordList[currentWordIndex].translation,
+    });
+    setCurrentWordIndex(currentWordIndex + 1);
+  };
 
-  return (
-    <div className="gameplay">
-      <Timer timer={props.timer} onChange={props.onChange} />
-      <div className="question-div">
-        <span className="question">
-          {/* {wordList[currentWordIndex].simplifiedword} */}
-        </span>
+  if (!randomizedWordList[0]) {
+    return <span className="load-screen">Game is loading</span>;
+  } else {
+    return (
+      <div className="gameplay">
+        <div className="game-header">
+          <span className="current-score">{props.score} points</span>
+          <Timer timer={props.timer} onChange={props.onChange} />
+        </div>
+        <div className="question-div">
+          <span className="question">
+            {randomizedWordList[currentWordIndex].simplifiedword}
+          </span>
+        </div>
+        <div className="choices">
+          <div className="choice" onClick={() => handleClick(event, 1)}>
+            1<br></br>¯
+          </div>
+          <div className="choice" onClick={() => handleClick(event, 2)}>
+            2 <br></br>´
+          </div>
+          <div className="choice" onClick={() => handleClick(event, 3)}>
+            3<br></br>ˇ
+          </div>
+          <div className="choice" onClick={() => handleClick(event, 4)}>
+            4<br></br>`
+          </div>
+          <div className="choice" onClick={() => handleClick(event, 5)}>
+            5 <br></br>
+          </div>
+        </div>
+        <div className="last-question">
+          Last question:
+          <br></br>
+          {lastQuestion.word}
+          <br></br>
+          {lastQuestion.pinyin}
+          <br></br>
+          {lastQuestion.translation}
+        </div>
       </div>
-      <div className="choices">
-        <div className="choice">
-          1<br></br>¯
-        </div>
-        <div className="choice">
-          2 <br></br>´
-        </div>
-        <div className="choice">
-          3<br></br>ˇ
-        </div>
-        <div className="choice">
-          4<br></br>`
-        </div>
-        <div
-          className="choice"
-          onClick={() => console.log("You selected the neutral tone.")}
-        >
-          5 <br></br>
-        </div>
-      </div>
-    </div>
-  );
+    );
+  }
 };
 
 export default Gameplay;

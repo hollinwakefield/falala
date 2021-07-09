@@ -9,7 +9,12 @@ const Game = (props) => {
   const [gameStarted, setGameStarted] = useState(false);
   const [wordList, setWordList] = useState([]);
   const [score, setScore] = useState(0);
-  const [timer, setTimer] = useState(95);
+  const [questionsAnswered, SetQuestionsAnswered] = useState(0);
+  const [questionsCorrect, SetQuestionsCorrect] = useState(0);
+  const [accuracy, setAccuracy] = useState("0%");
+  const [accuracyBonus, setAccuracyBonus] = useState(0);
+  const [totalScore, setTotalScore] = useState(0);
+  const [timer, setTimer] = useState(15);
 
   useEffect(() => {
     if (wordList[0]) {
@@ -25,6 +30,38 @@ const Game = (props) => {
     }
   });
 
+  const updateScore = () => {
+    setScore(score + 10);
+  };
+
+  const updateQuestionsAnswered = () => {
+    SetQuestionsAnswered(questionsAnswered + 1);
+  };
+
+  const updateQuestionsCorrect = () => {
+    SetQuestionsCorrect(questionsCorrect + 1);
+  };
+
+  const updateAccuracyAndTotalScore = () => {
+    if (questionsAnswered > 0) {
+      setAccuracy(
+        Math.round((questionsCorrect / questionsAnswered) * 100) + "%"
+      );
+      if (questionsCorrect > 0) {
+        if (questionsCorrect / questionsAnswered > 0.7) {
+          setAccuracyBonus(
+            Math.round(
+              (questionsCorrect / questionsAnswered) * questionsCorrect * 100
+            )
+          );
+        }
+      }
+      if (score > 0) {
+        setTotalScore(Math.round(score + accuracyBonus));
+      }
+    }
+  };
+
   if (gameStarted === true) {
     if (timer > 0) {
       return (
@@ -32,16 +69,28 @@ const Game = (props) => {
           timer={timer}
           onChange={(value) => setTimer(value)}
           wordList={wordList}
+          score={score}
+          updateScore={updateScore}
+          updateQuestionsAnswered={updateQuestionsAnswered}
+          updateQuestionsCorrect={updateQuestionsCorrect}
+          updateAccuracyAndTotalScore={updateAccuracyAndTotalScore}
         />
       );
     } else {
       return (
         <div className="gameresults">
-          <GameResults />
+          <GameResults
+            score={score}
+            questionsAnswered={questionsAnswered}
+            questionsCorrect={questionsCorrect}
+            accuracy={accuracy}
+            accuracyBonus={accuracyBonus}
+            totalScore={totalScore}
+          />
           <button
             onClick={(e) => {
               setGameStarted(false);
-              setTimer(95);
+              setTimer(15);
             }}
             className="button"
           >

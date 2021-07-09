@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Timer = (props) => {
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(95);
+  const [seconds, setSeconds] = useState(15);
   const [displayTime, setDisplayTime] = useState(seconds);
 
   useEffect(() => {

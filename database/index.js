@@ -1,6 +1,4 @@
-require("./schemas.js");
 const mongoose = require("mongoose");
-const BeginnerWord = require("./schemas.js");
 
 mongoose
   .connect("mongodb://localhost:27017/putonghua", {

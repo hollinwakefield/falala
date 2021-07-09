@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import randomizeWords from "../helpers/randomizeWords.js";
-// import audioIcon from "../../public/audio-icon.png";
 
 const Gameplay = (props) => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -26,7 +25,7 @@ const Gameplay = (props) => {
     if (!wordList[0]) {
       setCurrentWordIndex(getRandomIndex);
       setWordList(props.wordList);
-      audio.play();
+      // audio.play();
     }
   });
 
@@ -52,7 +51,7 @@ const Gameplay = (props) => {
     props.getTotalScore();
     setCurrentWordIndex(getRandomIndex);
     setQuestionStatus("question");
-    audio.play();
+    // audio.play();
   };
 
   if (!wordList[0]) {

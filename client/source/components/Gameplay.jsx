@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Timer from "./Timer.jsx";
 import randomizeWords from "../helpers/randomizeWords.js";
 
 const Gameplay = (props) => {
@@ -60,7 +59,6 @@ const Gameplay = (props) => {
       <div className="gameplay">
         <div className="game-header">
           <span className="current-score">{props.score} points</span>
-          <Timer timer={props.timer} onChange={props.onChange} />
         </div>
         <div className="question-div">
           <span className="question">
@@ -89,7 +87,6 @@ const Gameplay = (props) => {
   } else {
     return (
       <div className="last-question">
-        <Timer timer={props.timer} onChange={props.onChange} />
         <div className="last-question-info">
           <h1>Correct response:</h1>
           <br></br>

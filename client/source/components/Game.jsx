@@ -73,18 +73,20 @@ const Game = (props) => {
   if (gameStarted === true) {
     if (timer > 0) {
       return (
-        <Gameplay
-          timer={timer}
-          onChange={(value) => setTimer(value)}
-          wordList={wordList}
-          score={score}
-          updateScore={updateScore}
-          updateQuestionsAnswered={updateQuestionsAnswered}
-          updateQuestionsCorrect={updateQuestionsCorrect}
-          updateAccuracy={updateAccuracy}
-          getAccuracyBonus={getAccuracyBonus}
-          getTotalScore={getTotalScore}
-        />
+        <div>
+          <Timer timer={timer} onChange={(value) => setTimer(value)} />
+          <Gameplay
+            timer={timer}
+            wordList={wordList}
+            score={score}
+            updateScore={updateScore}
+            updateQuestionsAnswered={updateQuestionsAnswered}
+            updateQuestionsCorrect={updateQuestionsCorrect}
+            updateAccuracy={updateAccuracy}
+            getAccuracyBonus={getAccuracyBonus}
+            getTotalScore={getTotalScore}
+          />
+        </div>
       );
     } else {
       return (

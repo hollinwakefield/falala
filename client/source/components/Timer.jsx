@@ -7,11 +7,19 @@ const Timer = (props) => {
 
   useEffect(() => {
     let interval = null;
-    interval = setInterval(() => {
-      setSeconds((seconds) => seconds - 1);
-      setDisplayTime(seconds);
-      props.onChange(seconds);
-    }, 1000);
+    if (seconds > 10) {
+      interval = setInterval(() => {
+        setSeconds((seconds) => seconds - 1);
+        setDisplayTime(seconds);
+        props.onChange(seconds);
+      }, 1000);
+    } else {
+      interval = setInterval(() => {
+        setSeconds((seconds) => (seconds - 0.01).toFixed(2));
+        setDisplayTime(seconds);
+        props.onChange(seconds);
+      }, 10);
+    }
     return () => clearInterval(interval);
   }, [seconds]);
 

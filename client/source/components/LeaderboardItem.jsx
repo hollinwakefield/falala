@@ -4,6 +4,9 @@ const LeaderboardItem = (props) => {
   return (
     <tr className="leaderboardItem">
       <td>
+        <span>Rank</span>
+      </td>
+      <td>
         <span>Name</span>
       </td>
       <td>

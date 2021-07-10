@@ -1,44 +1,73 @@
 import React, { useState, useEffect } from "react";
 
 const Learn = (props) => {
-  const maAudio1 = new Audio(
-    "https://putonghua.s3.amazonaws.com/Male-B-1.0/146-%E5%A6%88-1.0-CN-Male-B-.mp3"
-  );
+  const [voice, setVoice] = useState("female");
+  const [speed, setSpeed] = useState("normal");
+
+  const femaleAudio = {
+    ma1: "https://putonghua.s3.amazonaws.com/Female-D-1.0/146-%E5%A6%88-1.0-CN-Female-D-.mp3",
+    ma2: "https://putonghua.s3.amazonaws.com/learn/317-%E9%BA%BB-1.0-CN-Female-D-.mp3",
+    ma3: "https://putonghua.s3.amazonaws.com/Female-D-1.0/147-%E9%A9%AC-1.0-CN-Female-D-.mp3",
+    ma4: "https://putonghua.s3.amazonaws.com/learn/318-%E9%AA%82-1.0-CN-Female-D-.mp3",
+    ma5: "https://putonghua.s3.amazonaws.com/Female-D-1.0/148-%E5%90%97-1.0-CN-Female-D-.mp3",
+  };
+
+  const femaleSlowAudio = {
+    ma1: "https://putonghua.s3.amazonaws.com/Female-D-0.7/146-%E5%A6%88-0.7-CN-Female-D-.mp3",
+    ma2: "https://putonghua.s3.amazonaws.com/learn/317-%E9%BA%BB-0.7-CN-Female-D-.mp3",
+    ma3: "https://putonghua.s3.amazonaws.com/Female-D-0.7/147-%E9%A9%AC-0.7-CN-Female-D-.mp3",
+    ma4: "https://putonghua.s3.amazonaws.com/learn/318-%E9%AA%82-0.7-CN-Female-D-.mp3",
+    ma5: "https://putonghua.s3.amazonaws.com/Female-D-0.7/148-%E5%90%97-0.7-CN-Female-D-.mp3",
+  };
+
+  const maleAudio = {
+    ma1: "https://putonghua.s3.amazonaws.com/Male-C-1.0/146-%E5%A6%88-1.0-CN-Male-C-.mp3",
+    ma2: "https://putonghua.s3.amazonaws.com/learn/317-%E9%BA%BB-1.0-CN-Male-C-.mp3",
+    ma3: "https://putonghua.s3.amazonaws.com/Male-C-1.0/147-%E9%A9%AC-1.0-CN-Male-C-.mp3",
+    ma4: "https://putonghua.s3.amazonaws.com/learn/318-%E9%AA%82-1.0-CN-Male-C-.mp3",
+    ma5: "https://putonghua.s3.amazonaws.com/Male-C-1.0/148-%E5%90%97-1.0-CN-Male-C-.mp3",
+  };
+
+  const maleSlowAudio = {
+    ma1: "https://putonghua.s3.amazonaws.com/Male-C-0.7/146-%E5%A6%88-0.7-CN-Male-C-.mp3",
+    ma2: "https://putonghua.s3.amazonaws.com/learn/317-%E9%BA%BB-0.7-CN-Male-C-.mp3",
+    ma3: "https://putonghua.s3.amazonaws.com/Male-C-0.7/147-%E9%A9%AC-0.7-CN-Male-C-.mp3",
+    ma4: "https://putonghua.s3.amazonaws.com/learn/318-%E9%AA%82-0.7-CN-Male-C-.mp3",
+    ma5: "https://putonghua.s3.amazonaws.com/Male-C-0.7/148-%E5%90%97-0.7-CN-Male-C-.mp3",
+  };
+
+  // const getAudio = (voice, speed) => {
+  //   if (voice === "female" && speed === "normal")
+  // }
+
+  const maAudio1 = new Audio(femaleAudio.ma1);
 
   const playAudio1 = () => {
     maAudio1.play();
   };
 
-  const maAudio2 = new Audio(
-    "https://putonghua.s3.amazonaws.com/Male-B-1.0/317-%E9%BA%BB-1.0-CN-Male-B-.mp3"
-  );
+  const maAudio2 = new Audio(femaleAudio.ma2);
 
   const playAudio2 = () => {
     maAudio2.play();
   };
 
-  const maAudio3 = new Audio(
-    "https://putonghua.s3.amazonaws.com/Male-B-1.0/147-%E9%A9%AC-1.0-CN-Male-B-.mp3"
-  );
+  const maAudio3 = new Audio(femaleAudio.ma3);
 
   const playAudio3 = () => {
     maAudio3.play();
   };
 
-  const maAudio4 = new Audio(
-    "https://putonghua.s3.amazonaws.com/Male-B-1.0/318-%E9%AA%82-1.0-CN-Male-B-.mp3"
-  );
+  const maAudio4 = new Audio(femaleAudio.ma4);
 
   const playAudio4 = () => {
     maAudio4.play();
   };
 
-  const maAudioN = new Audio(
-    "https://putonghua.s3.amazonaws.com/Male-B-1.0/148-%E5%90%97-1.0-CN-Male-B-.mp3"
-  );
+  const maAudio5 = new Audio(femaleAudio.ma5);
 
-  const playAudioN = () => {
-    maAudioN.play();
+  const playAudio5 = () => {
+    maAudio5.play();
   };
 
   return (
@@ -111,7 +140,7 @@ const Learn = (props) => {
           <img
             src="./audio-icon.png"
             className="audio-icon"
-            onClick={playAudioN}
+            onClick={playAudio5}
           ></img>
           <br></br>
           <p className="hanzi">吗</p>
@@ -128,8 +157,13 @@ const Learn = (props) => {
         src={"https://putonghua.s3.amazonaws.com/tone-chart-1.png"}
       ></img>
       <p>
-        Source:
-        https://resources.allsetlearning.com/chinese/pronunciation/Pronunciation_diagrams
+        Source:{" "}
+        <a
+          target="_blank"
+          href="https://resources.allsetlearning.com/chinese/pronunciation/Pronunciation_diagrams"
+        >
+          AllSet Learning
+        </a>
       </p>
       <h3>Tone Sandhi</h3>
       <img
@@ -137,8 +171,14 @@ const Learn = (props) => {
         src={"https://putonghua.s3.amazonaws.com/tone-chart-2.png"}
       ></img>
       <p>
-        Source:
-        https://resources.allsetlearning.com/chinese/pronunciation/Pronunciation_diagrams
+        Source:{" "}
+        <a
+          target="_blank"
+          href="
+        https://resources.allsetlearning.com/chinese/pronunciation/Pronunciation_diagrams"
+        >
+          AllSet Learning
+        </a>
       </p>
       <p>
         <a

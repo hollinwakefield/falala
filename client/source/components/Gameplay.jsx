@@ -7,6 +7,7 @@ const Gameplay = (props) => {
   const [questionStatus, setQuestionStatus] = useState("question");
   const [correctStatus, setCorrectStatus] = useState(false);
   const [answer, setAnswer] = useState(0);
+  const [audioFile, setAudioFile] = useState("");
   const [lastQuestion, setLastQuestion] = useState({
     word: "",
     pinyin: "",
@@ -20,10 +21,11 @@ const Gameplay = (props) => {
   // }, currentWordIndex);
 
   const getRandomIndex = Math.floor(Math.random() * props.wordList.length);
+  let audio;
 
-  let audio = new Audio(
-    "https://putonghua.s3.amazonaws.com/Female-A-1.0/%E4%B8%A4-1.0-CN-Female-A-139.mp3"
-  );
+  // if (!wordList[0]) {
+  //   let audio = new Audio(audioFile);
+  // }
 
   const playAudio = () => {
     audio.play();
@@ -31,11 +33,21 @@ const Gameplay = (props) => {
 
   useEffect(() => {
     if (!wordList[0]) {
-      setCurrentWordIndex(getRandomIndex);
+      audio = new Audio(audioFile);
       setWordList(props.wordList);
       audio.play();
     }
   });
+
+  useEffect(() => {
+    setCurrentWordIndex(getRandomIndex);
+    audio = new Audio(audioFile);
+  }, [wordList]);
+
+  useEffect(() => {
+    if (wordList[0] & currentWordIndex)
+      setAudioFile(wordList[currentWordIndex].femaleAudio);
+  }, [currentWordIndex]);
 
   const getToneText = (toneNumber) => {
     if (toneNumber === 1) {
@@ -55,7 +67,7 @@ const Gameplay = (props) => {
   const handleAnswer = (event, optionNumber) => {
     setAnswer(optionNumber);
     props.updateQuestionsAnswered();
-    if (optionNumber === wordList[currentWordIndex].firstSyllableTone) {
+    if (optionNumber === wordList[currentWordIndex].tone) {
       props.updateScore();
       props.updateQuestionsCorrect();
       setCorrectStatus(true);
@@ -75,6 +87,7 @@ const Gameplay = (props) => {
     props.getAccuracyBonus();
     props.getTotalScore();
     setCurrentWordIndex(getRandomIndex);
+    // setAudioFile(wordList[currentWordIndex].femaleAudio);
     setQuestionStatus("question");
     setCorrectStatus(false);
     audio.play();

@@ -14,7 +14,7 @@ const GameResults = (props) => {
     scoreObject.score = props.score;
     scoreObject.questionsAnswered = props.questionsAnswered;
     scoreObject.questionsCorrect = props.questionsCorrect;
-    scoreObject.accuracy = props.accuracy;
+    scoreObject.accuracy = props.accuracy + "%";
     scoreObject.totalScore = props.totalScore;
     console.log(scoreObject);
     axios

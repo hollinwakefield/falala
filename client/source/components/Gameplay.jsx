@@ -35,14 +35,10 @@ const Gameplay = (props) => {
       });
   }, []);
 
-  // question prep, step 1
-  // get random number
   useEffect(() => {
     setWordIndex(getRandomIndex());
   }, [wordList, answersViewed]);
 
-  // question prep, step 2
-  // select word/question object based on random number
   useEffect(() => {
     setCurrentWord(wordList[wordIndex]);
   }, [wordIndex]);
@@ -58,7 +54,6 @@ const Gameplay = (props) => {
   // updateCorrectStatus and questionsAnswered and questionsCorrect upon submit in Question component
 
   if (gameStatus === "question") {
-    // return <Question gameData={props} />;
     return (
       <Question
         word={currentWord}

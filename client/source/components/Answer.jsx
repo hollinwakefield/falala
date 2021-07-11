@@ -28,13 +28,6 @@ const Answer = (props) => {
   // };
 
   const continueGame = (event) => {
-    // props.getAccuracyBonus();
-    // props.getTotalScore();
-    // setCurrentWordIndex(getRandomIndex);
-    // setAudioFile(wordList[currentWordIndex].femaleAudio);
-    // setQuestionStatus("question");
-    // setCorrectStatus(false);
-    // audio.play();
     props.updateGameStatus("question");
     props.updateAnswersViewed(props.answersViewed + 1);
   };

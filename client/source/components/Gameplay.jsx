@@ -4,9 +4,6 @@ import randomizeWords from "../helpers/randomizeWords.js";
 import Question from "./Question.jsx";
 import Answer from "./Answer.jsx";
 
-// Gameplay should manage state for if currently a question or answer
-// Gameplay should determine the current word and audio
-
 const Gameplay = (props) => {
   const [wordList, setWordList] = useState([]);
   const [wordIndex, setWordIndex] = useState(0);
@@ -22,8 +19,6 @@ const Gameplay = (props) => {
 
   const getRandomIndex = () => Math.floor(Math.random() * wordList.length);
 
-  // question prep, step 0
-  // handle component mount
   useEffect(() => {
     axios
       .get("/beginnerWordList")
@@ -49,9 +44,6 @@ const Gameplay = (props) => {
       sound.play();
     }
   }, [currentWord]);
-
-  // handle response, step 1
-  // updateCorrectStatus and questionsAnswered and questionsCorrect upon submit in Question component
 
   if (gameStatus === "question") {
     return (

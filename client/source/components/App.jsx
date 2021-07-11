@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Game from "./Game.jsx";
+import GameController from "./GameController.jsx";
 import Learn from "./Learn.jsx";
 
 const App = (props) => {
@@ -19,11 +19,9 @@ const App = (props) => {
           <div className="header-item" onClick={(e) => setView("learn")}>
             Learn
           </div>
-          {/* <div onClick={setView("play")}>Play</div>
-          <div onClick={setView("learn")}>Learn</div> */}
         </div>
         <div className="app">
-          <Game />
+          <GameController />
         </div>
       </div>
     );

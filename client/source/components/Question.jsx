@@ -2,6 +2,34 @@ import React, { useState, useEffect } from "react";
 import randomizeWords from "../helpers/randomizeWords.js";
 
 const Question = (props) => {
+  const [played, setPlayed] = useState(false);
+
+  // const handleKeyPress = (event) => {
+  //   // 1 = 49
+  //   // 2 = 50
+  //   // 3 = 51
+  //   // 4 = 52
+  //   // 5 = 53
+  //   // space = 32
+  //   console.log("keypress");
+  //   if (event.keyCode === 49) {
+  //     console.log("hi");
+  //   }
+  // };
+
+  const handleAnswer = (event, optionNumber) => {
+    props.updateQuestionsAnswered(props.questionsAnswered + 1);
+    if (optionNumber === props.word.tone) {
+      props.updateScore(props.score + 10);
+      props.updateQuestionsCorrect(props.questionsCorrect + 1);
+      props.updateCorrectStatus(true);
+    } else {
+      props.updateCorrectStatus(false);
+      props.updateResponse(optionNumber);
+    }
+    props.updateGameStatus("answer");
+  };
+
   if (props.word) {
     return (
       <div className="gameplay">
@@ -17,7 +45,11 @@ const Question = (props) => {
           <span className="question">{props.word.simplifiedword}</span>
         </div>
         <div className="choices">
-          <div className="choice" onClick={() => handleAnswer(event, 1)}>
+          <div
+            className="choice"
+            onClick={() => handleAnswer(event, 1)}
+            // onKeyPress={() => handleKeyPress(event)}
+          >
             1<br></br>¯
           </div>
           <div className="choice" onClick={() => handleAnswer(event, 2)}>
@@ -29,7 +61,7 @@ const Question = (props) => {
           <div className="choice" onClick={() => handleAnswer(event, 4)}>
             4<br></br>`
           </div>
-          <div className="choice" onClick={() => handleAnswer(event, 5)}>
+          <div className="choice" onClick={() => handleAnswer(event, 0)}>
             5 <br></br>
           </div>
         </div>
@@ -41,22 +73,3 @@ const Question = (props) => {
 };
 
 export default Question;
-
-// const handleAnswer = (event, optionNumber) => {
-//   setAnswer(optionNumber);
-//   props.updateQuestionsAnswered();
-//   if (optionNumber === wordList[currentWordIndex].tone) {
-//     props.updateScore();
-//     props.updateQuestionsCorrect();
-//     setCorrectStatus(true);
-//   }
-//   props.updateAccuracy();
-//   setLastQuestion({
-//     word: wordList[currentWordIndex].simplifiedword,
-//     pinyin: wordList[currentWordIndex].pinyin,
-//     translation: wordList[currentWordIndex].translation,
-//   });
-//   props.getAccuracyBonus();
-//   props.getTotalScore();
-//   setQuestionStatus("answer");
-// };

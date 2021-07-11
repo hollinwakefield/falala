@@ -21,7 +21,7 @@ const LeaderboardList = (props) => {
           console.log("hi, you received an error", error);
         });
     }
-  });
+  }, []);
 
   if (scores[0]) {
     return (
@@ -35,7 +35,8 @@ const LeaderboardList = (props) => {
         <tbody>
           <LeaderboardItem />
           <tr>
-            <td>Anon</td>
+            <td>0</td>
+            <td>Leaderboard error</td>
             <td>0%</td>
             <td>0 points</td>
           </tr>

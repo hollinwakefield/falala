@@ -10,12 +10,13 @@ import Answer from "./Answer.jsx";
 const Gameplay = (props) => {
   const [wordList, setWordList] = useState([]);
   const [wordIndex, setWordIndex] = useState(0);
+  const [response, setResponse] = useState(null);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
   const [gameDataToUpdate, setGameDataToUpdate] = useState(true);
   const [score, setScore] = useState(0);
   const [gameStatus, setGameStatus] = useState("question");
-  const [correctStatus, setCorrectStatus] = useState(false);
+  const [correctStatus, setCorrectStatus] = useState(true);
   const [answersViewed, setAnswersViewed] = useState(0);
   const [currentWord, setCurrentWord] = useState({});
 
@@ -46,22 +47,43 @@ const Gameplay = (props) => {
     setCurrentWord(wordList[wordIndex]);
   }, [wordIndex]);
 
+  useEffect(() => {
+    if (currentWord) {
+      let sound = new Audio(currentWord.femaleAudio);
+      sound.play();
+    }
+  }, [currentWord]);
+
   // handle response, step 1
   // updateCorrectStatus and questionsAnswered and questionsCorrect upon submit in Question component
 
-  // handle response, step 2
-  // update accuracy and game status upon questionsAnswered change
-  useEffect(() => {}, [questionsAnswered]);
-
-  // handle response, step 3
-  // update total score upon game status change
-  useEffect(() => {}, [gameStatus]);
-
   if (gameStatus === "question") {
     // return <Question gameData={props} />;
-    return <Question word={currentWord} />;
+    return (
+      <Question
+        word={currentWord}
+        updateCorrectStatus={setCorrectStatus}
+        updateQuestionsAnswered={props.updateQuestionsAnswered}
+        updateQuestionsCorrect={props.updateQuestionsCorrect}
+        updateScore={props.updateScore}
+        score={props.score}
+        questionsAnswered={props.questionsAnswered}
+        questionsCorrect={props.questionsCorrect}
+        updateGameStatus={setGameStatus}
+        updateResponse={setResponse}
+      />
+    );
   } else if (gameStatus === "answer") {
-    return <Answer gameData={props} />;
+    return (
+      <Answer
+        word={currentWord}
+        correctStatus={correctStatus}
+        response={response}
+        updateGameStatus={setGameStatus}
+        answersViewed={answersViewed}
+        updateAnswersViewed={setAnswersViewed}
+      />
+    );
   } else {
     return <h1>Game is loading</h1>;
   }

@@ -33,7 +33,7 @@ const GameResults = (props) => {
         <div className="score-summary">
           <h3>Score Report</h3>
           <p>{props.score} points</p>
-          <p>{props.accuracy} accuracy</p>
+          <p>{props.accuracy}% accuracy</p>
           <p>{props.accuracyBonus} accuracy bonus points</p>
           <h4>{props.totalScore} total points</h4>
         </div>
@@ -46,7 +46,7 @@ const GameResults = (props) => {
         <div className="score-summary">
           <h3>Score Report</h3>
           <p>{props.score} points</p>
-          <p>{props.accuracy} accuracy</p>
+          <p>{props.accuracy}% accuracy</p>
           <p>{props.accuracyBonus} accuracy bonus points</p>
           <h4>{props.totalScore} total points</h4>
         </div>

@@ -20,10 +20,12 @@ const GameController = (props) => {
       return (
         <div className="gameplay">
           <Timer timer={timer} onChange={(value) => setTimer(value)} />
-          {score} points
+          <h3>{score} points</h3>
           <Gameplay
             timer={timer}
             score={score}
+            questionsAnswered={questionsAnswered}
+            questionsCorrect={questionsCorrect}
             updateScore={setScore}
             updateQuestionsAnswered={setQuestionsAnswered}
             updateQuestionsCorrect={setQuestionsCorrect}
@@ -31,10 +33,14 @@ const GameController = (props) => {
         </div>
       );
     } else {
-      accuracy = Math.round((questionsCorrect / questionsAnswered) * 100) + "%";
-      accuracyBonus = Math.round(
-        (questionsCorrect / questionsAnswered) * Math.pow(questionsCorrect, 2)
-      );
+      accuracy = Math.round((questionsCorrect / questionsAnswered) * 100);
+      if (accuracy >= 70) {
+        accuracyBonus = Math.round(
+          (questionsCorrect / questionsAnswered) * Math.pow(questionsCorrect, 2)
+        );
+      } else {
+        accuracyBonus = 0;
+      }
       totalScore = score + accuracyBonus;
       return (
         <div className="gameresults">
@@ -53,9 +59,6 @@ const GameController = (props) => {
               setScore(0);
               SetQuestionsAnswered(0);
               SetQuestionsCorrect(0);
-              // setAccuracy("0%");
-              // setAccuracyBonus(0);
-              // setTotalScore(0);
             }}
             className="button"
           >

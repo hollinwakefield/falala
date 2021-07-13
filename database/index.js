@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const config = require("../config");
 
-const connectionString = config.atlas.url;
+const connectionString =
+  "mongodb+srv://hollinwakefield:ivZIChxLxkXvoLIh@cluster0.darjz.mongodb.net/putonghua?retryWrites=true&w=majority";
 
 mongoose
   .connect(connectionString, {

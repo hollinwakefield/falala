@@ -1,0 +1,18 @@
+import React, { useState, useEffect } from "react";
+import LeaderboardList from "./LeaderboardList.jsx";
+
+const Loading = (props) => {
+  return (
+    <div className="leaderboard">
+      <h1>Get ready!</h1>
+      <h3>How to play:</h3>
+      <p>Listen to the Chinese sound and select the corresponding tone.</p>
+      <p>The more accurate you are, the more bonus points you'll receive!</p>
+      <p>
+        If you aren't familiar with the 4 tones, check out our Learn section.
+      </p>
+    </div>
+  );
+};
+
+export default Loading;

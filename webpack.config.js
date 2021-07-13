@@ -9,7 +9,7 @@ module.exports = {
     path: PUBLIC_DIR,
   },
   devtool: "eval-source-map",
-  mode: "development",
+  mode: "production",
   module: {
     rules: [
       {

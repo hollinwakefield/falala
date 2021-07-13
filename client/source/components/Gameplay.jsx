@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import randomizeWords from "../helpers/randomizeWords.js";
 import Question from "./Question.jsx";
 import Answer from "./Answer.jsx";
 
 const Gameplay = (props) => {
-  const [wordList, setWordList] = useState([]);
-  const [wordIndex, setWordIndex] = useState(0);
+  // const [wordList, setWordList] = useState([]);
+  const [wordIndex, setWordIndex] = useState(null);
   const [response, setResponse] = useState(null);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
@@ -16,30 +15,36 @@ const Gameplay = (props) => {
   const [correctStatus, setCorrectStatus] = useState(true);
   const [answersViewed, setAnswersViewed] = useState(0);
   const [currentWord, setCurrentWord] = useState({});
+  const [loaded, setLoaded] = useState(false);
 
-  const getRandomIndex = () => Math.floor(Math.random() * wordList.length);
+  const getRandomIndex = () =>
+    Math.floor(Math.random() * props.wordList.length);
+
+  // useEffect(() => {
+  //   axios
+  //     .get("/beginnerWordList")
+  //     .then((response) => {
+  //       setWordList(response.data);
+  //     })
+  //     .catch((error) => {
+  //       console.log("hi, you received an error", error);
+  //     });
+  // }, []);
 
   useEffect(() => {
-    axios
-      .get("/beginnerWordList")
-      .then((response) => {
-        setWordList(response.data);
-      })
-      .catch((error) => {
-        console.log("hi, you received an error", error);
-      });
+    setWordIndex(getRandomIndex());
   }, []);
 
   useEffect(() => {
     setWordIndex(getRandomIndex());
-  }, [wordList, answersViewed]);
+  }, [answersViewed]);
 
   useEffect(() => {
-    setCurrentWord(wordList[wordIndex]);
+    setCurrentWord(props.wordList[wordIndex]);
   }, [wordIndex]);
 
   useEffect(() => {
-    if (currentWord) {
+    if (currentWord && wordIndex) {
       let sound = new Audio(currentWord.femaleAudio);
       sound.play();
     }

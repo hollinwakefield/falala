@@ -1,6 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, lazy, Suspense } from "react";
 import GameController from "./GameController.jsx";
-import Learn from "./Learn.jsx";
+// import Learn from "./Learn.jsx";
+
+const LearnComponent = lazy(() => import("./Learn.jsx"));
+
+const renderLoader = () => <p>Loading</p>;
 
 const App = (props) => {
   const [view, setView] = useState("play");
@@ -41,7 +45,9 @@ const App = (props) => {
           </div>
         </div>
         <div className="app">
-          <Learn className="learn" />
+          <Suspense fallback={renderLoader()}>
+            <LearnComponent className="learn" />
+          </Suspense>
         </div>
       </div>
     );

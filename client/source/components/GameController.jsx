@@ -1,27 +1,65 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, lazy, Suspense } from "react";
+import axios from "axios";
 import Gameplay from "./Gameplay.jsx";
-import GameResults from "./GameResults.jsx";
+// import GameResults from "./GameResults.jsx";
 import Timer from "./Timer.jsx";
 import Leaderboard from "./Leaderboard.jsx";
 
+const LoadingTimerComponent = lazy(() => import("./LoadingTimer.jsx"));
+const LoadingComponent = lazy(() => import("./Loading.jsx"));
+// const GameplayComponent = lazy(() => import("./Gameplay.jsx"));
+const GameResultsComponent = lazy(() => import("./GameResults.jsx"));
+// const TimerComponent = lazy(() => import("./Timer.jsx"));
+
+const renderLoader = () => <p>Loading</p>;
+
 const GameController = (props) => {
   const [gameStarted, setGameStarted] = useState(false);
+  const [wordList, setWordList] = useState([]);
   const [score, setScore] = useState(0);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
-  const [timer, setTimer] = useState(20);
+  const [timer, setTimer] = useState(60);
+  const [loadingTimer, setLoadingTimer] = useState(10);
 
   let accuracy;
   let accuracyBonus;
   let totalScore;
 
   if (gameStarted === true) {
-    if (timer > 0) {
+    if (loadingTimer > 0) {
+      console.log(loadingTimer);
+      axios
+        .get("/beginnerWordList")
+        .then((response) => {
+          setWordList(response.data);
+        })
+        .catch((error) => {
+          console.log("hi, you received an error", error);
+        });
       return (
         <div className="gameplay">
+          <Suspense fallback={renderLoader()}>
+            <LoadingTimerComponent
+              loadingTimer={loadingTimer}
+              onChange={(value) => setLoadingTimer(value)}
+            />
+          </Suspense>
+          <Suspense fallback={renderLoader()}>
+            <LoadingComponent />
+          </Suspense>
+        </div>
+      );
+    } else if (loadingTimer === 0 && timer > 0) {
+      return (
+        <div className="gameplay">
+          {/* <Suspense fallback={renderLoader()}> */}
           <Timer timer={timer} onChange={(value) => setTimer(value)} />
+          {/* </Suspense> */}
           <h3>{score} points</h3>
+          {/* <Suspense fallback={renderLoader()}> */}
           <Gameplay
+            wordList={wordList}
             timer={timer}
             score={score}
             questionsAnswered={questionsAnswered}
@@ -30,10 +68,15 @@ const GameController = (props) => {
             updateQuestionsAnswered={setQuestionsAnswered}
             updateQuestionsCorrect={setQuestionsCorrect}
           />
+          {/* </Suspense> */}
         </div>
       );
     } else {
-      accuracy = Math.round((questionsCorrect / questionsAnswered) * 100);
+      if (questionsAnswered > 0) {
+        accuracy = Math.round((questionsCorrect / questionsAnswered) * 100);
+      } else {
+        accuracy = 0;
+      }
       if (accuracy >= 70) {
         accuracyBonus = Math.round(
           (questionsCorrect / questionsAnswered) * Math.pow(questionsCorrect, 2)
@@ -44,18 +87,21 @@ const GameController = (props) => {
       totalScore = score + accuracyBonus;
       return (
         <div className="gameresults">
-          <GameResults
-            score={score}
-            questionsAnswered={questionsAnswered}
-            questionsCorrect={questionsCorrect}
-            accuracy={accuracy}
-            accuracyBonus={accuracyBonus}
-            totalScore={totalScore}
-          />
+          <Suspense fallback={renderLoader()}>
+            <GameResultsComponent
+              score={score}
+              questionsAnswered={questionsAnswered}
+              questionsCorrect={questionsCorrect}
+              accuracy={accuracy}
+              accuracyBonus={accuracyBonus}
+              totalScore={totalScore}
+            />
+          </Suspense>
           <button
             onClick={(e) => {
               setGameStarted(false);
-              setTimer(15);
+              setTimer(60);
+              setLoadingTimer(10);
               setScore(0);
               SetQuestionsAnswered(0);
               SetQuestionsCorrect(0);

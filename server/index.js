@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + "/../client/public"));
 
 app.get("/beginnerWordList", (req, res) => {
-  BeginnerWord.find()
+  BeginnerWord.find() 
     .then((wordList) => {
       res.status(200).send(wordList);
     })

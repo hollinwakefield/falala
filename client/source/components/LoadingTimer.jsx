@@ -18,7 +18,7 @@ const LoadingTimer = (props) => {
   }, [seconds]);
 
   const countdown = () => {
-    console.log(timer);
+    // console.log(timer);
     setTimer(timer - 1);
     return timer;
   };

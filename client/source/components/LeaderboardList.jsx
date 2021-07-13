@@ -5,9 +5,10 @@ import axios from "axios";
 const LeaderboardList = (props) => {
   const [scores, setScores] = useState([]);
 
-  const leaderboardMap = (score, index) => (
-    <LeaderboardItem score={score} key={score._id} rank={index + 1} />
-  );
+  const leaderboardMap = (score, index) => {
+    if (index < 10)
+      return <LeaderboardItem score={score} key={score._id} rank={index + 1} />;
+  };
 
   useEffect(() => {
     if (scores[0]) {

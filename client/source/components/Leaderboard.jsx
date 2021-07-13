@@ -4,8 +4,8 @@ import LeaderboardList from "./LeaderboardList.jsx";
 const Leaderboard = (props) => {
   return (
     <div className="leaderboard">
-      <h3>Leaderboard</h3>
-      <LeaderboardList className="leaderboard-list"/>
+      <h3 className="leaderboard-header">Leaderboard</h3>
+      <LeaderboardList className="leaderboard-list" />
     </div>
   );
 };

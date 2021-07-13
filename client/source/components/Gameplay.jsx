@@ -20,17 +20,6 @@ const Gameplay = (props) => {
   const getRandomIndex = () =>
     Math.floor(Math.random() * props.wordList.length);
 
-  // useEffect(() => {
-  //   axios
-  //     .get("/beginnerWordList")
-  //     .then((response) => {
-  //       setWordList(response.data);
-  //     })
-  //     .catch((error) => {
-  //       console.log("hi, you received an error", error);
-  //     });
-  // }, []);
-
   useEffect(() => {
     setWordIndex(getRandomIndex());
   }, []);

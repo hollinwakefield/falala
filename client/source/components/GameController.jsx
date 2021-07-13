@@ -28,7 +28,6 @@ const GameController = (props) => {
 
   if (gameStarted === true) {
     if (loadingTimer > 0) {
-      console.log(loadingTimer);
       axios
         .get("/beginnerWordList")
         .then((response) => {

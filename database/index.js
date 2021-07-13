@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const config = require("../config");
+// const config = require("../config");
 
 const connectionString =
   "mongodb+srv://hollinwakefield:z87qn3ieHzoHNIMl@cluster0.darjz.mongodb.net/putonghua?retryWrites=true&w=majority";

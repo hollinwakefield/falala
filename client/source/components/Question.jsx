@@ -35,7 +35,7 @@ const Question = (props) => {
       <div className="gameplay">
         <div className="question-div">
           <img
-            src="./audio-icon.png"
+            src="./assets/audio-icon.png"
             className="audio-icon"
             onClick={() => {
               let audio = new Audio(props.word.femaleAudio);

@@ -24,6 +24,7 @@ h1 {
 
 .logo-latin {
   margin-left: 25px;
+  cursor: pointer;
 }
 
 h2 {
@@ -35,6 +36,17 @@ h2 {
 
 .logo-hanzi {
   margin-left: 25px;
+  cursor: pointer;
+}
+
+.lantern {
+  width: 100px;
+  margin-right: 100px;
+  float: right;
+}
+
+.header-left {
+  display: flex;
 }
 
 h3 {
@@ -56,6 +68,7 @@ h3 {
 
 .header {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo {

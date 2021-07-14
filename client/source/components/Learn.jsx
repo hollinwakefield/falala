@@ -78,7 +78,7 @@ const Learn = (props) => {
           <p>First Tone</p>
           <br></br>
           <img
-            src="./audio-icon.png"
+            src="./assets/audio-icon.png"
             className="audio-icon"
             onClick={playAudio1}
           ></img>
@@ -93,7 +93,7 @@ const Learn = (props) => {
           <p>Second Tone</p>
           <br></br>
           <img
-            src="./audio-icon.png"
+            src="./assets/audio-icon.png"
             className="audio-icon"
             onClick={playAudio2}
           ></img>
@@ -108,7 +108,7 @@ const Learn = (props) => {
           <p>Third Tone</p>
           <br></br>
           <img
-            src="./audio-icon.png"
+            src="./assets/audio-icon.png"
             className="audio-icon"
             onClick={playAudio3}
           ></img>
@@ -123,7 +123,7 @@ const Learn = (props) => {
           <p>Fourth Tone</p>
           <br></br>
           <img
-            src="./audio-icon.png"
+            src="./assets/audio-icon.png"
             className="audio-icon"
             onClick={playAudio4}
           ></img>
@@ -138,7 +138,7 @@ const Learn = (props) => {
           <p>Neutral Tone</p>
           <br></br>
           <img
-            src="./audio-icon.png"
+            src="./assets/audio-icon.png"
             className="audio-icon"
             onClick={playAudio5}
           ></img>

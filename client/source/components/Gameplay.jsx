@@ -4,7 +4,6 @@ import Question from "./Question.jsx";
 import Answer from "./Answer.jsx";
 
 const Gameplay = (props) => {
-  // const [wordList, setWordList] = useState([]);
   const [wordIndex, setWordIndex] = useState(null);
   const [response, setResponse] = useState(null);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);

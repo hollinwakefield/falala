@@ -1,6 +1,5 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import GameController from "./GameController.jsx";
-// import Learn from "./Learn.jsx";
 
 const LearnComponent = lazy(() => import("./Learn.jsx"));
 

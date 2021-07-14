@@ -1,15 +1,12 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import axios from "axios";
 import Gameplay from "./Gameplay.jsx";
-// import GameResults from "./GameResults.jsx";
 import Timer from "./Timer.jsx";
 import Leaderboard from "./Leaderboard.jsx";
 
 const LoadingTimerComponent = lazy(() => import("./LoadingTimer.jsx"));
 const LoadingComponent = lazy(() => import("./Loading.jsx"));
-// const GameplayComponent = lazy(() => import("./Gameplay.jsx"));
 const GameResultsComponent = lazy(() => import("./GameResults.jsx"));
-// const TimerComponent = lazy(() => import("./Timer.jsx"));
 
 const renderLoader = () => <p>Loading</p>;
 
@@ -52,11 +49,8 @@ const GameController = (props) => {
     } else if (loadingTimer === 0 && timer > 0) {
       return (
         <div className="gameplay">
-          {/* <Suspense fallback={renderLoader()}> */}
           <Timer timer={timer} onChange={(value) => setTimer(value)} />
-          {/* </Suspense> */}
           <h3>{score} points</h3>
-          {/* <Suspense fallback={renderLoader()}> */}
           <Gameplay
             wordList={wordList}
             timer={timer}
@@ -67,7 +61,6 @@ const GameController = (props) => {
             updateQuestionsAnswered={setQuestionsAnswered}
             updateQuestionsCorrect={setQuestionsCorrect}
           />
-          {/* </Suspense> */}
         </div>
       );
     } else {

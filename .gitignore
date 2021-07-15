@@ -6,7 +6,6 @@
 .DS_Store
 database/data
 config.js
-client/public/bundle.js
 
 # User-specific files
 *.rsuser

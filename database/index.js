@@ -1,13 +1,12 @@
 const mongoose = require("mongoose");
 // const config = require("../config");
 
-// const connectionString =
-//   "mongodb+srv://hollinwakefield:z87qn3ieHzoHNIMl@cluster0.darjz.mongodb.net/putonghua?retryWrites=true&w=majority";
+// const connectionString = config.atlas.url;
 
-const connectionString2 = process.env.MONGODB_URI;
+const remoteConnectionString = process.env.MONGODB_URI;
 
 mongoose
-  .connect(connectionString2, {
+  .connect(remoteConnectionString, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

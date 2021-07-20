@@ -25,14 +25,16 @@ const GameController = (props) => {
 
   if (gameStarted === true) {
     if (loadingTimer > 0) {
-      axios
-        .get("/beginnerWordList")
-        .then((response) => {
-          setWordList(response.data);
-        })
-        .catch((error) => {
-          console.log("hi, you received an error", error);
-        });
+      if (wordList.length === 0) {
+        axios
+          .get("/beginnerWordList")
+          .then((response) => {
+            setWordList(response.data);
+          })
+          .catch((error) => {
+            console.log("hi, you received an error", error);
+          });
+      }
       return (
         <div className="gameplay">
           <Suspense fallback={renderLoader()}>

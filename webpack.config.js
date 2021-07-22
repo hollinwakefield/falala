@@ -1,6 +1,8 @@
 const path = require("path");
 const SRC_DIR = path.join(__dirname, "/client/source");
 const PUBLIC_DIR = path.join(__dirname, "/client/public");
+// const BundleAnalyzerPlugin =
+//   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
   entry: `${SRC_DIR}/index.jsx`,

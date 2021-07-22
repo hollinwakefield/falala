@@ -23,7 +23,7 @@ const GameResults = (props) => {
       //   console.log("hi, you made a successful post", response);
       // })
       .catch((error) => {
-        console.log("hi, you received an error", error);
+        console.log("Error sending data", error);
       });
   };
 

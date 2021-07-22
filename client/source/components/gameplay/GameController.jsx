@@ -32,7 +32,7 @@ const GameController = (props) => {
             setWordList(response.data);
           })
           .catch((error) => {
-            console.log("hi, you received an error", error);
+            console.log("Error fetching data", error);
           });
       }
       return (

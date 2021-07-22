@@ -1,6 +1,8 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
-import GameController from "../gameplay/GameController.jsx";
 import { Route, Switch, Redirect } from "react-router-dom";
+import GameController from "../gameplay/GameController.jsx";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 
 const LearnComponent = lazy(() => import("../learn/Learn.jsx"));
 
@@ -50,11 +52,7 @@ const App = (props) => {
             <GameController />
           </div>
         </div>
-        <img
-          className="china-background"
-          src="../../assets/china-background.png"
-          alt="background-china-skyline"
-        ></img>
+        <Footer />
       </>
     );
   } else if (view === "learn") {
@@ -78,11 +76,7 @@ const App = (props) => {
             </div>
           </div>
           <div className="header-right">
-            <img
-              className="lantern"
-              src="../../assets/lantern.png"
-              alt="chinese-lantern"
-            ></img>
+            <Footer />
           </div>
         </div>
         <div className="app">

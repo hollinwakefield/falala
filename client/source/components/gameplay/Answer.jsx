@@ -1,26 +1,12 @@
 import React, { useState, useEffect } from "react";
 import randomizeWords from "../helpers/randomizeWords.js";
+import getToneText from "../helpers/getToneText.js";
 
 const Answer = (props) => {
-  let toneText = "";
+  // let toneText = "";
   let response = props.response;
   let correctTone = props.word.tone;
   let audio;
-
-  const getToneText = (tone) => {
-    if (tone === 1) {
-      toneText = "1st tone";
-    } else if (tone === 2) {
-      toneText = "2nd tone";
-    } else if (tone === 3) {
-      toneText = "3rd tone";
-    } else if (tone === 4) {
-      toneText = "4th tone";
-    } else {
-      toneText = "neutral tone";
-    }
-    return toneText;
-  };
 
   // const handleKeyPress = (event) => {
   //   // space = 32

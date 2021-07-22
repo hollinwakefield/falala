@@ -7,14 +7,8 @@ import {
   useRouteMatch,
   useParams,
 } from "react-router-dom";
-//   <Router>
-//   <Suspense fallback={<div>Loading...</div>}>
-//     <Switch>
-//       <Route exact path="/" component={Home}/>
-//       <Route path="/about" component={About}/>
-//     </Switch>
-//   </Suspense>
-// </Router>
+
+const renderLoader = () => <p>Loading</p>;
 
 const Header = (props) => {
   return (
@@ -26,37 +20,51 @@ const Header = (props) => {
               className="logo-latin"
               onClick={(e) => props.updateView("play")}
             >
-              <Link to="/" style={{ textDecoration: "none", color: "#333333" }}>
-                Putonghua
-              </Link>
+              <Suspense fallback={renderLoader()}>
+                <Link
+                  to="/"
+                  style={{ textDecoration: "none", color: "#333333" }}
+                >
+                  Putonghua
+                </Link>
+              </Suspense>
             </h1>
             <h2
               className="logo-hanzi"
               onClick={(e) => props.updateView("play")}
             >
-              <Link to="/" style={{ textDecoration: "none", color: "#333333" }}>
-                普通话
-              </Link>
+              <Suspense fallback={renderLoader()}>
+                <Link
+                  to="/"
+                  style={{ textDecoration: "none", color: "#333333" }}
+                >
+                  普通话
+                </Link>
+              </Suspense>
             </h2>
           </div>
           <div
             className="header-item"
             onClick={(e) => props.updateView("play")}
           >
-            <Link to="/" style={{ textDecoration: "none", color: "#333333" }}>
-              Play
-            </Link>
+            <Suspense fallback={renderLoader()}>
+              <Link to="/" style={{ textDecoration: "none", color: "#333333" }}>
+                Play
+              </Link>
+            </Suspense>
           </div>
           <div
             className="header-item"
             onClick={(e) => props.updateView("learn")}
           >
-            <Link
-              to="/learn"
-              style={{ textDecoration: "none", color: "#333333" }}
-            >
-              Learn
-            </Link>
+            <Suspense fallback={renderLoader()}>
+              <Link
+                to="/learn"
+                style={{ textDecoration: "none", color: "#333333" }}
+              >
+                Learn
+              </Link>
+            </Suspense>
           </div>
         </div>
         <div className="header-right">

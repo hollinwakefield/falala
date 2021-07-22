@@ -9,10 +9,24 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.onload=null;
+      this.removeAttribute('media');"
+      href="styles.css"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap"
+      />
+    </noscript>
     <link rel="preload" as="image" href="./assets/china-background.png" />
     <link rel="shortcut icon" href="#" />
   </head>

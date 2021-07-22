@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import LeaderboardList from "./LeaderboardList.jsx";
+// import LeaderboardList from "./LeaderboardList.jsx.js";
 
 const Loading = (props) => {
   return (

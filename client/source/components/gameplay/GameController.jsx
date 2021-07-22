@@ -2,7 +2,7 @@ import React, { useState, useEffect, lazy, Suspense } from "react";
 import axios from "axios";
 import Gameplay from "./Gameplay.jsx";
 import Timer from "./Timer.jsx";
-import Leaderboard from "./Leaderboard.jsx";
+import Leaderboard from "../leaderboard/Leaderboard.jsx";
 
 const LoadingTimerComponent = lazy(() => import("./LoadingTimer.jsx"));
 const LoadingComponent = lazy(() => import("./Loading.jsx"));

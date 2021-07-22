@@ -1,12 +1,21 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
-import GameController from "./GameController.jsx";
+import GameController from "../gameplay/GameController.jsx";
+import { Route, Switch, Redirect } from "react-router-dom";
 
-const LearnComponent = lazy(() => import("./Learn.jsx"));
+const LearnComponent = lazy(() => import("../learn/Learn.jsx"));
 
 const renderLoader = () => <p>Loading</p>;
 
 const App = (props) => {
   const [view, setView] = useState("play");
+  //   <Router>
+  //   <Suspense fallback={<div>Loading...</div>}>
+  //     <Switch>
+  //       <Route exact path="/" component={Home}/>
+  //       <Route path="/about" component={About}/>
+  //     </Switch>
+  //   </Suspense>
+  // </Router>
 
   if (view === "play") {
     return (

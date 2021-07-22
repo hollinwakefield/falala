@@ -7,7 +7,7 @@ const GameResults = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(username);
+    // console.log(username);
     setFormSubmitted(true);
     const scoreObject = {};
     scoreObject.name = username;
@@ -16,12 +16,12 @@ const GameResults = (props) => {
     scoreObject.questionsCorrect = props.questionsCorrect;
     scoreObject.accuracy = props.accuracy + "%";
     scoreObject.totalScore = props.totalScore;
-    console.log(scoreObject);
+    // console.log(scoreObject);
     axios
       .post("/scores", scoreObject)
-      .then((response) => {
-        console.log("hi, you made a successful post", response);
-      })
+      // .then((response) => {
+      //   console.log("hi, you made a successful post", response);
+      // })
       .catch((error) => {
         console.log("hi, you received an error", error);
       });

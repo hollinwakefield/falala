@@ -5,17 +5,17 @@ const Header = (props) => {
     <div className="header">
       <div className="header-left">
         <div className="logo">
-          <h1 className="logo-latin" onClick={(e) => setView("play")}>
+          <h1 className="logo-latin" onClick={(e) => props.updateView("play")}>
             Putonghua
           </h1>
-          <h2 className="logo-hanzi" onClick={(e) => setView("play")}>
+          <h2 className="logo-hanzi" onClick={(e) => props.updateView("play")}>
             普通话
           </h2>
         </div>
-        <div className="header-item" onClick={(e) => setView("play")}>
+        <div className="header-item" onClick={(e) => props.updateView("play")}>
           Play
         </div>
-        <div className="header-item" onClick={(e) => setView("learn")}>
+        <div className="header-item" onClick={(e) => props.updateView("learn")}>
           Learn
         </div>
       </div>

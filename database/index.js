@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-const config = require("../config");
+// const config = require("../config");
 
-const connectionString = process.env.MONGODB_URI || config.atlas.url;
-// const connectionString = process.env.MONGODB_URI;
+// const connectionString = process.env.MONGODB_URI || config.atlas.url;
+const connectionString = process.env.MONGODB_URI;
 
 mongoose
   .connect(connectionString, {

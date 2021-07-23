@@ -44,7 +44,12 @@ const GameController = (props) => {
             />
           </Suspense>
           <Suspense fallback={renderLoader()}>
-            <LoadingComponent />
+            <LoadingComponent
+              updateTimer={setTimer}
+              updateScore={setScore}
+              updateQuestionsAnswered={setQuestionsAnswered}
+              updateQuestionsCorrect={setQuestionsCorrect}
+            />
           </Suspense>
         </div>
       );
@@ -59,6 +64,7 @@ const GameController = (props) => {
             score={score}
             questionsAnswered={questionsAnswered}
             questionsCorrect={questionsCorrect}
+            updateTimer={setTimer}
             updateScore={setScore}
             updateQuestionsAnswered={setQuestionsAnswered}
             updateQuestionsCorrect={setQuestionsCorrect}
@@ -89,6 +95,7 @@ const GameController = (props) => {
               accuracy={accuracy}
               accuracyBonus={accuracyBonus}
               totalScore={totalScore}
+              updateTimer={setTimer}
             />
           </Suspense>
           <button
@@ -96,9 +103,6 @@ const GameController = (props) => {
               setGameStarted(false);
               setTimer(60);
               setLoadingTimer(10);
-              setScore(0);
-              SetQuestionsAnswered(0);
-              SetQuestionsCorrect(0);
             }}
             className="button"
           >

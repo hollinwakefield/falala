@@ -2,6 +2,13 @@ import React, { useState, useEffect } from "react";
 // import LeaderboardList from "./LeaderboardList.jsx.js";
 
 const Loading = (props) => {
+  useEffect(() => {
+    props.updateTimer(60);
+    props.updateScore(0);
+    props.updateQuestionsAnswered(0);
+    props.updateQuestionsCorrect(0);
+  }, [props]);
+
   return (
     <div className="leaderboard">
       <h1>Get ready!</h1>

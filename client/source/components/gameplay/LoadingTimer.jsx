@@ -17,6 +17,8 @@ const LoadingTimer = (props) => {
     return () => clearInterval(interval);
   }, [seconds]);
 
+  
+
   const countdown = () => {
     // console.log(timer);
     setTimer(timer - 1);

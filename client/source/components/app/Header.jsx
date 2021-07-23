@@ -7,6 +7,7 @@ import {
   useRouteMatch,
   useParams,
 } from "react-router-dom";
+import SimpleMenu from "./Menu.jsx";
 
 const renderLoader = () => <p>Loading</p>;
 
@@ -66,6 +67,7 @@ const Header = (props) => {
               </Link>
             </Suspense>
           </div>
+          <SimpleMenu updateView={props.updateView} />
         </div>
         <div className="header-right">
           <img

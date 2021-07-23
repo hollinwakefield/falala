@@ -173,10 +173,18 @@ h3 {
   text-align: center;
 }
 
-.leaderboard {
+.leaderboard,
+.loading {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media all and (min-width: 800px) {
+  .loading {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
 }
 
 .leaderboard-header {
@@ -203,6 +211,11 @@ td {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.gameresults {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 
 .audio-icon {
@@ -240,7 +253,8 @@ td {
 
 .score-summary {
   display: block;
-  margin: 15px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 
 .current-score {

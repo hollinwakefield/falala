@@ -10,7 +10,7 @@ const Loading = (props) => {
   }, [props]);
 
   return (
-    <div className="leaderboard">
+    <div className="loading">
       <h1>Get ready!</h1>
       <h3>How to play:</h3>
       <p>Listen to the Chinese sound and select the corresponding tone.</p>

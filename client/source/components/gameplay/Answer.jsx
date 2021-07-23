@@ -33,7 +33,7 @@ const Answer = (props) => {
           ></img>
           <br></br>
           <br></br>
-          <h4>{props.word.simplifiedword}</h4>
+          <h3>{props.word.simplifiedword}</h3>
           <br></br>
           <h4>{props.word.pinyin}</h4>
           <br></br>
@@ -49,6 +49,7 @@ const Answer = (props) => {
       <div className="last-question">
         <div className="last-question-info">
           <h1>Not quite, but good try!</h1>
+          <br></br>
           <img
             src="./assets/audio-icon.png"
             className="audio-icon"
@@ -57,12 +58,8 @@ const Answer = (props) => {
               audio.play();
             }}
           ></img>
-          <br></br>
-          <br></br>
-          <h4>{props.word.simplifiedword}</h4>
-          <br></br>
+          <h3>{props.word.simplifiedword}</h3>
           <h4>{props.word.pinyin}</h4>
-          <br></br>
           <h4>English: {props.word.translation}</h4>
           <h5>
             You selected the {getToneText(response)} <br></br>but this sound is

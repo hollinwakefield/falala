@@ -31,11 +31,11 @@ const GameResults = (props) => {
     return (
       <>
         <div className="score-summary">
-          <h3>Score Report</h3>
+          <h3>Final Score</h3>
+          <h3>{props.totalScore} total points</h3>
           <p>{props.score} points</p>
           <p>{props.accuracy}% accuracy</p>
           <p>{props.accuracyBonus} accuracy bonus points</p>
-          <h4>{props.totalScore} total points</h4>
         </div>
         Thanks for playing, {username}! Want to play again?
       </>
@@ -44,11 +44,11 @@ const GameResults = (props) => {
     return (
       <>
         <div className="score-summary">
-          <h3>Score Report</h3>
+          <h3>Final Score</h3>
+          <h3>{props.totalScore} total points</h3>
           <p>{props.score} points</p>
           <p>{props.accuracy}% accuracy</p>
           <p>{props.accuracyBonus} accuracy bonus points</p>
-          <h4>{props.totalScore} total points</h4>
         </div>
         Enter a username to save your score: <br></br>
         <form className="save-score" onSubmit={handleSubmit}>

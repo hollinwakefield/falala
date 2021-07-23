@@ -1,8 +1,8 @@
 const path = require("path");
 const SRC_DIR = path.join(__dirname, "/client/source");
 const PUBLIC_DIR = path.join(__dirname, "/client/public");
-const BundleAnalyzerPlugin =
-  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin =
+//   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const BrotliPlugin = require("brotli-webpack-plugin"); //brotli
 const CompressionPlugin = require("compression-webpack-plugin"); //gzip
 
@@ -29,7 +29,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     // new CompressionPlugin({
     //   //gzip plugin
     //   filename: "[path].gz[query]",

@@ -29,7 +29,7 @@ const GameResults = (props) => {
 
   if (formSubmitted) {
     return (
-      <div className="gameresults">
+      <>
         <div className="score-summary">
           <h3>Score Report</h3>
           <p>{props.score} points</p>
@@ -38,7 +38,7 @@ const GameResults = (props) => {
           <h4>{props.totalScore} total points</h4>
         </div>
         Thanks for playing, {username}! Want to play again?
-      </div>
+      </>
     );
   } else {
     return (

@@ -42,7 +42,7 @@ const GameResults = (props) => {
     );
   } else {
     return (
-      <div className="gameresults">
+      <>
         <div className="score-summary">
           <h3>Score Report</h3>
           <p>{props.score} points</p>
@@ -63,7 +63,7 @@ const GameResults = (props) => {
           {/* </label> */}
           <button className="save-button">Save Score</button>
         </form>
-      </div>
+      </>
     );
   }
 };

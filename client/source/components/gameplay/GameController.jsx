@@ -58,7 +58,7 @@ const GameController = (props) => {
       return (
         <div className="gameplay">
           <Timer timer={timer} onChange={(value) => setTimer(value)} />
-          <h3>{score} points</h3>
+          <h2>{score} points</h2>
           <Gameplay
             wordList={wordList}
             timer={timer}
@@ -116,7 +116,7 @@ const GameController = (props) => {
     return (
       <div className="game">
         <div className="start-game">
-          <h3>Learn Single Tones</h3>
+          <h2>Learn Single Tones</h2>
           <button onClick={(e) => setGameStarted(true)} className="button">
             Start Game
           </button>

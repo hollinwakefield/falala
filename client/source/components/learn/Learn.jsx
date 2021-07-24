@@ -72,7 +72,7 @@ const Learn = (props) => {
 
   return (
     <div className="learn">
-      <h3>Tone Examples</h3>
+      <h2>Tone Examples</h2>
       <div className="tone-examples">
         <div className="first-tone">
           <p>First Tone</p>
@@ -150,7 +150,7 @@ const Learn = (props) => {
           ...is that right? / ...is it?
         </div>
       </div>
-      <h3>Tone Charts</h3>
+      <h2>Tone Charts</h2>
       <div className="tone-charts"></div>
       <img
         className="tone-chart"
@@ -165,7 +165,7 @@ const Learn = (props) => {
           AllSet Learning
         </a>
       </p>
-      <h3>Tone Sandhi</h3>
+      <h2>Tone Sandhi</h2>
       <img
         className="tone-chart"
         src={"https://putonghua.s3.amazonaws.com/tone-chart-2.png"}

@@ -33,11 +33,11 @@ const Answer = (props) => {
           ></img>
           <br></br>
           <br></br>
-          <h3>{props.word.simplifiedword}</h3>
+          <h2>{props.word.simplifiedword}</h2>
           <br></br>
-          <h4>{props.word.pinyin}</h4>
+          <h3>{props.word.pinyin}</h3>
           <br></br>
-          <h4>English: {props.word.translation}</h4>
+          <h3>English: {props.word.translation}</h3>
         </div>
         <button className="button" onClick={() => continueGame(event)}>
           Continue
@@ -58,13 +58,13 @@ const Answer = (props) => {
               audio.play();
             }}
           ></img>
-          <h3>{props.word.simplifiedword}</h3>
-          <h4>{props.word.pinyin}</h4>
-          <h4>English: {props.word.translation}</h4>
-          <h5>
+          <h2>{props.word.simplifiedword}</h2>
+          <h3>{props.word.pinyin}</h3>
+          <h3>English: {props.word.translation}</h3>
+          <h4>
             You selected the {getToneText(response)} <br></br>but this sound is
             the {getToneText(correctTone)} tone.
-          </h5>
+          </h4>
         </div>
         <button className="button" onClick={() => continueGame(event)}>
           Continue

@@ -14,7 +14,7 @@ const Loading = (props) => {
     <div className="loading">
       <h1>Get ready!</h1>
       <br></br>
-      <h3>How to play:</h3>
+      <h2>How to play:</h2>
       <p>Listen to the Chinese sound and select the corresponding tone.</p>
       <p>The more accurate you are, the more bonus points you'll receive!</p>
       <p>

@@ -4,7 +4,7 @@ import LeaderboardList from "./LeaderboardList.jsx";
 const Leaderboard = (props) => {
   return (
     <div className="leaderboard">
-      <h3 className="leaderboard-header">Leaderboard</h3>
+      <h2 className="leaderboard-header">Leaderboard</h2>
       <LeaderboardList className="leaderboard-list" />
     </div>
   );

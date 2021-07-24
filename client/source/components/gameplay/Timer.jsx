@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import Timers from "../helpers/timerDuration.js";
 
 const Timer = (props) => {
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(60);
+  const [seconds, setSeconds] = useState(Timers.gameTimer);
   const [displayTime, setDisplayTime] = useState(seconds);
 
   useEffect(() => {

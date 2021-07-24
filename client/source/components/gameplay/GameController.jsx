@@ -1,8 +1,9 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import axios from "axios";
-import Gameplay from "./Gameplay.jsx";
+import Gameplay from "./chinese/SingleTones.jsx";
 import Timer from "./Timer.jsx";
 import Leaderboard from "../leaderboard/Leaderboard.jsx";
+import Timers from "../helpers/timerDuration.js";
 
 const LoadingTimerComponent = lazy(() => import("./LoadingTimer.jsx"));
 const LoadingComponent = lazy(() => import("./Loading.jsx"));
@@ -16,7 +17,7 @@ const GameController = (props) => {
   const [score, setScore] = useState(0);
   const [questionsAnswered, setQuestionsAnswered] = useState(0);
   const [questionsCorrect, setQuestionsCorrect] = useState(0);
-  const [timer, setTimer] = useState(60);
+  const [timer, setTimer] = useState(Timers.gameTimer);
   const [loadingTimer, setLoadingTimer] = useState(10);
 
   let accuracy;
@@ -101,8 +102,8 @@ const GameController = (props) => {
           <button
             onClick={(e) => {
               setGameStarted(false);
-              setTimer(60);
-              setLoadingTimer(10);
+              setTimer(Timers.gameTimer);
+              setLoadingTimer(Timers.loadingTimer);
             }}
             className="button"
           >

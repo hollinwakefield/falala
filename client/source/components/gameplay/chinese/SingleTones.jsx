@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import randomizeWords from "../helpers/randomizeWords.js";
-import Question from "./Question.jsx";
-import Answer from "./Answer.jsx";
+import randomizeWords from "../../helpers/randomizeWords.js";
+import Question from "../Question.jsx";
+import Answer from "../Answer.jsx";
 
 const Gameplay = (props) => {
   const [wordIndex, setWordIndex] = useState(null);

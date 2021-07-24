@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import Timers from "../helpers/timerDuration.js";
 
 const LoadingTimer = (props) => {
   const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(Timers.loadingTimer);
   const [displayTime, setDisplayTime] = useState(seconds);
 
   useEffect(() => {
@@ -16,8 +17,6 @@ const LoadingTimer = (props) => {
 
     return () => clearInterval(interval);
   }, [seconds]);
-
-  
 
   const countdown = () => {
     // console.log(timer);

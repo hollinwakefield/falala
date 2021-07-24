@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
+import Timers from "../helpers/timerDuration.js";
 // import LeaderboardList from "./LeaderboardList.jsx.js";
 
 const Loading = (props) => {
   useEffect(() => {
-    props.updateTimer(60);
+    props.updateTimer(Timers.gameTimer);
     props.updateScore(0);
     props.updateQuestionsAnswered(0);
     props.updateQuestionsCorrect(0);

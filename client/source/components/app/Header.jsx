@@ -26,23 +26,10 @@ const Header = (props) => {
                   to="/"
                   style={{ textDecoration: "none", color: "#333333" }}
                 >
-                  Putonghua
+                  falala
                 </Link>
               </Suspense>
             </h1>
-            <h2
-              className="logo-hanzi"
-              onClick={(e) => props.updateView("play")}
-            >
-              <Suspense fallback={renderLoader()}>
-                <Link
-                  to="/"
-                  style={{ textDecoration: "none", color: "#333333" }}
-                >
-                  普通话
-                </Link>
-              </Suspense>
-            </h2>
           </div>
           <div
             className="header-item"

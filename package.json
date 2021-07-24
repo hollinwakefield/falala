@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hollinwakefield/putonghua.git"
+    "url": "git+https://github.com/hollinwakefield/falala.git"
   },
   "author": "Hollin Wakefield",
   "license": "MIT",
@@ -43,5 +43,5 @@
     "react-router-dom": "^5.2.0",
     "webpack-bundle-analyzer": "^4.4.2"
   },
-  "homepage": "https://github.com/hollinwakefield/putonghua"
+  "homepage": "https://www.falala.app/"
 }

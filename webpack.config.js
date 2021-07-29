@@ -13,7 +13,7 @@ module.exports = {
     path: PUBLIC_DIR,
   },
   devtool: "",
-  mode: "production",
+  mode: "development",
   module: {
     rules: [
       {

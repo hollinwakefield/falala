@@ -58,6 +58,26 @@ export default function SimpleMenu(props) {
               </Link>
             </Suspense>
           </div>
+          <div onClick={(e) => props.updateView("login")}>
+            <Suspense fallback={renderLoader()}>
+              <Link
+                to="/login"
+                style={{ textDecoration: "none", color: "#333333" }}
+              >
+                <MenuItem onClick={handleClose}>Login</MenuItem>
+              </Link>
+            </Suspense>
+          </div>
+          <div onClick={(e) => props.updateView("signup")}>
+            <Suspense fallback={renderLoader()}>
+              <Link
+                to="/signup"
+                style={{ textDecoration: "none", color: "#333333" }}
+              >
+                <MenuItem onClick={handleClose}>Sign Up</MenuItem>
+              </Link>
+            </Suspense>
+          </div>
         </Menu>
       </div>
     </Router>

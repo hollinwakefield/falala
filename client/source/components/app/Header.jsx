@@ -57,6 +57,32 @@ const Header = (props) => {
           <SimpleMenu updateView={props.updateView} />
         </div>
         <div className="header-right">
+          <div
+            className={`header-item auth`}
+            onClick={(e) => props.updateView("login")}
+          >
+            <Suspense fallback={renderLoader()}>
+              <Link
+                to="/login"
+                style={{ textDecoration: "none", color: "#333333" }}
+              >
+                Login
+              </Link>
+            </Suspense>
+          </div>
+          <div
+            className={`header-item auth`}
+            onClick={(e) => props.updateView("signup")}
+          >
+            <Suspense fallback={renderLoader()}>
+              <Link
+                to="/signup"
+                style={{ textDecoration: "none", color: "#333333" }}
+              >
+                Sign Up
+              </Link>
+            </Suspense>
+          </div>
           <img
             className="lantern"
             src="../../assets/lantern.png"

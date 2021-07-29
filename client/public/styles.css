@@ -53,8 +53,17 @@ h1 {
   }
 }
 
-.header-left {
+.header-left,
+.header-right {
   display: flex;
+}
+
+.auth {
+  font-size: 30px;
+  font-weight: normal;
+  margin-right: 40px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 h2 {
@@ -103,7 +112,7 @@ h3 {
   cursor: pointer;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 820px) {
   .header-item {
     display: none;
   }
@@ -111,11 +120,11 @@ h3 {
 
 .hamburger-icon {
   width: 35px;
-  margin-top: 12px;
+  margin-top: 0px;
   float: right;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 820px) {
   .header-menu {
     display: none;
   }

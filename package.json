@@ -35,11 +35,13 @@
     "compression-webpack-plugin": "^8.0.1",
     "express": "^4.17.1",
     "express-static-gzip": "^2.1.1",
+    "firebase": "^8.8.0",
     "mongoose": "^5.12.14",
     "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-countdown": "^2.3.2",
     "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "webpack-bundle-analyzer": "^4.4.2"
   },
